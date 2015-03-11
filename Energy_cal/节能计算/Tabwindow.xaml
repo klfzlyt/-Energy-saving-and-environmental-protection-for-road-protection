@@ -45,10 +45,11 @@
                     <ColumnDefinition />
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Width="22" Tag="{Binding}">
+                <!--<Button Grid.Column="0" Width="22" Tag="{Binding}" Name="iconbtn">
                     <Button.Background>
                         <ImageBrush ImageSource="sampleImages/icon26.PNG" />
                     </Button.Background>
+                   
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
                             <Grid Background="{TemplateBinding Background}">
@@ -56,12 +57,22 @@
                             </Grid>
                         </ControlTemplate>
                     </Button.Template>
-                </Button>
-                <TextBlock Text="{Binding ProjectName}" Grid.Column="1"/>
+                </Button>-->
+                <TextBlock Grid.Column="0" Width="22">
+                    <TextBlock.Background>
+                        <ImageBrush ImageSource="sampleImages/icon26.PNG" />
+                    </TextBlock.Background>
+                </TextBlock>
+                <TextBlock  Text="{Binding ProjectName}" Grid.Column="1">
+                 
+                    
+                </TextBlock>
+
             </Grid>
         </DataTemplate>
   
         <Style TargetType="{x:Type Controls:MetroTabItem}">
+            
             <Setter Property="CloseButtonEnabled" Value="True"/>
             <Setter Property="Controls:ControlsHelper.HeaderFontSize" Value="20"/>
         </Style>
@@ -74,7 +85,7 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <DockPanel Grid.Row="0">
-                    <ToolBarTray  DockPanel.Dock="Top">
+                    <!--<ToolBarTray  DockPanel.Dock="Top">
                         <ToolBar Band="1" BandIndex="1" Header="fddddddddddddddddddddddddddddds">
                             <ToolBar.HeaderTemplate>
                                 <DataTemplate>
@@ -136,7 +147,7 @@
                                 </Button.Template>
                             </Button>
                         </ToolBar>                 
-                    </ToolBarTray>
+                    </ToolBarTray>-->
                     <Expander DockPanel.Dock="Top" Header="工程详情" IsExpanded="True">
                     <Grid>                    
                     <Grid.ColumnDefinitions>

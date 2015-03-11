@@ -36,7 +36,7 @@
                         <TextBlock Text="{Binding}"/>
                     </DataTemplate>
                 </ToolBar.HeaderTemplate>
-                <Button Style="{x:Null}" Height="14" Width="14" Command="{Binding SaveDeviceCommand}">
+                <Button Style="{x:Null}" Height="22" Width="22" Command="{Binding SaveDeviceCommand}">
                     <Button.Background>
                         <VisualBrush Visual="{DynamicResource appbar_save}" Stretch="Uniform"/>
                     </Button.Background>
@@ -476,9 +476,9 @@
                                                                 </StackPanel>
                                                             </DataTemplate>
                                                         </Expander.HeaderTemplate>
-                                                        <ScrollViewer MaxHeight="200">
+                                                        
                                                             <ItemsPresenter/>
-                                                        </ScrollViewer>
+                                                        
                                                     </Expander>
                                                 </Grid>
 

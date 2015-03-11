@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="c:\program files (x86)\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="12.0">
  <Targets>
-  <Target Name="F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\节能计算.exe">
+  <Target Name="F:\RoadProtection2015.3.11\Energy_cal\节能计算\bin\Debug\节能计算.exe">
    <Modules>
     <Module Name="节能计算.exe">
      <Namespaces>
@@ -12,9 +12,9 @@
          <Members>
           <Member Name="#.ctor(System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-03-11 04:05:22Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalWarning" Path="f:\公路养护最终2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="99">'Project.Project(string, string, string, string, string)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;Project..ctor(String, String, String, String, String)&#xD;&#xA;Project.set_工程名称(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanging(String):Void。</Issue>
-             <Issue Certainty="95" Level="CriticalWarning" Path="f:\公路养护最终2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="99">'Project.Project(string, string, string, string, string)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;Project..ctor(String, String, String, String, String)&#xD;&#xA;Project.set_工程名称(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanging(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void。</Issue>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-03-11 06:45:10Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="f:\RoadProtection2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="99">'Project.Project(string, string, string, string, string)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;Project..ctor(String, String, String, String, String)&#xD;&#xA;Project.set_工程名称(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanging(String):Void。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="f:\RoadProtection2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="99">'Project.Project(string, string, string, string, string)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;Project..ctor(String, String, String, String, String)&#xD;&#xA;Project.set_工程名称(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanging(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void。</Issue>
             </Message>
            </Messages>
           </Member>
@@ -22,8 +22,8 @@
            <Accessors>
             <Accessor Name="#get_Projectpjt()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
              <Messages>
-              <Message TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065" Status="Active" Created="2015-03-11 04:05:22Z" FixCategory="Breaking">
-               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="f:\公路养护最终2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="278">'Project.Projectpjt.get()' 创建 'NotImplementedException' 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Issue>
+              <Message TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065" Status="Active" Created="2015-03-11 06:45:10Z" FixCategory="Breaking">
+               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="f:\RoadProtection2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="278">'Project.Projectpjt.get()' 创建 'NotImplementedException' 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Issue>
               </Message>
              </Messages>
             </Accessor>

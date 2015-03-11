@@ -188,9 +188,10 @@
                                                 <RowDefinition/>
 
                                             </Grid.RowDefinitions>
-                                            <Grid   Grid.Row="0" Background="LightSkyBlue">
+                                            <Grid   Grid.Row="0" Background="LightSkyBlue" >
                                                 <TextBlock  Text="{Binding Path=Name}" Foreground="Blue" HorizontalAlignment="Center" Margin="0,3" />
                                             </Grid>
+                                            
                                             <ItemsPresenter Grid.Row="1"/>
                                         </Grid>
 
@@ -232,7 +233,7 @@
                                     </Rectangle.Fill>
                                 </Rectangle>
 
-                                <TextBlock   Name="Displaytext"  Grid.Column="1" Text="{Binding XPath=@Name}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+                                <TextBlock Margin="0 5 0 0"   Name="Displaytext"  Grid.Column="1" Text="{Binding XPath=@Name}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
 
 
 
@@ -261,7 +262,7 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Grid>
-                                <TextBlock Text="{Binding XPath=@DefaultValue,Mode=TwoWay}"/>
+                                <TextBlock Margin="0 5 0 0" Text="{Binding XPath=@DefaultValue,Mode=TwoWay}"/>
                             </Grid>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
@@ -284,8 +285,22 @@
 
                 </DataGridTemplateColumn>
                 
-                <DataGridTextColumn Binding="{Binding XPath=@Unit}" IsReadOnly="True"/>
-                <DataGridTextColumn Binding="{Binding XPath=@Tooltip}" IsReadOnly="True"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding XPath=@Unit}" Margin="0 5 0 0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding XPath=@Tooltip}" Margin="0 5 0 0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <!--<DataGridTextColumn Binding="{Binding XPath=@Unit}" IsReadOnly="True"  />
+                <DataGridTextColumn Binding="{Binding XPath=@Tooltip}" IsReadOnly="True"/>-->
                 
                 
             </DataGrid.Columns>
