@@ -1,0 +1,39 @@
+﻿<Controls:MetroWindow x:Class="节能计算.RenderResults"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+          xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                          WindowStyle="ToolWindow"
+                        EnableDWMDropShadow="True"
+                      WindowStartupLocation="CenterScreen"                       
+        Title="计算结果" Height="600" Width="600"                      
+                      >
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="结果导出">
+                <MenuItem Header="导出结果为EXCEL" Name="SaveResult" Click="SaveResult_Click"/>
+            </MenuItem>            
+        </Menu>
+
+        <ToolBarTray  DockPanel.Dock="Top">
+            <ToolBar Band="1" BandIndex="1" Header="fddddddddddddddddddddddddddddds">
+                <ToolBar.HeaderTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}"/>
+                    </DataTemplate>
+                </ToolBar.HeaderTemplate>
+                <Button Style="{x:Null}" Height="14" Width="14" Click="Button_Click">
+                    <Button.Background>
+                        <VisualBrush Visual="{DynamicResource appbar_save}" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical"  Name="Chartstackpanel"/>
+            
+            
+            
+        </ScrollViewer>
+    </DockPanel>
+</Controls:MetroWindow>

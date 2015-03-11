@@ -1,0 +1,913 @@
+F:\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+F:\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+F:\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+F:\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+F:\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+F:\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+F:\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+F:\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+F:\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+F:\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+F:\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\节能项目\节能计算\节能计算\obj\Debug\App.baml
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+F:\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+F:\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+F:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+F:\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+F:\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\App.baml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+C:\Users\lytpc\Desktop\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\App.baml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\ff\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\App.baml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+C:\Users\lytpc\Desktop\节能项目\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\App.baml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+I:\新建文件夹\新建文件夹\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+D:\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+D:\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+D:\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+D:\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+D:\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+D:\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+D:\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+D:\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+D:\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+D:\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+D:\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+D:\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+D:\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+D:\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+D:\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+D:\节能项目\节能计算\节能计算\obj\Debug\App.baml
+D:\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+D:\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+D:\节能项目\节能计算\节能计算\bin\Debug\WPFVisifire.Charts.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\WPFVisifire.Charts.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\App.baml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.baml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.g.cs
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.dll
+D:\C#学习保存代码\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.xml
+D:\C#学习保存代码\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\SharpZipLib.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\WPFVisifire.Charts.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.pdb
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.pdb
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.pdb
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.pdb
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.pdb
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.pdb
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\ForTest.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\ForTest.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\DeviceDetails.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\DeviceDetails.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\Resources\Icons.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\Resources\Icons.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\AddDevice1.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\AddDevice1.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\AddDeviceDatagrid.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\AddDeviceDatagrid.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.config
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Effects.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\MainWindowBackup.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\MainWindowBackup.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\AddDeviceItem.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\AddDeviceItem.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\CustomDataGrid.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\CustomDataGrid.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\Tabwindow.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\Tabwindow.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\NewProject.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\NewProject.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\CustomParaDataGrid.g.cs
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\CustomParaDataGrid.baml
+C:\Users\Administrator\Desktop\节能项目11.3from lyt\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.config
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Effects.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\SharpZipLib.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\WPFVisifire.Charts.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Effects.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.pdb
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.pdb
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.pdb
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.pdb
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.pdb
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.pdb
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.xml
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDevice1.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\DeviceDetails.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\NewProject.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\Resources\Icons.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDevice1.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDeviceDatagrid.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDeviceItem.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\CustomDataGrid.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\CustomParaDataGrid.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\DeviceDetails.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\ForTest.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\MainWindowBackup.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\NewProject.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\Resources\Icons.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\Tabwindow.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\App.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDeviceDatagrid.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDeviceItem.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\CustomDataGrid.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\CustomParaDataGrid.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\ForTest.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\MainWindowBackup.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\Tabwindow.baml
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+E:\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.config
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\SharpZipLib.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\WPFVisifire.Charts.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Effects.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.pdb
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.pdb
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.pdb
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.pdb
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.pdb
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.pdb
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.xml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDevice1.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\DeviceDetails.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\NewProject.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\Resources\Icons.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDevice1.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDeviceDatagrid.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDeviceItem.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\CustomDataGrid.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\CustomParaDataGrid.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\DeviceDetails.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\ForTest.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\MainWindowBackup.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\NewProject.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\Resources\Icons.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\Tabwindow.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDeviceDatagrid.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\AddDeviceItem.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\CustomDataGrid.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\CustomParaDataGrid.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\ForTest.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\MainWindowBackup.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\Tabwindow.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\RenderResults.baml
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\RenderResults.g.cs
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.MyAboutBox.resources
+C:\Users\Administrator\Desktop\11.27\节能项目\节能计算\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+D:\节能终\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.config
+D:\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+D:\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.config
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\节能计算.pdb
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\SharpZipLib.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\WPFVisifire.Charts.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\AvalonLibrary.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\MahApps.Metro.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Effects.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.pdb
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.pdb
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.DDF.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.pdb
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.HPSF.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.pdb
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.HSSF.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.pdb
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.POIFS.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.pdb
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\NPOI.Util.xml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\AddDevice1.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\DeviceDetails.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\NewProject.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\RenderResults.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\Resources\Icons.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\AddDevice1.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\AddDeviceDatagrid.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\AddDeviceItem.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\CustomDataGrid.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\CustomParaDataGrid.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\DeviceDetails.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\ForTest.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\MainWindow.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\MainWindowBackup.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\NewProject.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\OweredWindow.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\RenderResults.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\Resources\Icons.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\Tabwindow.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\App.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算_Content.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\App.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\AddDeviceDatagrid.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\AddDeviceItem.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\CustomDataGrid.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\CustomParaDataGrid.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\ForTest.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\MainWindow.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\MainWindowBackup.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\Tabwindow.baml
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.g.resources
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.GlobalResource.resources
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.MyAboutBox.resources
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.exe
+C:\Users\lytpc\Desktop\节能终\节能项目\节能计算\节能计算\obj\Debug\节能计算.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\节能计算.exe.config
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.exe
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\节能计算.exe
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\节能计算.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\节能计算.exe.CodeAnalysisLog.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\节能计算.exe.lastcodeanalysissucceeded
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\AvalonLibrary.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\MahApps.Metro.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Expression.Controls.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Expression.Drawing.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Expression.Effects.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.DDF.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.HPSF.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.HSSF.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.POIFS.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.Util.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\SharpZipLib.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\System.Windows.Interactivity.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\WPFVisifire.Charts.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Xceed.Wpf.DataGrid.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Xceed.Wpf.Toolkit.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\AvalonLibrary.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\MahApps.Metro.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Expression.Controls.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Expression.Drawing.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Expression.Effects.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.DDF.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.DDF.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.HPSF.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.HPSF.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.HSSF.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.HSSF.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.POIFS.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.POIFS.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.Util.pdb
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\NPOI.Util.xml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\AddDevice1.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\DeviceDetails.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\NewProject.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\OweredWindow.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\RenderResults.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\ResourceDictionary\ListBoxRelativeDictionary.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\ResourceDictionary\MainDictionary.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\ResourceDictionary\OthersResourceDictionary.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\Resources\Icons.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\AddDevice1.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\AddDeviceDatagrid.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\AddDeviceItem.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\CustomDataGrid.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\CustomParaDataGrid.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\DeviceDetails.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\ForTest.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\MainWindow.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\MainWindowBackup.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\NewProject.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\OweredWindow.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\RenderResults.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\Resources\Icons.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\Tabwindow.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\App.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算_Content.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算_MarkupCompile.cache
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算_MarkupCompile.lref
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\App.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\AddDeviceDatagrid.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\AddDeviceItem.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\CustomDataGrid.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\CustomParaDataGrid.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\ForTest.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\MainWindow.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\MainWindowBackup.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\Tabwindow.baml
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.g.resources
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.GlobalResource.resources
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.MyAboutBox.resources
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.Properties.Resources.resources
+F:\公路养护最终2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache

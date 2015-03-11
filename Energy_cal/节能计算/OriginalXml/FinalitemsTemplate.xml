@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section Name="原材料能耗">
+   
+  </Section>
+  <Section Name="混合料生产">
+    
+  </Section>
+  <Section Name="混合料摊铺碾压">
+  </Section>
+  
+  <Section Name="材料运输">
+  </Section>
+</Sections>

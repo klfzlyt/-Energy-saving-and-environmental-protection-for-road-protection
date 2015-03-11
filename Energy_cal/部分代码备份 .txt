@@ -1,0 +1,23 @@
+	<Grid Grid.Column="2">
+			
+				<ListBox Height="200" HorizontalAlignment="Left" Margin="135,0,0,0" x:Name="listBox2" VerticalAlignment="Top" Width="120" 
+					ItemsSource="{Binding XPath=拌合设备种类一}"
+					DataContext="{Binding SelectedItem, ElementName=listBox1}"
+                    
+					ItemTemplate="{StaticResource ATNameListBoxItemtemplate}"
+                     />
+				<xctk:CheckComboBox HorizontalAlignment="Left" Margin="21.773,0,0,7.896" VerticalAlignment="Bottom" Height="57.57" Width="87.067"/>
+				<xctk:CheckListBox Height="100" Margin="0,0,10.2,0" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="100"
+                                    x:Name="listBox1" 
+					ItemsSource="{Binding XPath=/设备/代码测试设备/拌合设备}"
+					DataContext="{Binding DevicesVM.Xdp}"
+					ItemTemplate="{StaticResource ATNameListBoxItemtemplate}"
+                                   
+                                   />
+				<xctk:DropDownButton Content="DropDownButton" Margin="58.44,248.6,80.06,242.895" d:LayoutOverrides="Width, Height"/>
+				<xctk:DateTimePicker HorizontalAlignment="Left" Margin="41.04,0,0,191.095" VerticalAlignment="Bottom"/>
+				<xctk:DateTimeUpDown HorizontalAlignment="Left" Margin="68.24,0,0,139.095" VerticalAlignment="Bottom"/>
+				<xctk:DoubleUpDown HorizontalAlignment="Right" Margin="0,0,70.4,180.695" VerticalAlignment="Bottom"/>
+				<xctk:CalculatorUpDown HorizontalAlignment="Right" Margin="0,220.8,0,0" VerticalAlignment="Top"/>
+				<xctk:PrimitiveTypeCollectionControl Content="PrimitiveTypeCollectionControl" HorizontalAlignment="Left" Height="27.6" Margin="24.64,0,0,97.333" VerticalAlignment="Bottom" Width="105.6"/>
+			</Grid>

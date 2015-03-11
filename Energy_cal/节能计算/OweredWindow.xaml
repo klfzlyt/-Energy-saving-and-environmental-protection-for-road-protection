@@ -1,0 +1,30 @@
+﻿<Window x:Class="节能计算.OweredWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="计算结果" Height="300" Width="300"
+      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        
+        >
+    <Grid>
+       
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="导出结果" Click="MenuItem_Click"></MenuItem>
+            </ContextMenu>
+
+           
+        </Grid.ContextMenu>
+        <xctk:BusyIndicator IsBusy="True" Name="busyindicator">
+            <ContentControl>
+                <ScrollViewer>
+                    <StackPanel Orientation="Vertical"  Name="Chartstackpanel">
+
+
+                    </StackPanel>
+
+                </ScrollViewer>
+            </ContentControl>
+        </xctk:BusyIndicator>
+       
+    </Grid>
+</Window>

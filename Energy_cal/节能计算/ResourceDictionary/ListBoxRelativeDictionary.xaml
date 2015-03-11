@@ -1,0 +1,114 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:toolkit="http://schemas.xceed.com/wpf/xaml/toolkit"      
+              
+                    >
+
+
+    <!--<Style x:Key="{x:Type toolkit:DropDownButton}"  BasedOn="{StaticResource {x:Type ContentControl}}" TargetType="{x:Type toolkit:DropDownButton}">
+    </Style>-->
+
+
+    <Style x:Key="mylistbox" TargetType="{x:Type ListBox}"> 
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border>
+                        <ScrollViewer>
+                            <StackPanel
+                                Orientation="Horizontal"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"
+                                IsItemsHost="True"/>  
+                        </ScrollViewer>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>    
+        </Setter>
+    </Style>
+
+
+    <DataTemplate x:Key="mylistcontenttemplate">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="{Binding ImageSource}" Stretch="None"/>
+            <TextBlock Text="{Binding ElementAttributeName}" Width="30" TextWrapping="Wrap" FontSize="20"/>
+
+        </StackPanel>
+
+    </DataTemplate>
+
+
+    <DataTemplate x:Key="mylistboxitemtemplate">
+        <Border Margin="5">
+            <toolkit:DropDownButton Content="{Binding}"  ContentTemplate="{StaticResource mylistcontenttemplate}">
+                <toolkit:DropDownButton.DropDownContent>
+                    <Border BorderThickness="1" Background="Black" Padding="1">
+                        <StackPanel Orientation="Vertical">
+                            <TextBox
+                            Height="90"
+                            
+                                Text="{Binding ElementAttributeCalculator}"
+                                />
+                            <Button Content="计算" Tag="{Binding ElementAttributeCalculator}"/>
+                        </StackPanel>
+
+                    </Border>
+
+
+                </toolkit:DropDownButton.DropDownContent>
+
+
+
+            </toolkit:DropDownButton>
+
+        </Border>
+    </DataTemplate>
+  
+
+    <Style 
+        x:Key="mylistboxitemstyle"
+        TargetType="{x:Type ListBoxItem}">
+        <Setter Property="Opacity" Value="0.65" />
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="MaxHeight" Value="75" />
+        <Setter Property="MaxWidth" Value="200"/>
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Trigger.Setters>
+                    <Setter Property="Opacity" Value="1.0" />
+                </Trigger.Setters>
+            </Trigger>
+            <EventTrigger RoutedEvent="Mouse.MouseEnter">
+                <EventTrigger.Actions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                  Duration="0:0:0.2"
+                  Storyboard.TargetProperty="MaxHeight"
+                  To="200"  />
+                            <DoubleAnimation
+                  Duration="0:0:0.2"
+                  Storyboard.TargetProperty="MaxWidth"
+                  To="250"  />
+                        </Storyboard>
+                        
+                    </BeginStoryboard>
+                </EventTrigger.Actions>
+            </EventTrigger>
+            <EventTrigger RoutedEvent="Mouse.MouseLeave">
+                <EventTrigger.Actions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                  Duration="0:0:1"
+                  Storyboard.TargetProperty="MaxHeight"/>
+                            <DoubleAnimation
+                  Duration="0:0:1"
+                  Storyboard.TargetProperty="MaxWidth"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger.Actions>
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

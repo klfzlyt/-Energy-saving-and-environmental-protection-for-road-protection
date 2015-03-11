@@ -1,0 +1,702 @@
+﻿<Controls:MetroWindow x:Class="节能计算.Tabwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:Custom="http://www.galasoft.ch/mvvmlight"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:节能计算" 
+                      EnableDWMDropShadow="True"
+                      WindowState="Maximized"                          
+        Title="公路养护工程能耗计算软件ECMS" Height="600" Width="600" Icon="sampleImages/Logo.png" FontWeight="Bold" FontSize="14"                                            
+                      >
+    <Window.Resources>
+
+        <RoutedUICommand x:Key="SaveAllFile" Text="Save ALL File"/>
+        <RoutedUICommand x:Key="ExitSoft" Text="ExitSoft"/>
+        <Storyboard x:Key="additemstoryboard">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Animate">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-600"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Animate">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1500.3"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="Animate">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="Animate">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Animate">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+
+
+        <DataTemplate x:Key="tabitemheadertemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Width="22" Tag="{Binding}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="sampleImages/icon26.PNG" />
+                    </Button.Background>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock Text="{Binding ProjectName}" Grid.Column="1"/>
+            </Grid>
+        </DataTemplate>
+  
+        <Style TargetType="{x:Type Controls:MetroTabItem}">
+            <Setter Property="CloseButtonEnabled" Value="True"/>
+            <Setter Property="Controls:ControlsHelper.HeaderFontSize" Value="20"/>
+        </Style>
+        
+        
+        <DataTemplate x:Key="TabContentTemplate">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <DockPanel Grid.Row="0">
+                    <ToolBarTray  DockPanel.Dock="Top">
+                        <ToolBar Band="1" BandIndex="1" Header="fddddddddddddddddddddddddddddds">
+                            <ToolBar.HeaderTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}"/>
+                                </DataTemplate>
+                            </ToolBar.HeaderTemplate>
+                            <Button    VerticalAlignment="Bottom"  ToolTip="保存本工程" Height="30" Width="30" Command="{Binding SaveTheProjectCommand}">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="sampleImages/Icons4.jpg" Stretch="Uniform"/>
+                                </Button.Background>
+                                <Button.Template>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid Background="{TemplateBinding Background}">
+                                            <ContentPresenter/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Opacity" Value="0.5"/>
+
+
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter Property="RenderTransform">
+                                                    <Setter.Value>
+                                                        <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+                                                    </Setter.Value>
+                                                </Setter>
+
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                            <Button    VerticalAlignment="Bottom"  ToolTip="计算本工程能耗"  Height="30" Width="30" Command="{Binding CalculateItem}">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="sampleImages/ICon2.jpg"  Stretch="Uniform"/>
+                                </Button.Background>
+                                <Button.Template>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid Background="{TemplateBinding Background}">
+                                            <ContentPresenter/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Opacity" Value="0.5"/>
+
+
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter Property="RenderTransform">
+                                                    <Setter.Value>
+                                                        <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+                                                    </Setter.Value>
+                                                </Setter>
+
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </ToolBar>                 
+                    </ToolBarTray>
+                    <Expander DockPanel.Dock="Top" Header="工程详情" IsExpanded="True">
+                    <Grid>                    
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                       
+                       
+                       
+                    </Grid>
+                            <TextBlock Text="工程名称：" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
+                            <TextBlock Text="{Binding 工程名称}" Grid.Row="1" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" />
+                            <TextBlock Text="养护技术：" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
+                            <TextBlock Text="{Binding 养护技术}" Grid.Row="2" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" />
+                            <TextBlock Text="设计单位：" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
+                            <TextBlock Text="{Binding 设计单位}" Grid.Row="3" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" />
+                            <TextBlock Text="施工单位：" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0"/>
+                            <TextBlock Text="{Binding 施工单位}" Grid.Row="4" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5"/>
+                </Grid>
+                    </Expander>
+                </DockPanel>
+                <Controls:MetroAnimatedSingleRowTabControl Grid.Row="1" Name="innertabcontrol" SelectionChanged="MetroAnimatedSingleRowTabControl_SelectionChanged" Loaded="innertabcontrol_Loaded" RequestBringIntoView="innertabcontrol_RequestBringIntoView">
+                    <Controls:MetroTabItem Header="原材料能耗" CloseButtonEnabled="False" Name="tabitemmetro_原材料能耗" Loaded="tabitemmetro_Loaded" RequestBringIntoView="tabitemmetro_RequestBringIntoView" IsVisibleChanged="tabitemmetro_IsVisibleChanged">
+                        <!--应该向DataGrid传入项目文件地址-->
+                        <Grid
+                            Name="Innergrid_原材料能耗"
+                            >
+                            <GroupBox
+                                Style="{x:Null}"
+                                Tag="原材料能耗"
+                                Name="GroupBox_原材料能耗"
+                                >
+                                <GroupBox.Header>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                   
+                                    </Grid>
+                                </GroupBox.Header>
+                                <local:CustomParaDataGrid
+                                 Xpath="Sections/Section[1]/Item"
+                                    MyDoc="{Binding FinalDoc}"
+                                 />
+                            </GroupBox>
+                        </Grid>
+                    </Controls:MetroTabItem>
+                    <Controls:MetroTabItem Header="混合料生产" Name="tabitemmetro_混合料生产" CloseButtonEnabled="False" RequestBringIntoView="tabitemmetro_RequestBringIntoView">
+                        <Grid
+                            Name="InnerGrid_混合料生产"
+                            >
+                            <GroupBox
+                                Style="{x:Null}"
+                                Tag="混合料生产"
+                                Name="GroupBox_混合料生产"
+                                >
+                                <GroupBox.Header>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="请选择此环节所用设备:" Grid.Column="0" FontWeight="Bold"/>
+                                        <xctk:DropDownButton Grid.Column="1" HorizontalAlignment="Right">
+                                            <xctk:DropDownButton.Content>
+                                                <Rectangle Width="18" Height="18">
+                                                    <Rectangle.Fill>
+                                                        <ImageBrush ImageSource="sampleImages/Icon7.jpg" Stretch="Uniform"/>
+                                                    </Rectangle.Fill>
+                                                </Rectangle>
+                                            </xctk:DropDownButton.Content>
+
+                                            <xctk:DropDownButton.DropDownContent>
+                                                <ListBox Width="300">
+                                                    <ListBox.ItemContainerStyle>
+                                                        <Style TargetType="{x:Type ListBoxItem}">
+                                                            <Setter Property="Template">
+                                                                <Setter.Value>
+                                                                    <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                                                        <ContentPresenter Margin="0,15"/>
+                                                                    </ControlTemplate>
+                                                                </Setter.Value>
+                                                            </Setter>
+                                                        </Style>
+                                                    </ListBox.ItemContainerStyle>
+                                                    <ListBoxItem>
+                                                        <Grid Width="300">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="Auto"/>
+                                                                <ColumnDefinition/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Text="厂拌冷再生设备" Grid.Column="0"/>
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3"  Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.厂拌冷再生设备" Grid.Column="2" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">                                                        
+                                                            </Button>
+                                                        </Grid>                                                   
+                                                    </ListBoxItem>
+                                                    <ListBoxItem>
+                                                        <Grid Width="300">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="Auto"/>
+                                                                <ColumnDefinition/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Text="厂拌热再生设备" Grid.Column="0"/>
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.厂拌热再生设备"  Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            </Button>
+                                                        </Grid>
+                                                    </ListBoxItem>
+                                                    <ListBoxItem>
+                                                        <Grid Width="300">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="Auto"/>
+                                                                <ColumnDefinition/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Text="基层材料拌合设备" Grid.Column="0"/>
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.基层材料拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            </Button>
+                                                        </Grid>
+                                                    </ListBoxItem>
+                                                    <ListBoxItem>
+                                                        <Grid Width="300">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="Auto"/>
+                                                                <ColumnDefinition/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Text="再生设备" Grid.Column="0"/>
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.再生设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            </Button>
+                                                        </Grid>
+                                                    </ListBoxItem>
+                                                    <ListBoxItem>
+                                                        <Grid Width="300">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="Auto"/>
+                                                                <ColumnDefinition/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Text="沥青混合料拌合设备" Grid.Column="0"/>
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.沥青混合料拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            </Button>
+                                                        </Grid>
+                                                    </ListBoxItem>
+                                                    <ListBoxItem>
+                                                        <Grid Width="300">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="Auto"/>
+                                                                <ColumnDefinition/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Text="水泥混凝土拌合设备" Grid.Column="0"/>
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.水泥混凝土拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            </Button>
+                                                        </Grid>
+                                                    </ListBoxItem>
+                                                  
+                                                </ListBox>
+                                            </xctk:DropDownButton.DropDownContent>
+                                        </xctk:DropDownButton>
+                                    </Grid>
+                                </GroupBox.Header>
+                            <local:CustomParaDataGrid
+                                 Xpath="Sections/Section[2]/Item"
+                                    MyDoc="{Binding FinalDoc}"
+                                 />
+                        </GroupBox>
+                        </Grid>
+                    </Controls:MetroTabItem>
+                    <Controls:MetroTabItem Header="混合料摊铺碾压" Name="tabitemmetro_混合料摊铺碾压" CloseButtonEnabled="False" RequestBringIntoView="tabitemmetro_RequestBringIntoView">
+                        
+                        <Grid
+                            Name="InnerGrid_混合料摊铺碾压"
+                            >
+                            <GroupBox
+                                Name="GroupBox_混合料摊铺碾压"
+                                Style="{x:Null}"
+                                Tag="混合料摊铺碾压"
+                                >
+                                <GroupBox.Header>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="请选择此环节所用设备:" Grid.Column="0" FontWeight="Bold"/>
+                                        <xctk:DropDownButton Grid.Column="1" HorizontalAlignment="Right">
+                                            <xctk:DropDownButton.Content>
+                                                <Rectangle Width="18" Height="18">
+                                                    <Rectangle.Fill>
+                                                        <ImageBrush ImageSource="sampleImages/Icon7.jpg" Stretch="Uniform"/>
+                                                    </Rectangle.Fill>
+                                                </Rectangle>
+                                            </xctk:DropDownButton.Content>
+                                          
+                                            <xctk:DropDownButton.DropDownContent>
+                                                <ListBox Width="300">
+                                                    <ListBox.ItemContainerStyle>
+                                                        <Style TargetType="{x:Type ListBoxItem}">
+                                                            <Setter Property="Template">
+                                                                <Setter.Value>
+                                                                    <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                                                        <ContentPresenter Margin="0,15"/>
+                                                                    </ControlTemplate>
+                                                                </Setter.Value>
+                                                            </Setter>
+                                                        </Style>
+                                                    </ListBox.ItemContainerStyle>
+                                                    <ListBoxItem>
+                                                        <Grid>
+                                                            <Grid.RowDefinitions>
+                                                                <RowDefinition Height="Auto"/>
+                                                                <RowDefinition/>
+                                                            </Grid.RowDefinitions>
+                                                            <TextBlock Grid.Row="0" Text="碾压设备" FontWeight="Bold"/>
+                                                            <ComboBox  Grid.Row="1"  SelectedIndex="0" Controls:TextboxHelper.Watermark="选择添加的设备" IsEditable="False">
+                                                              
+                                                                <ComboBoxItem>
+                                                                    <Grid Width="250">
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition/>
+                                                                            <ColumnDefinition />
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <TextBlock Text="单钢轮压路机" Grid.Column="0" FontWeight="Bold"/>
+                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
+                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}"  Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.单钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                    </Grid>
+                                                                </ComboBoxItem>
+                                                                <ComboBoxItem>
+                                                                    <Grid Width="250">
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition />
+                                                                            <ColumnDefinition/>
+                                                                        </Grid.ColumnDefinitions>
+                                                                        
+                                                                        <TextBlock Text="胶轮压路机" Grid.Column="0" FontWeight="Bold" Margin="0,5,0,0"/>
+                                                                        <Image Source="sampleImages/Icon24.jpg" Grid.Column="1" Height="30" Width="40"/>
+                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.胶轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                    </Grid>
+                                                                </ComboBoxItem>
+                                                                <ComboBoxItem>
+                                                                    <Grid Width="250">
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition />
+                                                                            <ColumnDefinition/>
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <TextBlock Text="双钢轮压路机" Grid.Column="0" FontWeight="Bold"/>
+                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
+                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.双钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                    </Grid>
+                                                                </ComboBoxItem>
+                                                                <ComboBoxItem>
+                                                                    <Grid Width="250">
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition />
+                                                                            <ColumnDefinition/>
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <TextBlock Text="三钢轮压路机" Grid.Column="0" FontWeight="Bold"/>
+                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
+                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.三钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                    </Grid>
+                                                                </ComboBoxItem>
+                                                                <ComboBoxItem>
+                                                                    <Grid Width="250">
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition />
+                                                                            <ColumnDefinition/>
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <TextBlock Text="其他压路机" Grid.Column="0" FontWeight="Bold"/>
+                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
+                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.其他压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                    </Grid>
+                                                                </ComboBoxItem>
+                                                             <!--   <ComboBox.ItemTemplate>
+                                                                <DataTemplate>
+                                                                        <Grid Width="200">
+                                                                            <Grid.ColumnDefinitions>
+                                                                                <ColumnDefinition Width="Auto"/>
+                                                                                <ColumnDefinition />
+                                                                            </Grid.ColumnDefinitions>
+                                                                            <TextBlock Text="{Binding XPath=@Name}" Grid.Column="0"/>
+                                                                            <Button Content="添加" Name="添加" Click="添加_Click" Tag="{Binding XPath=@Name}" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                        </Grid>
+                                                                    </DataTemplate>
+                                                            </ComboBox.ItemTemplate>-->
+                                                        </ComboBox>
+                                                        </Grid>
+                                                    </ListBoxItem>
+                                                    <ListBoxItem>
+                                                        <Grid>
+                                                            <Grid.RowDefinitions>
+                                                                <RowDefinition Height="Auto"/>
+                                                                <RowDefinition/>
+                                                            </Grid.RowDefinitions>
+                                                            <TextBlock Grid.Row="0" Text="再生成套设备" FontWeight="Bold"/>
+                                                            <!--combox是绑定在project上面的-->
+                                                            <ComboBox Grid.Row="1"  SelectedIndex="0" Controls:TextboxHelper.Watermark="选择添加的设备" IsEditable="False">
+                                                                <ComboBoxItem>
+                                                                    <Grid Width="250">
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition />
+                                                                            <ColumnDefinition />
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <TextBlock Text="就地冷再生设备" Grid.Column="0" FontWeight="Bold"/>
+                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
+                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.就地冷再生设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                    </Grid>
+                                                                </ComboBoxItem>
+                                                                <ComboBoxItem>
+                                                                    <Grid Width="250">
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition />
+                                                                            <ColumnDefinition/>
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <TextBlock Text="就地热再生设备" Grid.Column="0" FontWeight="Bold"/>
+                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
+                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.就地热再生设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                    </Grid>
+                                                                </ComboBoxItem>
+                                                            </ComboBox>
+                                                        </Grid>
+                                                    </ListBoxItem>
+                                                    <ListBoxItem>
+                                                        <Grid   Width="250">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="100"/>
+                                                                <ColumnDefinition/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Text="摊铺设备" Grid.Column="0" FontWeight="Bold"/>
+                                                            <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
+                                                            <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.摊铺设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                        </Grid>
+                                                    </ListBoxItem>
+                                                    <ListBoxItem>
+                                                        <Grid  Width="250">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="100"/>
+                                                                <ColumnDefinition/>
+                                                                <ColumnDefinition/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Text="铣刨设备" Grid.Column="0" FontWeight="Bold"/>
+                                                            <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
+                                                            <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.铣刨设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                        </Grid>
+                                                        <!--铣刨设备--> 
+                                                    </ListBoxItem>                                                   
+                                                </ListBox>
+                                            </xctk:DropDownButton.DropDownContent>
+                                        </xctk:DropDownButton>
+                                    </Grid>                                                                        
+                                </GroupBox.Header>
+                            <local:CustomParaDataGrid
+                                 Xpath="Sections/Section[3]/Item"
+                                    MyDoc="{Binding FinalDoc}"
+                                 />
+                        </GroupBox>
+                        </Grid>
+                    </Controls:MetroTabItem>
+                    <Controls:MetroTabItem Name="tabitemmetro_材料运输" Header="材料运输"   CloseButtonEnabled="False" RequestBringIntoView="tabitemmetro_RequestBringIntoView">
+                        <Grid
+                            Name="InnerGrid_材料运输"
+                            >
+                            <GroupBox
+                                Style="{x:Null}"
+                                Tag="材料运输"
+                                Name="GroupBox_材料运输"
+                                >
+                                <GroupBox.Header>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                 
+                                    </Grid>
+                                </GroupBox.Header>
+                            <local:CustomParaDataGrid
+                                 Xpath="Sections/Section[4]/Item"
+                                    MyDoc="{Binding FinalDoc}"
+                                 />
+                        </GroupBox>
+                        </Grid>
+                    </Controls:MetroTabItem>
+                </Controls:MetroAnimatedSingleRowTabControl>
+            </Grid>
+        </DataTemplate>
+        
+        
+        
+        
+        
+        
+        
+    </Window.Resources>
+    
+ 
+    
+    
+    <Controls:MetroWindow.InputBindings>
+        <KeyBinding Modifiers="Control+Shift" Key="S" Command="{StaticResource SaveAllFile}"/>
+        <KeyBinding Modifiers="Alt" Key="F4" Command="{StaticResource ExitSoft}"/>
+    </Controls:MetroWindow.InputBindings>
+    <Controls:MetroWindow.CommandBindings>
+        <CommandBinding Command="{StaticResource SaveAllFile}"
+                        Executed="SaveAllfile"
+                       
+                        />
+        <CommandBinding Command="{StaticResource ExitSoft}"
+                        Executed="ExitMenu_Click"/>
+        
+        
+    </Controls:MetroWindow.CommandBindings>
+
+    
+    <Controls:MetroWindow.Flyouts>
+        <Controls:FlyoutsControl>
+            <Controls:Flyout Header="New Goodness"
+                             Position="Right"
+                             Width="300"
+                             Theme="Dark"
+                             >
+                             
+                <StackPanel Orientation="Vertical"
+                            Margin="10">
+                    <Button Content="create" />
+                    <Button Content="cancel" />
+                </StackPanel>
+            </Controls:Flyout>
+        </Controls:FlyoutsControl>
+    </Controls:MetroWindow.Flyouts>
+    
+    
+    <DockPanel Name="MainDockPanel">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_文件(F)" Name="File" ToolTip="文件（Alt+F）">
+                <MenuItem Header="新建(N)" Command="{Binding NewCommand}" InputGestureText="Alt+N" Name="NewMenuItem" ToolTip="新建（Alt+N）"/>
+                <MenuItem Header="打开(O)" Command="{Binding OpenProjectCommand}" InputGestureText="Alt+O" ToolTip="打开（Alt+O）"/>
+                <Separator/>
+                <MenuItem Header="保存本工程数据(S)" InputGestureText="Ctrl+S" Command="{Binding SaveAllProjectXmlFile}" ToolTip="保存（Ctrl+S）"/>
+                <Separator/>
+                <MenuItem Header="全部保存(S)" InputGestureText="Ctrl+Shift+S" Command="{Binding SaveAllProjectXmlFile}" ToolTip="全部保存（Ctrl+Shift+S）"/>                
+                <Separator/>
+                <MenuItem Header="退出(F4)" Name="ExitMenu" Click="ExitMenu_Click" InputGestureText="Alt+F4" ToolTip="退出（Alt+F4）"/>
+            </MenuItem>
+            <!--test 新加的-->
+            <!--<MenuItem Header="打开侧窗" Name="打开侧窗" Click="打开侧窗_Click">                                      
+            
+            </MenuItem>-->
+            
+            
+            <!--test 新加的-->
+
+       
+            <MenuItem Header="_选项(E)" Name="OptionOpenMenuItem" ToolTip="选项（Alt+E）">
+                <MenuItem Header="_计算本工程能耗" Name="caculatorxiaohao" Click="caculatorxiaohao_Click"/>
+                <MenuItem Header="_计算并保存本工程" Name="SaveProjecttt" Click="SaveProjecttt_Click"/>
+                <MenuItem Name="checkchart" Header="_查看本工程消耗" InputGestureText="Alt+P" Click="checkchart_Click"/>
+                
+            </MenuItem>
+            <MenuItem Header="_帮助(H)" Name="HelpermenuItem" ToolTip="帮助（Alt+H）">
+                <MenuItem Header="关于" Name="AboutWindow" Click="AboutWindow_Click"/>
+                <MenuItem Header="调用系统计算器" Name="Caculator" Click="Caculator_Click"/>
+            </MenuItem>
+        </Menu>
+        <ToolBarTray  DockPanel.Dock="Top">
+            <ToolBar Band="1" BandIndex="1" Header="fddddddddddds">
+      
+                <ToolBar.HeaderTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}"/>
+                    </DataTemplate>
+                </ToolBar.HeaderTemplate>
+                <Button Style="{x:Null}"  Height="25" Width="25" Command="{Binding NewCommand}">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            新建项目（Alt+N）
+                        </ToolTip>
+                    </Button.ToolTip>
+                    <Button.Content>
+                        <Image Source="sampleImages/新建图标.png"/>
+                    </Button.Content>
+                
+                </Button>
+                <Button Style="{x:Null}" Height="25" Width="25" Command="{Binding OpenProjectCommand}">
+                    <Button.Content>
+                        <Image Source="sampleImages/打开文件.png"/>
+                    </Button.Content>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            打开项目（Alt+O）
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button Style="{x:Null}" Height="25" Width="25" Command="{Binding SaveAllProjectXmlFile}">
+                    <Button.Content>
+                        <Image Source="sampleImages/保存图标.png"/>
+                    </Button.Content>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            保存工程（Ctrl+S）
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button Style="{x:Null}" Height="25" Width="25" Command="{Binding SaveAllProjectXmlFile}">
+                    <Button.Content>
+                        <Image Source="sampleImages/全部保存2.png"/>
+                    </Button.Content>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            全部保存（Ctrl+Shift+S）
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <Controls:MetroAnimatedSingleRowTabControl DockPanel.Dock="Top" IsSynchronizedWithCurrentItem="True"  DataContextChanged="MainTabControl_DataContextChanged"   SourceUpdated="MainTabControl_SourceUpdated" TargetUpdated="MainTabControl_TargetUpdated"    SelectionChanged="MainTabControl_SelectionChanged" Name="MainTabControl" ItemTemplate="{StaticResource tabitemheadertemplate}" ItemsSource="{Binding ProjectList,NotifyOnTargetUpdated=True,NotifyOnSourceUpdated=True}" ContentTemplate="{StaticResource TabContentTemplate}" Loaded="MainTabControl_Loaded">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="TabItemClosingEvent" SourceObject="{Binding ElementName=MainTabControl}" SourceName="MainTabControl">
+                    <Custom:EventToCommand Command="{Binding CloseTabCommand}" PassEventArgsToCommand="True"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Controls:MetroAnimatedSingleRowTabControl>
+        <Grid Panel.ZIndex="1" Name="Animate" DockPanel.Dock="Bottom"  Width="800">            
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+        </Grid>
+    </DockPanel>
+</Controls:MetroWindow>
