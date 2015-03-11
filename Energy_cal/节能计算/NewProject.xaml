@@ -25,7 +25,7 @@
             <StackPanel Margin="20,45,0.8,192.8" Orientation="Horizontal">
                 <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="项目路径(P):" VerticalAlignment="Center"  Width="70"/>
                     <TextBox HorizontalAlignment="Right" Controls:TextboxHelper.Watermark="选择项目文件夹路径" Height="5" Margin="15,0,0,0" Name="prolocation" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285" FontFamily="Microsoft YaHei UI"/>
-                <Button Content="浏览" HorizontalAlignment="Right" Width="52" Margin="15,-8,0,0" RenderTransformOrigin="0.5,0.508" Click="Button_Click" Height="15"/>
+                    <Button Content="浏览" HorizontalAlignment="Right" Width="52" Margin="15,-8,0,0" RenderTransformOrigin="0.5,0.508" Click="Another_Click" Height="15"/>
 
             </StackPanel>
             <StackPanel Margin="19,84,0.8,151.8" Orientation="Horizontal">
@@ -34,7 +34,7 @@
 
 
             </StackPanel>
-            <Button Content="确定" HorizontalAlignment="Left" Height="32" Margin="106,230,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.64,0.456" Click="Button_Click_1"/>
+                <Button Content="确定" HorizontalAlignment="Left" Height="32" Margin="106,230,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.64,0.456" Click="Ok_Click"/>
             <Button Content="取消" HorizontalAlignment="Left" Height="32" Margin="240,230,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click_2"/>
             <StackPanel Margin="19,120,0.8,120.8" Orientation="Horizontal">
                 <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="养护技术(T):" VerticalAlignment="Top"  Width="70"/>
