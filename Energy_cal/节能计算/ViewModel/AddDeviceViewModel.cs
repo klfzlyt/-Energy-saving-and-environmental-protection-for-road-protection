@@ -278,7 +278,7 @@ namespace 节能计算.ViewModel
 
 
 
-                                             AddItemCommand.Execute("save");
+                                         //    AddItemCommand.Execute("save");
                                          }));
            }
        }
@@ -362,7 +362,7 @@ namespace 节能计算.ViewModel
                    ?? (_additemcommand = new RelayCommand<object>(
                                          information =>
                                          {
-                                             Mouse.OverrideCursor = Cursors.Wait;
+                                          //   Mouse.OverrideCursor = Cursors.Wait;
                                              var infomation = information as string;//
                                              if (infomation != "save")
                                                  return;
@@ -387,7 +387,7 @@ namespace 节能计算.ViewModel
                                              if (CheckItemExsit(FinalXmlElement,namestring,typestring).Count!=0)
                                              {
                                                  Xceed.Wpf.Toolkit.MessageBox.Show("主窗口存在同样设备型号，不能添加该条目！");
-                                                 Mouse.OverrideCursor = null;
+                                              //   Mouse.OverrideCursor = null;
                                                  return;
                                              }
                                              //遇到主键重复，不做任何修改，直接返回
@@ -405,7 +405,7 @@ namespace 节能计算.ViewModel
                                                  }
                                                  Xceed.Wpf.Toolkit.MessageBox.Show("添加新条目到主窗口成功！");
                                              }
-                                             Mouse.OverrideCursor = null;
+                                        //     Mouse.OverrideCursor = null;
                                          }));
            }
        }

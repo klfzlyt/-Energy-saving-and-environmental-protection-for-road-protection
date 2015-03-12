@@ -8,9 +8,10 @@
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:Custom="http://www.galasoft.ch/mvvmlight" 
                       WindowStyle="ThreeDBorderWindow"
                       EnableDWMDropShadow="True"
+                      FontFamily="Microsoft YaHei"
         Title="编辑/添加 设备" Height="800" Width="800" Icon="sampleImages/device.ico"
                       Closing="MetroWindow_Closing"
-                      FontSize="14"
+                      FontSize="13"
                       FontWeight="Bold"
                       >
     <DockPanel>
@@ -20,12 +21,16 @@
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="选项">
             
-            <MenuItem Header="添加条目到主窗口" Command="{Binding AddItemCommand}" CommandParameter="save">
-
-            </MenuItem>
-            <MenuItem Header="保存该设备" Command="{Binding SaveDeviceCommand}">
-             
-            </MenuItem>
+            <MenuItem Header="添加设备条目到主窗口" Command="{Binding AddItemCommand}" CommandParameter="save">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/IconAddToMain.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            <MenuItem Header="保存该设备信息" Command="{Binding SaveDeviceCommand}">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/Icons.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
 
         </Menu>
@@ -36,7 +41,7 @@
                         <TextBlock Text="{Binding}"/>
                     </DataTemplate>
                 </ToolBar.HeaderTemplate>
-                <Button Style="{x:Null}" Height="22" Width="22" Command="{Binding SaveDeviceCommand}">
+                <Button Style="{x:Null}" Height="18" Width="18" Command="{Binding SaveDeviceCommand}">
                     <Button.Background>
                         <VisualBrush Visual="{DynamicResource appbar_save}" Stretch="Uniform"/>
                     </Button.Background>
@@ -88,7 +93,7 @@
                                           ItemsSource="{Binding Converter={StaticResource entityconverter}}"
                                           IsEditable="True" IsTabStop="True"
                                           Tag="{Binding}"
-                                          SelectedIndex="0"
+                                          SelectedIndex="0" FontFamily="Microsoft YaHei"
                                           >
                                         <ComboBox.ItemTemplate>
                                             <DataTemplate>
@@ -98,8 +103,8 @@
                                                         <ColumnDefinition/>
                                                     </Grid.ColumnDefinitions>
 
-                                                    <TextBlock Grid.Column="0" Text="{Binding Path=Value}" FontWeight="Bold"/>
-                                                    <Image Grid.Column="1" Source="sampleImages/Icon13.jpg" MaxHeight="40" MaxWidth="40" />
+                                                    <TextBlock Grid.Column="0" Margin="0 10 0 0" Text="{Binding Path=Value}" FontWeight="Bold"/>
+                                                    <Image Grid.Column="1" Source="sampleImages/Icon13.png" MaxHeight="40" MaxWidth="40" />
                                                 </Grid>
                                             </DataTemplate>
                                         </ComboBox.ItemTemplate>
@@ -363,8 +368,9 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
+                <ScrollViewer  Grid.Column="0" MaxHeight="1000">
                 <ListBox
-                Grid.Column="0"
+               
                 ItemTemplate="{DynamicResource listboxdatatemplate}"
                 ItemContainerStyle="{DynamicResource listboxitem}"
                 Name="listbox"
@@ -448,6 +454,7 @@
                                     <Setter Property="Template">
                                         <Setter.Value>
                                             <ControlTemplate TargetType="{x:Type GroupItem}">
+                                             
                                                 <Grid>
 
                                                     <Expander Header="{Binding}" IsExpanded="True">
@@ -469,7 +476,7 @@
                                                         <Expander.HeaderTemplate>
                                                             <DataTemplate>
                                                                 <StackPanel Orientation="Horizontal">
-                                                                    <Image Source="sampleImages/Icon21.jpg" MaxHeight="25" MaxWidth="25"/>
+                                                                    <Image Source="sampleImages/Icon21.png" MaxHeight="25" MaxWidth="25"/>
                                                                     <TextBlock Text="{Binding Path=Name}" Margin="0,8,0,0"></TextBlock>
                                                                     <TextBlock Text="    内容数量： " Margin="0,8,0,0"/>
                                                                     <TextBlock Text="{Binding Path=ItemCount}" Margin="0,8,0,0"/>
@@ -481,7 +488,7 @@
                                                         
                                                     </Expander>
                                                 </Grid>
-
+                                             
                                             </ControlTemplate>
                                         </Setter.Value>
                                     </Setter>
@@ -494,6 +501,7 @@
 
                     </ListBox.GroupStyle>
                 </ListBox>
+                </ScrollViewer>
                 <Expander  Style="{x:Null}" ExpandDirection="Left" Grid.Column="1" MaxWidth="200" ToolTip="查看设备" Cursor="Hand">
                     <Expander.Header>
                         <Grid>
@@ -508,7 +516,7 @@
                               >
 
                             </TextBlock>
-                            <Image  Grid.Row="1" Source="sampleImages/Icon20.jpg" Stretch="Uniform"  MaxWidth="20" />
+                            <Image  Grid.Row="1" Source="sampleImages/Icon20.png" Stretch="Uniform"  MaxWidth="20" />
                         </Grid>
                     </Expander.Header>
                     <ListBox Name="DevicesDetailslistbox"                             
@@ -588,7 +596,7 @@
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
                                     </Grid.ColumnDefinitions>
-                                    <Image Grid.Column="0" Source="sampleImages/Icon12.jpg" MaxHeight="20" MaxWidth="20"/>
+                                    <Image Grid.Column="0" Source="sampleImages/Icon12.png" MaxHeight="20" MaxWidth="20"/>
                                     <TextBlock Text="{Binding XPath=@Name}" Grid.Column="1">
                                         <TextBlock.ToolTip>
                                             <ToolTip>

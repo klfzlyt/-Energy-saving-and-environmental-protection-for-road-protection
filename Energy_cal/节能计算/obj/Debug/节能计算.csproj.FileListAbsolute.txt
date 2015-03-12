@@ -980,7 +980,6 @@ F:\RoadProtection2015.3.11\Energy_cal\节能计算\bin\Debug\ro\Xceed.Wpf.Avalon
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
-F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\AddDevice1.baml
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\DeviceDetails.baml
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\NewProject.baml
@@ -1023,3 +1022,6 @@ F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.Global
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.MyAboutBox.resources
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.Properties.Resources.resources
 F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.csproj.GenerateResource.Cache
+F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\DropDownListBoxTest.baml
+F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\DropDownListBoxTest.g.cs
+F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\节能计算.csprojResolveAssemblyReference.cache

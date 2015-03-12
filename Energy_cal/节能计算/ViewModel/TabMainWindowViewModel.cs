@@ -141,7 +141,7 @@ namespace 节能计算.ViewModel
                                            {
                                                project.SaveTheProjectXmlFile();                                           
                                            }
-                                           Xceed.Wpf.Toolkit.MessageBox.Show("保存成功！","项目保存",System.Windows.MessageBoxButton.OK,System.Windows.MessageBoxImage.Information);
+                                           Xceed.Wpf.Toolkit.MessageBox.Show("所有项目保存成功！","项目保存",System.Windows.MessageBoxButton.OK,System.Windows.MessageBoxImage.Information);
 
                                         }));
           }

@@ -140,7 +140,7 @@
                                                             <DropShadowEffect BlurRadius="2" ShadowDepth="2" RenderingBias="Performance"/>
                                                         </TextBlock.Effect>
                                                     </TextBlock>
-                                                    <Image Source="sampleImages/Icon10.jpg" Grid.Column="1" HorizontalAlignment="Left" MaxHeight="30" MaxWidth="30"/>
+                                                    <Image Source="sampleImages/Icon10.png" Margin="6 0 0 0" Grid.Column="1" HorizontalAlignment="Left" MaxHeight="27" MaxWidth="27"/>
                                                     <Rectangle Grid.Column="2" Width="30"  HorizontalAlignment="Right" >
                                                         <Rectangle.Fill>
                                                             <VisualBrush Stretch="Uniform"  Visual="{Binding ElementName=exPANDER,Path=IsExpanded,Converter={StaticResource UIconverter}, ConverterParameter=boolean}"/>
@@ -273,7 +273,7 @@
                                     <ColumnDefinition/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <Image Source="sampleImages/Icon22.jpg" MaxHeight="30"  MaxWidth="30" Grid.Column="0" HorizontalAlignment="Left"/>
+                                <Image Source="sampleImages/Icon22.png" MaxHeight="30"  MaxWidth="30" Grid.Column="0" HorizontalAlignment="Left"/>
                                 <Controls:NumericUpDown                                     
                                     Grid.Column="1"
                                     Value="{Binding XPath=@DefaultValue,Mode=TwoWay}"

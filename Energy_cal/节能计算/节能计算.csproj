@@ -219,6 +219,9 @@
     <Compile Include="DeviceDetails.xaml.cs">
       <DependentUpon>DeviceDetails.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DropDownListBoxTest.xaml.cs">
+      <DependentUpon>DropDownListBoxTest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ForTest.xaml.cs">
       <DependentUpon>ForTest.xaml</DependentUpon>
     </Compile>
@@ -289,6 +292,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DeviceDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DropDownListBoxTest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -383,6 +390,30 @@
   <ItemGroup>
     <Content Include="Dlls\WPFVisifire.Charts.dll" />
     <Content Include="Dlls\Xceed.Wpf.AvalonDock.resources.dll" />
+    <Resource Include="sampleImages\Icon14.png" />
+    <Resource Include="sampleImages\Icon15.png" />
+    <Resource Include="sampleImages\Icon17.png" />
+    <Resource Include="sampleImages\Icon19.png" />
+    <Resource Include="sampleImages\ICon2.png" />
+    <Resource Include="sampleImages\Icon27.png" />
+    <Resource Include="sampleImages\IconAbout.png" />
+    <Resource Include="sampleImages\IconAddToMain.png" />
+    <Resource Include="sampleImages\IconEarth.png" />
+    <Resource Include="sampleImages\IconExcel.png" />
+    <Resource Include="sampleImages\IconOpen.png" />
+    <Resource Include="sampleImages\Icons.png" />
+    <Resource Include="sampleImages\Icons1.png" />
+    <Resource Include="sampleImages\Icons4.png" />
+    <Resource Include="sampleImages\IconTree.png" />
+    <Resource Include="sampleImages\Icon22.png" />
+    <Resource Include="sampleImages\Icon10.png" />
+    <Resource Include="sampleImages\Icon12.png" />
+    <Resource Include="sampleImages\Icon13.png" />
+    <Resource Include="sampleImages\Icon20.png" />
+    <Resource Include="sampleImages\Icon21.png" />
+    <Resource Include="sampleImages\Icon24.png" />
+    <Resource Include="sampleImages\IconCal.png" />
+    <Resource Include="sampleImages\IconCal.jpg" />
     <Resource Include="OriginalXml\NewItemsTemplate.xml" />
     <Resource Include="sampleImages\打开文件.png" />
     <Resource Include="sampleImages\新建图标.png" />

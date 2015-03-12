@@ -11,7 +11,11 @@
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="结果导出">
-                <MenuItem Header="导出结果为EXCEL" Name="SaveResult" Click="SaveResult_Click"/>
+                <MenuItem Header="导出结果为EXCEL" Name="SaveResult" Click="SaveResult_Click">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/IconExcel.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>            
         </Menu>
 
@@ -22,7 +26,7 @@
                         <TextBlock Text="{Binding}"/>
                     </DataTemplate>
                 </ToolBar.HeaderTemplate>
-                <Button Style="{x:Null}" Height="14" Width="14" Click="Button_Click">
+                <Button Style="{x:Null}" Height="18" Width="18" Click="Button_Click">
                     <Button.Background>
                         <VisualBrush Visual="{DynamicResource appbar_save}" Stretch="Uniform"/>
                     </Button.Background>

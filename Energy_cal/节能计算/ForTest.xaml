@@ -336,7 +336,7 @@
                                     <ColumnDefinition/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <Image Source="sampleImages/Icon22.jpg" MaxHeight="30"  MaxWidth="30" Grid.Column="0" HorizontalAlignment="Left"/>
+                                <Image Source="sampleImages/Icon22.png" MaxHeight="30"  MaxWidth="30" Grid.Column="0" HorizontalAlignment="Left"/>
                                 <Controls:NumericUpDown 
                                     
                                     Grid.Column="1"

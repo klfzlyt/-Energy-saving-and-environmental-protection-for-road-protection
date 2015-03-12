@@ -17,7 +17,7 @@ namespace 节能计算.Model
 
         public bool IsLoaded { get; set; }
 
-
+        public  int LiqingIndex { set; get; }
         public string ProjectName { get; set; }//项目名称 唯一标示项目
         public string ProjectXMLLocation { get; set; }//保留为绝对地址 
 
@@ -312,12 +312,23 @@ namespace 节能计算.Model
 
         public void SaveTheProjectXmlFile()
         {
-      
+            F11NodeProcess();
             Projectpjt.Save(Projectpjt.BaseURI.Substring(8));
             DevicesCategoryDoc.Save(DevicesCategoryDoc.BaseURI.Substring(8));
             FinalDoc.Save(FinalDoc.BaseURI.Substring(8));
             DeviceDBDoc.Save(DeviceDBDoc.BaseURI.Substring(8));
 
+        }
+
+        private void F11NodeProcess()
+        {
+            var F11Node = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@ID='F11']") as XmlElement;
+            if (F11Node == null)
+            {
+                //说明F11Node不存在，设置F11Node
+                XmlElement LiqingStylexmlelement = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@LiQingIndex=" + "\"" + LiqingIndex.ToString() + "\"" + "]") as XmlElement;
+                LiqingStylexmlelement.SetAttribute("ID", "F11");
+            }
         }
 
         #endregion
@@ -337,6 +348,7 @@ namespace 节能计算.Model
                     ?? (_calculateitems = new RelayCommand(
                                           () =>
                                           {
+                                              F11NodeProcess();
                                               var service = new XmlService();                                             
                                               var caculatordocment=new XmlDocument();
                                               caculatordocment.Load(@"./Resultxml.xml");//算式放在根目录下

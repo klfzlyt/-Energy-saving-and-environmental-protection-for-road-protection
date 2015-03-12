@@ -2,59 +2,65 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
-        Title="新建工程" Height="334.8" Width="483"
-        ResizeMode="NoResize" Icon="sampleImages/Icon22.jpg"
+        Title="新建工程" Height="315" Width="483"
+        ResizeMode="NoResize" Icon="sampleImages/Icon22.png"
          EnableDWMDropShadow="True"
               WindowStyle="ToolWindow"  
                     WindowStartupLocation="CenterScreen"
+                      FontFamily="Microsoft YaHei"
         >
     <Border >
     <DockPanel>
         <Menu DockPanel.Dock="Top">
-            <MenuItem Header="项目">
+            <MenuItem Header="">
                
             </MenuItem>
         </Menu>
-        <Grid DockPanel.Dock="Top">
-            <StackPanel Margin="20,10,-0.2,231.8" Orientation="Horizontal">
-                <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="项目名称(N):" VerticalAlignment="Center"  Width="70"/>
-                    <TextBox  Controls:TextboxHelper.Watermark="填写项目名称" HorizontalAlignment="Left" Name="proname" Height="23" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285" FontFamily="Microsoft YaHei UI"/>
-
-
-            </StackPanel>
-            <StackPanel Margin="20,45,0.8,192.8" Orientation="Horizontal">
-                <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="项目路径(P):" VerticalAlignment="Center"  Width="70"/>
-                    <TextBox HorizontalAlignment="Right" Controls:TextboxHelper.Watermark="选择项目文件夹路径" Height="5" Margin="15,0,0,0" Name="prolocation" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285" FontFamily="Microsoft YaHei UI"/>
-                    <Button Content="浏览" HorizontalAlignment="Right" Width="52" Margin="15,-8,0,0" RenderTransformOrigin="0.5,0.508" Click="Another_Click" Height="15"/>
-
-            </StackPanel>
-            <StackPanel Margin="19,84,0.8,151.8" Orientation="Horizontal">
+        <Grid DockPanel.Dock="Top" Height="330" Margin="0,0,-0.2,0">
+            <StackPanel Margin="20,0,-0.2,241.6" Orientation="Horizontal">
                 <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="工程名称(N):" VerticalAlignment="Top"  Width="70"/>
-                    <TextBox Name="工程名称textbox" HorizontalAlignment="Left" Controls:TextboxHelper.Watermark="填写工程名称" Height="7" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285" FontFamily="Microsoft YaHei UI"/>
+                    <TextBox  Controls:TextboxHelper.Watermark="填写工程名称" HorizontalAlignment="Left" Name="proname" Height="25" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontFamily="Microsoft YaHei UI"/>
 
 
             </StackPanel>
-                <Button Content="确定" HorizontalAlignment="Left" Height="32" Margin="106,230,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.64,0.456" Click="Ok_Click"/>
-            <Button Content="取消" HorizontalAlignment="Left" Height="32" Margin="240,230,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click_2"/>
-            <StackPanel Margin="19,120,0.8,120.8" Orientation="Horizontal">
+          
+                <Button Content="确定" HorizontalAlignment="Left" Height="32" Margin="105,210,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.64,0.456" Click="Ok_Click"/>
+            <Button Content="取消" HorizontalAlignment="Left" Height="32" Margin="240,210,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click_2"/>
+            <StackPanel Margin="20,40,-0.2,200.6" Orientation="Horizontal">
                 <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="养护技术(T):" VerticalAlignment="Top"  Width="70"/>
-                    <TextBox Name="养护技术textbox" HorizontalAlignment="Left" Height="7" Controls:TextboxHelper.Watermark="填写养护技术名称" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285" FontFamily="Microsoft YaHei UI"/>
-
+                <TextBox Name="养护技术textbox" HorizontalAlignment="Left" Height="5" Controls:TextboxHelper.Watermark="填写养护技术名称" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontFamily="Microsoft YaHei UI"/>
+                    <ComboBox Name="LiQingChoose" Height="25" VerticalAlignment="Top" Margin="15 0 0 0" Width="82" ToolTip="请选择沥青种类" SelectedIndex="0" FontFamily="Microsoft YaHei">
+                        <ComboBoxItem>
+                            普通沥青
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            改性沥青
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            乳化沥青
+                        </ComboBoxItem>
+                    </ComboBox>
 
             </StackPanel>
-            <StackPanel Margin="19,156,0.8,84.8" Orientation="Horizontal">
+            <StackPanel Margin="20,81,-0.2,159.6" Orientation="Horizontal">
                 <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="设计单位(U):" VerticalAlignment="Top"  Width="70"/>
-                    <TextBox Name="设计单位textbox" HorizontalAlignment="Left" Controls:TextboxHelper.Watermark="填写设计单位名称"  Height="7" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285" FontFamily="Microsoft YaHei UI"/>
+                    <TextBox Name="设计单位textbox" HorizontalAlignment="Left" Controls:TextboxHelper.Watermark="填写设计单位名称"  Height="25" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontFamily="Microsoft YaHei UI"/>
 
 
             </StackPanel>
-            <StackPanel Margin="19,192,0.8,46.8" Orientation="Horizontal">
+            <StackPanel Margin="20,122,-0.2,116.6" Orientation="Horizontal">
                 <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="施工单位(U):" VerticalAlignment="Top"  Width="70"/>
-                    <TextBox Name="施工单位textbox" HorizontalAlignment="Left" Height="7" Margin="15,0,0,0" Controls:TextboxHelper.Watermark="填写施工单位名称" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285" FontFamily="Microsoft YaHei UI"/>
+                    <TextBox Name="施工单位textbox" HorizontalAlignment="Left" Height="25" Margin="15,0,0,0" Controls:TextboxHelper.Watermark="填写施工单位名称" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontFamily="Microsoft YaHei UI"/>
 
 
             </StackPanel>
-        </Grid>
+            <StackPanel Margin="20,165,0.8,72.6" Orientation="Horizontal">
+                    <TextBlock HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="项目路径(P):" VerticalAlignment="Top"  Width="70"/>
+                    <TextBox HorizontalAlignment="Right" Controls:TextboxHelper.Watermark="选择项目文件夹路径" Height="25" Margin="15,0,0,0" Name="prolocation" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontFamily="Microsoft YaHei UI"/>
+                    <Button Content="浏览" HorizontalAlignment="Right" Width="52" Margin="15,0,0,0" RenderTransformOrigin="0.5,0.508" Click="Another_Click" Height="15" VerticalAlignment="Top"/>
+
+                </StackPanel>
+            </Grid>
 
     </DockPanel>
     </Border>

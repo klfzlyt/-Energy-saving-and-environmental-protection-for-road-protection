@@ -24,6 +24,7 @@ namespace 节能计算
     public partial class AddDeviceItem : MetroWindow
     {
         private AddDeviceViewModel _vm;
+        private XmlElement _devicedbxml;
         public AddDeviceItem()
         {
             InitializeComponent();
@@ -122,9 +123,6 @@ namespace 节能计算
             }
         }
 
-        #endregion
-
-        private XmlElement _devicedbxml;
         void AddDeviceItem_Loaded(object sender, RoutedEventArgs e)
         {
             //Step1:从VM中拿到element
@@ -135,7 +133,7 @@ namespace 节能计算
             {
                 var xmlelement = xmlnode as XmlElement;
                 _vm.ExtendXmlElementList.Add(new ExtendXmlElementViewmodel(_devicedbxml, xmlelement));
-            //载入预先加载项
+                //载入预先加载项
             }
         }
 
@@ -157,7 +155,7 @@ namespace 节能计算
                         {
                             var xmleleme = xmlelement as XmlElement;
                             ExtendXmlElementViewmodel listele1 = new ExtendXmlElementViewmodel(_devicedbxml, xmleleme);
-                           _vm.ExtendXmlElementList.Add(listele1);
+                            _vm.ExtendXmlElementList.Add(listele1);
                         }
                         return;
                     }
@@ -176,7 +174,7 @@ namespace 节能计算
                 var element = btn.Tag as ExtendXmlElementViewmodel;
                 if (element != null)
                 {
-                   _vm.ExtendXmlElementList.Remove(element);
+                    _vm.ExtendXmlElementList.Remove(element);
                 }
             }
         }
@@ -187,32 +185,35 @@ namespace 节能计算
             if (menuitem != null)
             {
                 var xmlelement = menuitem.Tag as XmlElement;
-               _devicedbxml.RemoveChild(xmlelement);
+                _devicedbxml.RemoveChild(xmlelement);
             }
         }
 
         private void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-          var result=  Xceed.Wpf.Toolkit.MessageBox.Show(this,"是否保存并添加？","关闭窗口",MessageBoxButton.YesNoCancel,MessageBoxImage.Question,MessageBoxResult.Yes);
+            var result = Xceed.Wpf.Toolkit.MessageBox.Show(this, "是否将设备添加到主窗口？", "关闭窗口", MessageBoxButton.YesNoCancel, MessageBoxImage.Question, MessageBoxResult.Yes);
 
-          if (result == MessageBoxResult.Yes)
-          {
+            if (result == MessageBoxResult.Yes)
+            {
 
-              _vm.SaveDeviceCommand.Execute("");
-             // _vm.AddItemCommand.Execute("save");
-              return;
-          }
-          if(result==MessageBoxResult.No)
-          {
+                // _vm.SaveDeviceCommand.Execute("");
+                _vm.AddItemCommand.Execute("save");
+                return;
+            }
+            if (result == MessageBoxResult.No)
+            {
 
-              e.Cancel = false;          
-          }
-          if (result == MessageBoxResult.Cancel)
-          {
+                e.Cancel = false;
+            }
+            if (result == MessageBoxResult.Cancel)
+            {
 
-              e.Cancel = true;
-          }
+                e.Cancel = true;
+            }
         }
+        #endregion
+
+      
 
 
     }

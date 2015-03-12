@@ -7,7 +7,8 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:节能计算" 
                       EnableDWMDropShadow="True"
-                      WindowState="Maximized"                          
+                      WindowState="Maximized"    
+                      FontFamily="Microsoft YaHei"
         Title="公路养护工程能耗计算软件ECMS" Height="600" Width="600" Icon="sampleImages/Logo.png" FontWeight="Bold" FontSize="14"                                            
                       >
     <Window.Resources>
@@ -225,7 +226,7 @@
                                             <ColumnDefinition/>
                                         </Grid.ColumnDefinitions>
                                         <TextBlock Text="请选择此环节所用设备:" Grid.Column="0" FontWeight="Bold"/>
-                                        <xctk:DropDownButton Grid.Column="1" HorizontalAlignment="Right">
+                                        <xctk:DropDownButton Grid.Column="1" HorizontalAlignment="Right" FontFamily="Microsoft YaHei" >
                                             <xctk:DropDownButton.Content>
                                                 <Rectangle Width="18" Height="18">
                                                     <Rectangle.Fill>
@@ -255,8 +256,8 @@
                                                                 <ColumnDefinition/>
                                                             </Grid.ColumnDefinitions>
                                                             <TextBlock Text="厂拌冷再生设备" Grid.Column="0"/>
-                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
-                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3"  Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.厂拌冷再生设备" Grid.Column="2" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">                                                        
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.png" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button  HorizontalAlignment="Right" Grid.ColumnSpan="3"  Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.厂拌冷再生设备" Grid.Column="2" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50" FontFamily="Microsoft YaHei">                                                        
                                                             </Button>
                                                         </Grid>                                                   
                                                     </ListBoxItem>
@@ -268,8 +269,8 @@
                                                                 <ColumnDefinition/>
                                                             </Grid.ColumnDefinitions>
                                                             <TextBlock Text="厂拌热再生设备" Grid.Column="0"/>
-                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
-                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.厂拌热再生设备"  Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.png" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button  FontFamily="Microsoft YaHei" HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.厂拌热再生设备"  Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
                                                             </Button>
                                                         </Grid>
                                                     </ListBoxItem>
@@ -281,8 +282,8 @@
                                                                 <ColumnDefinition/>
                                                             </Grid.ColumnDefinitions>
                                                             <TextBlock Text="基层材料拌合设备" Grid.Column="0"/>
-                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
-                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.基层材料拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.png" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button  FontFamily="Microsoft YaHei" HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.基层材料拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
                                                             </Button>
                                                         </Grid>
                                                     </ListBoxItem>
@@ -294,8 +295,8 @@
                                                                 <ColumnDefinition/>
                                                             </Grid.ColumnDefinitions>
                                                             <TextBlock Text="再生设备" Grid.Column="0"/>
-                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
-                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.再生设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.png" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button  FontFamily="Microsoft YaHei" HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.再生设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
                                                             </Button>
                                                         </Grid>
                                                     </ListBoxItem>
@@ -307,8 +308,8 @@
                                                                 <ColumnDefinition/>
                                                             </Grid.ColumnDefinitions>
                                                             <TextBlock Text="沥青混合料拌合设备" Grid.Column="0"/>
-                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
-                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.沥青混合料拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.png" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button  FontFamily="Microsoft YaHei" HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.沥青混合料拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
                                                             </Button>
                                                         </Grid>
                                                     </ListBoxItem>
@@ -320,8 +321,8 @@
                                                                 <ColumnDefinition/>
                                                             </Grid.ColumnDefinitions>
                                                             <TextBlock Text="水泥混凝土拌合设备" Grid.Column="0"/>
-                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.jpg" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
-                                                            <Button HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.水泥混凝土拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
+                                                            <Image Grid.Column="1" Source="sampleImages/Icon24.png" MaxHeight="30" MaxWidth="30" HorizontalAlignment="Left"/>
+                                                            <Button  FontFamily="Microsoft YaHei" HorizontalAlignment="Right" Grid.ColumnSpan="3" Grid.Column="2" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料生产.水泥混凝土拌合设备" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" MaxHeight="30" MaxWidth="50">
                                                             </Button>
                                                         </Grid>
                                                     </ListBoxItem>
@@ -378,76 +379,76 @@
                                                         </Style>
                                                     </ListBox.ItemContainerStyle>
                                                     <ListBoxItem>
-                                                        <Grid>
+                                                        <Grid Width="300">
                                                             <Grid.RowDefinitions>
                                                                 <RowDefinition Height="Auto"/>
                                                                 <RowDefinition/>
                                                             </Grid.RowDefinitions>
                                                             <TextBlock Grid.Row="0" Text="碾压设备" FontWeight="Bold"/>
-                                                            <ComboBox  Grid.Row="1"  SelectedIndex="0" Controls:TextboxHelper.Watermark="选择添加的设备" IsEditable="False">
-                                                              
+                                                            <ComboBox  Grid.Row="1"  SelectedIndex="0" Controls:TextboxHelper.Watermark="选择添加的设备" IsEditable="False" FontFamily="Microsoft YaHei">
+
                                                                 <ComboBoxItem>
                                                                     <Grid Width="250">
                                                                         <Grid.ColumnDefinitions>
-                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition Width="auto"/>
                                                                             <ColumnDefinition/>
                                                                             <ColumnDefinition />
                                                                         </Grid.ColumnDefinitions>
-                                                                        <TextBlock Text="单钢轮压路机" Grid.Column="0" FontWeight="Bold"/>
-                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
-                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}"  Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.单钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                        <TextBlock Text="单钢轮压路机" Grid.Column="0" FontWeight="Bold" Margin="0 6 0 0"/>
+                                                                        <Image Source="sampleImages/Icon24.png" Height="30" Width="40" Grid.Column="1" HorizontalAlignment="Left"/>
+                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}"  Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.单钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" FontFamily="Microsoft YaHei"/>
                                                                     </Grid>
                                                                 </ComboBoxItem>
                                                                 <ComboBoxItem>
                                                                     <Grid Width="250">
                                                                         <Grid.ColumnDefinitions>
-                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition Width="auto"/>
                                                                             <ColumnDefinition />
                                                                             <ColumnDefinition/>
                                                                         </Grid.ColumnDefinitions>
-                                                                        
-                                                                        <TextBlock Text="胶轮压路机" Grid.Column="0" FontWeight="Bold" Margin="0,5,0,0"/>
-                                                                        <Image Source="sampleImages/Icon24.jpg" Grid.Column="1" Height="30" Width="40"/>
-                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.胶轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+
+                                                                        <TextBlock Text="胶轮压路机" Grid.Column="0" FontWeight="Bold" Margin="0,6,0,0"/>
+                                                                        <Image Source="sampleImages/Icon24.png" Grid.Column="1" Height="30" Width="40" HorizontalAlignment="Left"/>
+                                                                        <Button FontFamily="Microsoft YaHei" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.胶轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
                                                                     </Grid>
                                                                 </ComboBoxItem>
                                                                 <ComboBoxItem>
                                                                     <Grid Width="250">
                                                                         <Grid.ColumnDefinitions>
-                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition Width="auto"/>
                                                                             <ColumnDefinition />
                                                                             <ColumnDefinition/>
                                                                         </Grid.ColumnDefinitions>
-                                                                        <TextBlock Text="双钢轮压路机" Grid.Column="0" FontWeight="Bold"/>
-                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
-                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.双钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                        <TextBlock Text="双钢轮压路机" Grid.Column="0" FontWeight="Bold" Margin="0 6 0 0"/>
+                                                                        <Image Source="sampleImages/Icon24.png" Height="30" Width="40" Grid.Column="1" HorizontalAlignment="Left"/>
+                                                                        <Button FontFamily="Microsoft YaHei" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.双钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
                                                                     </Grid>
                                                                 </ComboBoxItem>
                                                                 <ComboBoxItem>
                                                                     <Grid Width="250">
                                                                         <Grid.ColumnDefinitions>
-                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition Width="auto"/>
                                                                             <ColumnDefinition />
                                                                             <ColumnDefinition/>
                                                                         </Grid.ColumnDefinitions>
-                                                                        <TextBlock Text="三钢轮压路机" Grid.Column="0" FontWeight="Bold"/>
-                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
-                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.三钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                        <TextBlock Text="三钢轮压路机" Grid.Column="0" FontWeight="Bold" Margin="0 6 0 0"/>
+                                                                        <Image Source="sampleImages/Icon24.png" Height="30" Width="40" Grid.Column="1" HorizontalAlignment="Left"/>
+                                                                        <Button FontFamily="Microsoft YaHei" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.三钢轮压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
                                                                     </Grid>
                                                                 </ComboBoxItem>
                                                                 <ComboBoxItem>
                                                                     <Grid Width="250">
                                                                         <Grid.ColumnDefinitions>
-                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition Width="auto"/>
                                                                             <ColumnDefinition />
                                                                             <ColumnDefinition/>
                                                                         </Grid.ColumnDefinitions>
-                                                                        <TextBlock Text="其他压路机" Grid.Column="0" FontWeight="Bold"/>
-                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
-                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.其他压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                        <TextBlock Text="其他压路机" Grid.Column="0" FontWeight="Bold" Margin="0 6 0 0"/>
+                                                                        <Image Source="sampleImages/Icon24.png" Height="30" Width="40" Grid.Column="1" HorizontalAlignment="Left"/>
+                                                                        <Button FontFamily="Microsoft YaHei" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.其他压路机" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
                                                                     </Grid>
                                                                 </ComboBoxItem>
-                                                             <!--   <ComboBox.ItemTemplate>
+                                                                <!--   <ComboBox.ItemTemplate>
                                                                 <DataTemplate>
                                                                         <Grid Width="200">
                                                                             <Grid.ColumnDefinitions>
@@ -459,70 +460,70 @@
                                                                         </Grid>
                                                                     </DataTemplate>
                                                             </ComboBox.ItemTemplate>-->
-                                                        </ComboBox>
+                                                            </ComboBox>
                                                         </Grid>
                                                     </ListBoxItem>
                                                     <ListBoxItem>
-                                                        <Grid>
+                                                        <Grid Width="300">
                                                             <Grid.RowDefinitions>
                                                                 <RowDefinition Height="Auto"/>
                                                                 <RowDefinition/>
                                                             </Grid.RowDefinitions>
                                                             <TextBlock Grid.Row="0" Text="再生成套设备" FontWeight="Bold"/>
                                                             <!--combox是绑定在project上面的-->
-                                                            <ComboBox Grid.Row="1"  SelectedIndex="0" Controls:TextboxHelper.Watermark="选择添加的设备" IsEditable="False">
+                                                            <ComboBox Grid.Row="1"  SelectedIndex="0" Controls:TextboxHelper.Watermark="选择添加的设备" IsEditable="False" FontFamily="Microsoft YaHei">
                                                                 <ComboBoxItem>
                                                                     <Grid Width="250">
                                                                         <Grid.ColumnDefinitions>
-                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition Width="auto"/>
                                                                             <ColumnDefinition />
                                                                             <ColumnDefinition />
                                                                         </Grid.ColumnDefinitions>
-                                                                        <TextBlock Text="就地冷再生设备" Grid.Column="0" FontWeight="Bold"/>
-                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
-                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.就地冷再生设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                        <TextBlock Text="就地冷再生设备" Grid.Column="0" FontWeight="Bold" Margin="0 6 0 0"/>
+                                                                        <Image Source="sampleImages/Icon24.png" Height="30" Width="40" Grid.Column="1" HorizontalAlignment="Left"/>
+                                                                        <Button FontFamily="Microsoft YaHei" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.就地冷再生设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
                                                                     </Grid>
                                                                 </ComboBoxItem>
                                                                 <ComboBoxItem>
                                                                     <Grid Width="250">
                                                                         <Grid.ColumnDefinitions>
-                                                                            <ColumnDefinition Width="100"/>
+                                                                            <ColumnDefinition Width="auto"/>
                                                                             <ColumnDefinition />
                                                                             <ColumnDefinition/>
                                                                         </Grid.ColumnDefinitions>
-                                                                        <TextBlock Text="就地热再生设备" Grid.Column="0" FontWeight="Bold"/>
-                                                                        <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
-                                                                        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.就地热再生设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                                        <TextBlock Text="就地热再生设备" Grid.Column="0" FontWeight="Bold" Margin="0 6 0 0"/>
+                                                                        <Image Source="sampleImages/Icon24.png" Height="30" Width="40" Grid.Column="1" HorizontalAlignment="Left"/>
+                                                                        <Button FontFamily="Microsoft YaHei" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.就地热再生设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
                                                                     </Grid>
                                                                 </ComboBoxItem>
                                                             </ComboBox>
                                                         </Grid>
                                                     </ListBoxItem>
                                                     <ListBoxItem>
-                                                        <Grid   Width="250">
+                                                        <Grid   Width="300">
                                                             <Grid.ColumnDefinitions>
-                                                                <ColumnDefinition Width="100"/>
+                                                                <ColumnDefinition Width="auto"/>
                                                                 <ColumnDefinition/>
                                                                 <ColumnDefinition/>
                                                             </Grid.ColumnDefinitions>
-                                                            <TextBlock Text="摊铺设备" Grid.Column="0" FontWeight="Bold"/>
-                                                            <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
-                                                            <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.摊铺设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                            <TextBlock Text="摊铺设备" Grid.Column="0" FontWeight="Bold" Margin="0 6 0 0" FontSize="14"/>
+                                                            <Image Source="sampleImages/Icon24.png" Height="30" Width="40" Grid.Column="1" HorizontalAlignment="Left"/>
+                                                            <Button FontSize="12" FontFamily="Microsoft YaHei" Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Margin="0 0 42 0" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.摊铺设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
                                                         </Grid>
                                                     </ListBoxItem>
                                                     <ListBoxItem>
-                                                        <Grid  Width="250">
+                                                        <Grid  Width="300">
                                                             <Grid.ColumnDefinitions>
-                                                                <ColumnDefinition Width="100"/>
+                                                                <ColumnDefinition Width="auto"/>
                                                                 <ColumnDefinition/>
                                                                 <ColumnDefinition/>
                                                             </Grid.ColumnDefinitions>
-                                                            <TextBlock Text="铣刨设备" Grid.Column="0" FontWeight="Bold"/>
-                                                            <Image Source="sampleImages/Icon24.jpg" Height="30" Width="40" Grid.Column="1"/>
-                                                            <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.铣刨设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+                                                            <TextBlock Text="铣刨设备" Grid.Column="0" FontWeight="Bold" Margin="0 6 0 0" FontSize="14"/>
+                                                            <Image Source="sampleImages/Icon24.png" Height="30" Width="40" Grid.Column="1" HorizontalAlignment="Left"/>
+                                                            <Button FontSize="12" FontFamily="Microsoft YaHei" Style="{StaticResource AccentedSquareButtonStyle}"  Margin="0 0 42 0" Content="添加" Command="{Binding OpenAddItemsWindow}" CommandParameter="混合料摊铺碾压.铣刨设备" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
                                                         </Grid>
-                                                        <!--铣刨设备--> 
-                                                    </ListBoxItem>                                                   
+                                                        <!--铣刨设备-->
+                                                    </ListBoxItem>
                                                 </ListBox>
                                             </xctk:DropDownButton.DropDownContent>
                                         </xctk:DropDownButton>
@@ -612,14 +613,30 @@
     <DockPanel Name="MainDockPanel">
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_文件(F)" Name="File" ToolTip="文件（Alt+F）">
-                <MenuItem Header="新建(N)" Command="{Binding NewCommand}" InputGestureText="Alt+N" Name="NewMenuItem" ToolTip="新建（Alt+N）"/>
-                <MenuItem Header="打开(O)" Command="{Binding OpenProjectCommand}" InputGestureText="Alt+O" ToolTip="打开（Alt+O）"/>
+                <MenuItem Header="新建(N)" Command="{Binding NewCommand}" InputGestureText="Alt+N" Name="NewMenuItem" ToolTip="新建（Alt+N）" >
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/Icon27.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="打开(O)" Command="{Binding OpenProjectCommand}" InputGestureText="Alt+O" ToolTip="打开（Alt+O）">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/IconOpen.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
                 <Separator/>
-                <MenuItem Header="保存本工程数据(S)" InputGestureText="Ctrl+S" Command="{Binding SaveAllProjectXmlFile}" ToolTip="保存（Ctrl+S）"/>
+                <MenuItem Header="保存本工程数据(S)" InputGestureText="Ctrl+S" Click="SaveProjecttt_Click" ToolTip="保存（Ctrl+S）">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/Icons4.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
                 <Separator/>
                 <MenuItem Header="全部保存(S)" InputGestureText="Ctrl+Shift+S" Command="{Binding SaveAllProjectXmlFile}" ToolTip="全部保存（Ctrl+Shift+S）"/>                
                 <Separator/>
-                <MenuItem Header="退出(F4)" Name="ExitMenu" Click="ExitMenu_Click" InputGestureText="Alt+F4" ToolTip="退出（Alt+F4）"/>
+                <MenuItem Header="退出(F4)" Name="ExitMenu" Click="ExitMenu_Click" InputGestureText="Alt+F4" ToolTip="退出（Alt+F4）">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/IconTree.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
             <!--test 新加的-->
             <!--<MenuItem Header="打开侧窗" Name="打开侧窗" Click="打开侧窗_Click">                                      
@@ -631,14 +648,36 @@
 
        
             <MenuItem Header="_选项(E)" Name="OptionOpenMenuItem" ToolTip="选项（Alt+E）">
-                <MenuItem Header="_计算本工程能耗" Name="caculatorxiaohao" Click="caculatorxiaohao_Click"/>
-                <MenuItem Header="_计算并保存本工程" Name="SaveProjecttt" Click="SaveProjecttt_Click"/>
-                <MenuItem Name="checkchart" Header="_查看本工程消耗" InputGestureText="Alt+P" Click="checkchart_Click"/>
-                
+                <MenuItem Header="_计算本工程能耗" Name="caculatorxiaohao" Click="caculatorxiaohao_Click">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/Icon19.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="_计算并保存本工程" Name="SaveProjecttt" Click="SaveProjecttt_Click" ToolTip="保存（Ctrl+S）" InputGestureText="Ctrl+S">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/Icons1.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="checkchart" Header="_查看本工程能耗" InputGestureText="Alt+P" Click="checkchart_Click" ToolTip="查看能耗（Alt+P）">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/Icon15.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+
             </MenuItem>
             <MenuItem Header="_帮助(H)" Name="HelpermenuItem" ToolTip="帮助（Alt+H）">
-                <MenuItem Header="关于" Name="AboutWindow" Click="AboutWindow_Click"/>
-                <MenuItem Header="调用系统计算器" Name="Caculator" Click="Caculator_Click"/>
+                <MenuItem Header="关于" Name="AboutWindow" Click="AboutWindow_Click">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/IconAbout.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="调用系统计算器" Name="Caculator" Click="Caculator_Click">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/IconEarth.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
         </Menu>
         <ToolBarTray  DockPanel.Dock="Top">
@@ -670,7 +709,19 @@
                         </ToolTip>
                     </Button.ToolTip>
                 </Button>
-                <Button Style="{x:Null}" Height="25" Width="25" Command="{Binding SaveAllProjectXmlFile}">
+                <Separator/>
+                <Button Style="{x:Null}" Height="25" Width="25"  Click="checkchart_Click">
+                    <Button.Content>
+                        <Image Source="sampleImages/IconCal.png"/>
+                    </Button.Content>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            计算能耗（Alt+P）
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Separator/>
+                <Button Style="{x:Null}" Height="25" Width="25" Name="SaveOneProject" Click="SaveProjecttt_Click">
                     <Button.Content>
                         <Image Source="sampleImages/保存图标.png"/>
                     </Button.Content>
@@ -680,6 +731,7 @@
                         </ToolTip>
                     </Button.ToolTip>
                 </Button>
+              
                 <Button Style="{x:Null}" Height="25" Width="25" Command="{Binding SaveAllProjectXmlFile}">
                     <Button.Content>
                         <Image Source="sampleImages/全部保存2.png"/>

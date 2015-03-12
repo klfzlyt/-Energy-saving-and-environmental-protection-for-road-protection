@@ -142,8 +142,9 @@ namespace 节能计算
 
         private void SaveProjectHandler(object sender, ExecutedRoutedEventArgs e)
         {
-            TabMainWindowViewModel _vm = this.DataContext as TabMainWindowViewModel;
-            _vm.SaveAllProjectXmlFile.Execute("");
+            SaveProjecttt_Click(null, null);
+            //TabMainWindowViewModel _vm = this.DataContext as TabMainWindowViewModel;
+            //_vm.SaveAllProjectXmlFile.Execute("");
         }
 
 
@@ -523,7 +524,6 @@ namespace 节能计算
                 Xceed.Wpf.Toolkit.MessageBox.Show("还未有工程！", "注意", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
-
             var _projectvm = MainTabControl.SelectedItem as Project;
             _projectvm.CalculateItem.Execute("");
         }
@@ -533,19 +533,24 @@ namespace 节能计算
 
             var _vm = this.DataContext as TabMainWindowViewModel;
             if (_vm.ProjectList.Count != 0)
-                Xceed.Wpf.Toolkit.MessageBox.Show("消耗计算成功！", "消耗计算", MessageBoxButton.OK, MessageBoxImage.Information);
+                Xceed.Wpf.Toolkit.MessageBox.Show("能耗计算成功！", "能耗计算", MessageBoxButton.OK, MessageBoxImage.Information);
             else
                 Xceed.Wpf.Toolkit.MessageBox.Show("没有项目，请创建项目！","项目创建",MessageBoxButton.OK,MessageBoxImage.Information);
-
         }
 
         private void SaveProjecttt_Click(object sender, RoutedEventArgs e)
         {
-            var _vm = this.DataContext as TabMainWindowViewModel;
-            if (_vm.ProjectList.Count != 0)
-                Xceed.Wpf.Toolkit.MessageBox.Show("项目保存成功！","项目保存",MessageBoxButton.OK,MessageBoxImage.Information);
-            else
-                Xceed.Wpf.Toolkit.MessageBox.Show("没有项目，请创建项目！", "项目创建", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            if (MainTabControl.SelectedItem == null)
+            {
+                Xceed.Wpf.Toolkit.MessageBox.Show("还未有工程！", "注意", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            var _projectvm = MainTabControl.SelectedItem as Project;
+            _projectvm.SaveTheProjectCommand.Execute("");
+            
+           
         }
 
     
