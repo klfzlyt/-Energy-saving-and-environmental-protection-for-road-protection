@@ -12,7 +12,7 @@
          <Members>
           <Member Name="#.ctor(System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-03-12 14:53:36Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-03-12 15:00:37Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="f:\RoadProtection2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="99">'Project.Project(string, string, string, string, string)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;Project..ctor(String, String, String, String, String)&#xD;&#xA;Project.set_工程名称(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanging(String):Void。</Issue>
              <Issue Certainty="95" Level="CriticalWarning" Path="f:\RoadProtection2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="99">'Project.Project(string, string, string, string, string)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;Project..ctor(String, String, String, String, String)&#xD;&#xA;Project.set_工程名称(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanging(String):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void。</Issue>
             </Message>
@@ -22,7 +22,7 @@
            <Accessors>
             <Accessor Name="#get_Projectpjt()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
              <Messages>
-              <Message TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065" Status="Active" Created="2015-03-12 14:53:36Z" FixCategory="Breaking">
+              <Message TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065" Status="Active" Created="2015-03-12 15:00:37Z" FixCategory="Breaking">
                <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="f:\RoadProtection2015.3.11\Energy_cal\节能计算\Model" File="Project.cs" Line="278">'Project.Projectpjt.get()' 创建 'NotImplementedException' 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Issue>
               </Message>
              </Messages>
