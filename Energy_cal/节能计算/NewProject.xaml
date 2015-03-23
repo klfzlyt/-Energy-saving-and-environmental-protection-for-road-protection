@@ -28,7 +28,7 @@
             <Button Content="取消" HorizontalAlignment="Left" Height="32" Margin="240,210,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click_2"/>
             <StackPanel Margin="20,40,-0.2,200.6" Orientation="Horizontal">
                 <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="养护技术(T):" VerticalAlignment="Top"  Width="70"/>
-                <TextBox Name="养护技术textbox" HorizontalAlignment="Left" Height="5" Controls:TextboxHelper.Watermark="填写养护技术名称" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontFamily="Microsoft YaHei UI"/>
+                    <TextBox Name="养护技术textbox" HorizontalAlignment="Left" Height="5" Controls:TextboxHelper.Watermark="填写养护技术名称：(面层+技术名称+厚度)" Margin="15,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" FontFamily="Microsoft YaHei UI"/>
                     <ComboBox Text="12"  Name="LiQingChoose" Height="25" VerticalAlignment="Top" Margin="15 0 0 0" Width="82" ToolTip="请选择沥青种类" SelectedIndex="0" FontFamily="Microsoft YaHei">
                         <ComboBoxItem>
                             普通沥青
@@ -38,6 +38,9 @@
                         </ComboBoxItem>
                         <ComboBoxItem>
                             乳化沥青
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            不用沥青
                         </ComboBoxItem>
                     </ComboBox>
 

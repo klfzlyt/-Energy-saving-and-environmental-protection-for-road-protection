@@ -16,8 +16,30 @@ namespace 公路养护工程能耗计算软件ECMS.Model
     {
 
         public bool IsLoaded { get; set; }
+        private int _liqingindex;
 
-        public  int LiqingIndex { set; get; }
+
+        public  int LiqingIndex 
+        
+        {
+
+            set
+            {
+                if (value > 2)//下标是0 ，1，2 如果超过了2，默认为2
+                    _liqingindex = 2;
+                else
+                    _liqingindex = value;
+            
+            }
+
+            get
+            {
+                return _liqingindex;
+            
+            }
+        
+        
+        }
         public string ProjectName { get; set; }//项目名称 唯一标示项目
         public string ProjectXMLLocation { get; set; }//保留为绝对地址 
 
@@ -234,8 +256,145 @@ namespace 公路养护工程能耗计算软件ECMS.Model
 
         #endregion
 
+        #region 工程名称Enable
+        /// <summary>
+        /// The <see cref="ProjectEnable" /> property's name.
+        /// </summary>
+        public const string ProjectEnablePropertyName = "ProjectEnable";
+
+        private bool _projectenable = false;
+
+        /// <summary>
+        /// Sets and gets the ProjectEnable property.
+        /// Changes to that property's value raise the PropertyChanged event. 
+        /// </summary>
+        public bool ProjectEnable
+        {
+            get
+            {
+                return _projectenable;
+            }
+
+            set
+            {
+                if (_projectenable == value)
+                {
+                    return;
+                }
+
+                RaisePropertyChanging(ProjectEnablePropertyName);
+                _projectenable = value;
+                RaisePropertyChanged(ProjectEnablePropertyName);
+            }
+        }
+        #endregion
+
+        #region 养护技术Enable
+
+        /// <summary>
+        /// The <see cref="JiShuEnable" /> property's name.
+        /// </summary>
+        public const string JiShuEnablePropertyName = "JiShuEnable";
+
+        private bool _jishuenable = false;
+
+        /// <summary>
+        /// Sets and gets the JiShuEnable property.
+        /// Changes to that property's value raise the PropertyChanged event. 
+        /// </summary>
+        public bool JiShuEnable
+        {
+            get
+            {
+                return _jishuenable;
+            }
+
+            set
+            {
+                if (_jishuenable == value)
+                {
+                    return;
+                }
+
+                RaisePropertyChanging(JiShuEnablePropertyName);
+                _jishuenable = value;
+                RaisePropertyChanged(JiShuEnablePropertyName);
+            }
+        }
+
+        #endregion
+
+        #region 设计单位Enable
+
+        /// <summary>
+        /// The <see cref="SheJidanweiEnable" /> property's name.
+        /// </summary>
+        public const string SheJidanweiEnablePropertyName = "SheJidanweiEnable";
+
+        private bool _shejidanweienable = false;
+
+        /// <summary>
+        /// Sets and gets the SheJidanweiEnable property.
+        /// Changes to that property's value raise the PropertyChanged event. 
+        /// </summary>
+        public bool SheJidanweiEnable
+        {
+            get
+            {
+                return _shejidanweienable;
+            }
+
+            set
+            {
+                if (_shejidanweienable == value)
+                {
+                    return;
+                }
+
+                RaisePropertyChanging(SheJidanweiEnablePropertyName);
+                _shejidanweienable = value;
+                RaisePropertyChanged(SheJidanweiEnablePropertyName);
+            }
+        }
 
 
+        #endregion
+
+
+        #region 施工单位Enable
+        /// <summary>
+        /// The <see cref="ShigongEnable" /> property's name.
+        /// </summary>
+        public const string ShigongEnablePropertyName = "ShigongEnable";
+
+        private bool _shigongenable = false;
+
+        /// <summary>
+        /// Sets and gets the ShigongEnable property.
+        /// Changes to that property's value raise the PropertyChanged event. 
+        /// </summary>
+        public bool ShigongEnable
+        {
+            get
+            {
+                return _shigongenable;
+            }
+
+            set
+            {
+                if (_shigongenable == value)
+                {
+                    return;
+                }
+
+                RaisePropertyChanging(ShigongEnablePropertyName);
+                _shigongenable = value;
+                RaisePropertyChanged(ShigongEnablePropertyName);
+            }
+        }
+
+
+        #endregion
 
         private XmlDocument _devicecategorydoc=null;
 
@@ -330,10 +489,82 @@ namespace 公路养护工程能耗计算软件ECMS.Model
                 LiqingStylexmlelement.SetAttribute("ID", "F11");
             }
         }
+        private double FindNodeValue(XmlDocument Final, string attributeName, string attributeValue)
+        {
+           var node= Final.SelectSingleNode("//Item[@" + attributeName +"="+"\""+attributeValue+"\""+ "]");
+           if (node as XmlElement != null)
+               return double.Parse((node as XmlElement).Attributes["DefaultValue"].Value);
+           else
+               return -1;
+
+
+        }
+        private double CaculateThesum(XmlDocument resultdoc)
+        {
+            var nodelist = resultdoc.SelectNodes("//结果项");
+            double sum = 0;
+
+            foreach (var item in nodelist)
+            {
+               XmlElement element= item as XmlElement;
+               sum += double.Parse(element.Attributes["calculator"].Value);
+
+
+            }
+            return sum;
+        }
+
 
         #endregion
 
         #region 命令
+        private RelayCommand _projectinformation;
+
+        /// <summary>
+        /// Gets the EditProjectInfomation.
+        /// </summary>
+        public RelayCommand EditProjectInfomation
+        {
+            get
+            {
+                return _projectinformation
+                    ?? (_projectinformation = new RelayCommand(
+                                          () =>
+                                          {
+                                              ProjectEnable = true;
+                                              JiShuEnable = true;
+                                              SheJidanweiEnable = true;
+                                              ShigongEnable = true;
+                                          }));
+            }
+        }
+
+        private RelayCommand _saveprojectinformation;
+
+        /// <summary>
+        /// Gets the SaveProjectInformation.
+        /// </summary>
+        public RelayCommand SaveProjectInformation
+        {
+            get
+            {
+                return _saveprojectinformation
+                    ?? (_saveprojectinformation = new RelayCommand(
+                                          () =>
+                                          {
+                                                ProjectEnable = false;
+                                              JiShuEnable = false;
+                                              SheJidanweiEnable = false;
+                                              ShigongEnable = false;
+                                              this.SaveTheProjectXmlFile();
+                                             //Xceed.Wpf.Toolkit.MessageBox.Show("信息修改成功！","提示");
+                                          }));
+            }
+        }
+
+    
+
+
 
         private RelayCommand _calculateitems;
 
@@ -353,6 +584,11 @@ namespace 公路养护工程能耗计算软件ECMS.Model
                                               var caculatordocment=new XmlDocument();
                                               caculatordocment.Load(@"./Resultxml.xml");//算式放在根目录下
                                               var resultdoc = service.FinalCalculatate(caculatordocment, FinalDoc, ProjectXMLLocation.Substring(0, ProjectXMLLocation.LastIndexOf("\\") + 1) + "Result.xml");//算出来的结果放在工程文件夹下，名称为Result.xml
+                                              //工程量（平方米）*F35*F34=工程量（吨）
+                                              //直接能耗=（所有总和）*工程量（吨）
+                                              var F35value = FindNodeValue(FinalDoc, "ID", "F35");//混合料密度☆
+                                              var F34value = FindNodeValue(FinalDoc, "ID", "F34");//摊铺厚度☆
+                                              var TotalComsuption=CaculateThesum(resultdoc);
                                               Mouse.OverrideCursor = Cursors.Wait;
                                               new RenderResults(resultdoc, this).Show();
                                               Mouse.OverrideCursor = null;

@@ -1,0 +1,41 @@
+﻿<Window x:Class="公路养护工程能耗计算软件ECMS.ForEditwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ForEditwindow" Height="1000" Width="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="85"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="1"  Height="25"  Width="50" FontFamily="Microsoft YaHei" HorizontalAlignment="Right">
+                修改
+            </Button>
+            <Button Grid.Column="2" Margin="0 0 20 0" Height="25"  Width="50" FontFamily="Microsoft YaHei" HorizontalAlignment="Right">
+                保存
+            </Button>
+
+        </Grid>
+        <TextBlock Text="工程名称：" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
+        <TextBox Text="{Binding 工程名称}" Grid.Row="1" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" HorizontalAlignment="Left"/>
+        <TextBlock Text="养护技术：" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
+        <TextBox Text="{Binding 养护技术}" Grid.Row="2" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" HorizontalAlignment="Left"/>
+        <TextBlock Text="设计单位：" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
+        <TextBox Text="{Binding 设计单位}" Grid.Row="3" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5"  HorizontalAlignment="Left"/>
+        <TextBlock Text="施工单位：" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0"/>
+        <TextBox Text="{Binding 施工单位}" Grid.Row="4" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5"  HorizontalAlignment="Left"/>
+    </Grid>
+</Window>

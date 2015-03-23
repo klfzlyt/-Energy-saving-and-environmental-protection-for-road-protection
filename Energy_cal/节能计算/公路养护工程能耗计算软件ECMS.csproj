@@ -222,6 +222,9 @@
     <Compile Include="DropDownListBoxTest.xaml.cs">
       <DependentUpon>DropDownListBoxTest.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ForEditwindow.xaml.cs">
+      <DependentUpon>ForEditwindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ForTest.xaml.cs">
       <DependentUpon>ForTest.xaml</DependentUpon>
     </Compile>
@@ -296,6 +299,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DropDownListBoxTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForEditwindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

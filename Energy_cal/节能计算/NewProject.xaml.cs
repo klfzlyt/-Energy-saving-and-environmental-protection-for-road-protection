@@ -193,7 +193,7 @@ namespace 公路养护工程能耗计算软件ECMS
                     return;
                 }
                 //当两个字符串非空的时候，才能做 
-                var targetstr = this.prolocation.Text + "\\" + this.proname.Text;
+                var targetstr = this.prolocation.Text + "\\" + this.proname.Text + "\\" + this.养护技术textbox.Text;
                 if (!Directory.Exists(targetstr))
                 {
                     // Create the directory it does not exist.

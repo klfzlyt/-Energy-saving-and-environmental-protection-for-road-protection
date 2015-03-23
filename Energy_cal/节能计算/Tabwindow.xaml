@@ -48,6 +48,10 @@
                     <ColumnDefinition />
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
                 <!--<Button Grid.Column="0" Width="22" Tag="{Binding}" Name="iconbtn">
                     <Button.Background>
                         <ImageBrush ImageSource="sampleImages/icon26.PNG" />
@@ -61,15 +65,18 @@
                         </ControlTemplate>
                     </Button.Template>
                 </Button>-->
-                <TextBlock Grid.Column="0" Width="22">
+                <TextBlock Grid.Column="0" Width="22" Grid.RowSpan="2" Grid.Row="0">
                     <TextBlock.Background>
                         <ImageBrush ImageSource="sampleImages/icon26.PNG" />
                     </TextBlock.Background>
                 </TextBlock>
-                <TextBlock  Text="{Binding ProjectName}" Grid.Column="1">
+
+
+                <TextBlock  Text="{Binding 工程名称}" Grid.Column="1" Grid.Row="0"/>
                  
                     
-                </TextBlock>
+             
+                <TextBlock Text="{Binding 养护技术}" Grid.Row="1" Grid.Column="1"/>
 
             </Grid>
         </DataTemplate>
@@ -77,7 +84,7 @@
         <Style TargetType="{x:Type Controls:MetroTabItem}">
             
             <Setter Property="CloseButtonEnabled" Value="True"/>
-            <Setter Property="Controls:ControlsHelper.HeaderFontSize" Value="20"/>
+            <Setter Property="Controls:ControlsHelper.HeaderFontSize" Value="13"/>
         </Style>
         
         
@@ -152,37 +159,42 @@
                         </ToolBar>                 
                     </ToolBarTray>-->
                     <Expander DockPanel.Dock="Top" Header="工程详情" IsExpanded="True">
-                    <Grid>                    
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid Grid.Row="0" Grid.ColumnSpan="2">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition Width="100"/>
-                            <ColumnDefinition Width="100"/>
-                        </Grid.ColumnDefinitions>
-                       
-                       
-                       
-                    </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" VerticalAlignment="Top">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="85"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button Grid.Column="1" Name="xiugaiEdit"  Command="{Binding EditProjectInfomation}"  Height="25"  Width="50" FontFamily="Microsoft YaHei" HorizontalAlignment="Right">
+                                    修改
+                                </Button>
+                                <Button Grid.Column="2" Name="baocunEdit" Command="{Binding SaveProjectInformation}"  Margin="0 0 20 0" Height="25"  Width="50" FontFamily="Microsoft YaHei" HorizontalAlignment="Right">
+                                    保存
+                                </Button>
+
+                            </Grid>
                             <TextBlock Text="工程名称：" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
-                            <TextBlock Text="{Binding 工程名称}" Grid.Row="1" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" />
-                            <TextBlock Text="养护技术：" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
-                            <TextBlock Text="{Binding 养护技术}" Grid.Row="2" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" />
+                            <TextBox Name="ProjectNameEdit" Text="{Binding 工程名称}" Grid.Row="1" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" HorizontalAlignment="Left" Width="300" FontFamily="Microsoft YaHei" IsEnabled="{Binding ProjectEnable}"/>
+                            <TextBlock  Text="养护技术：" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
+                            <TextBox Name="YanghuJishuEdit" Text="{Binding 养护技术}" Grid.Row="2" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" HorizontalAlignment="Left" Width="300" FontFamily="Microsoft YaHei" IsEnabled="{Binding JiShuEnable}"/>
                             <TextBlock Text="设计单位：" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
-                            <TextBlock Text="{Binding 设计单位}" Grid.Row="3" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" />
+                            <TextBox Name="SheJidanweiEdit" Text="{Binding 设计单位}" Grid.Row="3" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5"  HorizontalAlignment="Left" Width="300" FontFamily="Microsoft YaHei" IsEnabled="{Binding SheJidanweiEnable}"/>
                             <TextBlock Text="施工单位：" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0"/>
-                            <TextBlock Text="{Binding 施工单位}" Grid.Row="4" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5"/>
-                </Grid>
+                            <TextBox Name="ShiGongdanweiEdit"  Text="{Binding 施工单位}" Grid.Row="4" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5"  HorizontalAlignment="Left" Width="300" FontFamily="Microsoft YaHei" IsEnabled="{Binding ShigongEnable}"/>
+                        </Grid>
                     </Expander>
                 </DockPanel>
                 <Controls:MetroAnimatedSingleRowTabControl Grid.Row="1" Name="innertabcontrol" SelectionChanged="MetroAnimatedSingleRowTabControl_SelectionChanged" Loaded="innertabcontrol_Loaded" RequestBringIntoView="innertabcontrol_RequestBringIntoView">

@@ -1,4 +1,4 @@
-﻿  <?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Sections>
   <Section Name="混合料生产">
     <Device Name="厂拌冷再生设备" Constant="常量">

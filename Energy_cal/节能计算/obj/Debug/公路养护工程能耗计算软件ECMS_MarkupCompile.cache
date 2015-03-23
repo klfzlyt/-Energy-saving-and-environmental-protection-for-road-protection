@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\picture\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\
+F:\RoadProtection2015.3.11\Energy_cal\节能计算\obj\Debug\
 公路养护工程能耗计算软件ECMS
 none
 false
 CODE_ANALYSIS;DEBUG;TRACE
-F:\picture\RoadProtection2015.3.11\Energy_cal\节能计算\App.xaml
-181820676177
+F:\RoadProtection2015.3.11\Energy_cal\节能计算\App.xaml
+19518139380
 2-1327668731
-52853825139
-70-1387939991
-AddDevice1.xaml;AddDeviceDatagrid.xaml;AddDeviceItem.xaml;CustomDataGrid.xaml;CustomParaDataGrid.xaml;DeviceDetails.xaml;DropDownListBoxTest.xaml;ForTest.xaml;MainWindow.xaml;MainWindowBackup.xaml;NewProject.xaml;OweredWindow.xaml;RenderResults.xaml;ResourceDictionary\ListBoxRelativeDictionary.xaml;ResourceDictionary\MainDictionary.xaml;ResourceDictionary\OthersResourceDictionary.xaml;Resources\Icons.xaml;Tabwindow.xaml;
+531456724802
+7031219204
+AddDevice1.xaml;AddDeviceDatagrid.xaml;AddDeviceItem.xaml;CustomDataGrid.xaml;CustomParaDataGrid.xaml;DeviceDetails.xaml;DropDownListBoxTest.xaml;ForEditwindow.xaml;ForTest.xaml;MainWindow.xaml;MainWindowBackup.xaml;NewProject.xaml;OweredWindow.xaml;RenderResults.xaml;ResourceDictionary\ListBoxRelativeDictionary.xaml;ResourceDictionary\MainDictionary.xaml;ResourceDictionary\OthersResourceDictionary.xaml;Resources\Icons.xaml;Tabwindow.xaml;
 
 False
 
