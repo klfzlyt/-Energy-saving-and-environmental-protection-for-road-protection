@@ -11,12 +11,12 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using 节能计算.Converters;
-using 节能计算.ViewModel;
+using 公路养护工程能耗计算软件ECMS.Converters;
+using 公路养护工程能耗计算软件ECMS.ViewModel;
 using GalaSoft.MvvmLight.Messaging;
 using System.Diagnostics;
 using MahApps.Metro.Controls;
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
     /// <summary>
     /// AddDeviceItem.xaml 的交互逻辑

@@ -14,8 +14,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
-using 节能计算.Model;
-namespace 节能计算
+using 公路养护工程能耗计算软件ECMS.Model;
+namespace 公路养护工程能耗计算软件ECMS
 {
     /// <summary>
     /// CustomParaDataGrid.xaml 的交互逻辑

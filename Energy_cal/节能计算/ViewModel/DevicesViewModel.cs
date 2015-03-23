@@ -2,7 +2,7 @@
 using System.Windows.Data;
 using System;
 
-namespace 节能计算.ViewModel
+namespace 公路养护工程能耗计算软件ECMS.ViewModel
 {
   
     public class DevicesViewModel : ViewModelBase

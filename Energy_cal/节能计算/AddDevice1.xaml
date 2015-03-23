@@ -1,4 +1,4 @@
-﻿<Window x:Class="节能计算.AddDevice1"
+﻿<Window x:Class="公路养护工程能耗计算软件ECMS.AddDevice1"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="AddDevice" 

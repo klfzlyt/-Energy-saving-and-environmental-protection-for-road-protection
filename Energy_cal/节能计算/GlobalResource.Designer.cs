@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace 节能计算 {
+namespace 公路养护工程能耗计算软件ECMS {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace 节能计算 {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("节能计算.GlobalResource", typeof(GlobalResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("公路养护工程能耗计算软件ECMS.GlobalResource", typeof(GlobalResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

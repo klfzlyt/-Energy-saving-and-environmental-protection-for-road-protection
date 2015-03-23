@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Data;
-using 节能计算.Model;
-using 节能计算.ViewModel;
-namespace 节能计算.Converters
+using 公路养护工程能耗计算软件ECMS.Model;
+using 公路养护工程能耗计算软件ECMS.ViewModel;
+namespace 公路养护工程能耗计算软件ECMS.Converters
 {
   public    class EntityConverter:IValueConverter
     {

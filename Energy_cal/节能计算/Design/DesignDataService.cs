@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace 节能计算.Design
+namespace 公路养护工程能耗计算软件ECMS.Design
 {
   
 }

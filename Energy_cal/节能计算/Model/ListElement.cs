@@ -8,7 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
 using System.Xml;
-namespace 节能计算.Model
+namespace 公路养护工程能耗计算软件ECMS.Model
 {
    public  class ListElement:INotifyPropertyChanged
     {

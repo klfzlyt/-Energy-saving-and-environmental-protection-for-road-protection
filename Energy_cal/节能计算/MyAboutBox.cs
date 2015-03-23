@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
     partial class MyAboutBox : Form
     {

@@ -11,11 +11,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Visifire.Charts;
-using 节能计算.ViewModel;
+using 公路养护工程能耗计算软件ECMS.ViewModel;
 using GalaSoft.MvvmLight.Ioc;
 using System.Xml;
 using System.Text.RegularExpressions;
-using 节能计算.Calculator;
+using 公路养护工程能耗计算软件ECMS.Calculator;
 using System.Diagnostics;
 using System.Xml.Linq;
 using System.Threading;
@@ -31,7 +31,7 @@ using NPOI.HSSF.Util;
 
 
 
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
 
 

@@ -1,7 +1,7 @@
-﻿<Controls:MetroWindow x:Class="节能计算.AddDeviceItem"
+﻿<Controls:MetroWindow x:Class="公路养护工程能耗计算软件ECMS.AddDeviceItem"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:converter="clr-namespace:节能计算.Converters"
+        xmlns:converter="clr-namespace:公路养护工程能耗计算软件ECMS.Converters"
         xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" xmlns:ee="http://schemas.microsoft.com/expression/2010/effects"
@@ -20,13 +20,13 @@
         </DockPanel.Background>-->
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="选项">
-            
-            <MenuItem Header="添加设备条目到主窗口" Command="{Binding AddItemCommand}" CommandParameter="save">
+
+                <MenuItem Header="添加设备条目到主窗口" Command="{Binding AddItemCommand}" CommandParameter="save">
                     <MenuItem.Icon>
                         <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/IconAddToMain.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
-            <MenuItem Header="保存该设备信息" Command="{Binding SaveDeviceCommand}">
+                <MenuItem Header="保存该设备信息" Command="{Binding SaveDeviceCommand}">
                     <MenuItem.Icon>
                         <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/Icons.png"/>
                     </MenuItem.Icon>
@@ -224,7 +224,7 @@
                 </Style>
 
 
-               
+
 
                 <HierarchicalDataTemplate DataType="Device"
                                       ItemsSource="{Binding XPath=DeviceItem}"
@@ -314,7 +314,7 @@
                         </Button>
                     </Grid>
                 </HierarchicalDataTemplate>
-                
+
             </Grid.Resources>
 
             <TreeView  Name="tree" Grid.Column="0"   ItemsSource="{Binding DeviceCategoryXmlElement}"  ItemContainerStyle="{StaticResource TreeViewItemHeaderStyle}">
@@ -369,142 +369,146 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <ScrollViewer  Grid.Column="0" MaxHeight="1000">
-                <ListBox
+                    <ListBox
                
                 ItemTemplate="{DynamicResource listboxdatatemplate}"
                 ItemContainerStyle="{DynamicResource listboxitem}"
                 Name="listbox"
                 >
-                    <ListBox.Background>
-                        <ImageBrush ImageSource="sampleImages/background8.jpg" Stretch="Uniform"  Opacity="0.9"/>
-                    </ListBox.Background>
-                    <ListBox.Template>
-                        <ControlTemplate>
-                            <Border BorderThickness="{TemplateBinding Border.BorderThickness}" Padding="1,1,1,1" BorderBrush="{TemplateBinding Border.BorderBrush}" Background="{TemplateBinding Panel.Background}" Name="Bd" SnapsToDevicePixels="True">
-                                <ScrollViewer Padding="{TemplateBinding Control.Padding}"  CanContentScroll="True">
-                                    <ItemsPresenter SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}" />
-                                </ScrollViewer>
-                            </Border>
-                        </ControlTemplate>
-                    </ListBox.Template>
+                        <ListBox.Background>
+                            <ImageBrush ImageSource="sampleImages/background8.jpg" Stretch="Uniform"  Opacity="0.9"/>
+                        </ListBox.Background>
+                        <ListBox.Template>
+                            <ControlTemplate>
+                                <Border BorderThickness="{TemplateBinding Border.BorderThickness}" Padding="1,1,1,1" BorderBrush="{TemplateBinding Border.BorderBrush}" Background="{TemplateBinding Panel.Background}" Name="Bd" SnapsToDevicePixels="True">
+                                    <ScrollViewer Padding="{TemplateBinding Control.Padding}"  CanContentScroll="True">
+                                        <ItemsPresenter SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}" />
+                                    </ScrollViewer>
+                                </Border>
+                            </ControlTemplate>
+                        </ListBox.Template>
 
 
-                    <ListBox.GroupStyle>
-                        <GroupStyle>
-                            <GroupStyle.ContainerStyle>
-                                <Style TargetType="{x:Type GroupItem}">
-                                    <Setter Property="Template">
-                                        <Setter.Value>
-                                            <ControlTemplate TargetType="{x:Type GroupItem}">
+                        <ListBox.GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.ContainerStyle>
+                                    <Style TargetType="{x:Type GroupItem}">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type GroupItem}">
 
-                                                <GroupBox Header="{Binding}" Style="{x:Null}"
+                                                    <GroupBox Header="{Binding}" Style="{x:Null}"
                                                       >
-                                                    <GroupBox.HeaderTemplate>
-                                                        <DataTemplate>
+                                                        <GroupBox.HeaderTemplate>
+                                                            <DataTemplate>
 
 
-                                                            <Grid Width="1000">
-                                                                <Grid.ColumnDefinitions>
-                                                                    <ColumnDefinition Width="Auto"/>
-                                                                    <ColumnDefinition Width="Auto"/>
-                                                                    <ColumnDefinition Width="Auto"/>
-                                                                    <ColumnDefinition/>
-                                                                </Grid.ColumnDefinitions>
+                                                                <Grid Width="1000">
+                                                                    <Grid.ColumnDefinitions>
+                                                                        <ColumnDefinition Width="Auto"/>
+                                                                        <ColumnDefinition Width="Auto"/>
+                                                                        <ColumnDefinition Width="Auto"/>
+                                                                        <ColumnDefinition/>
+                                                                    </Grid.ColumnDefinitions>
 
-                                                                <TextBlock Text="类别:  " FontWeight="Bold" FontSize="18" Grid.Column="0">
-                                                                    <TextBlock.Effect>
-                                                                        <DropShadowEffect BlurRadius="1" RenderingBias="Performance" ShadowDepth="0"/>
-                                                                    </TextBlock.Effect>
-                                                                </TextBlock>
-                                                                <TextBlock Grid.Column="1" FontWeight="Bold" FontSize="18" Text="{Binding Path=Name}">
-                                                                    <TextBlock.Effect>
-                                                                        <DropShadowEffect BlurRadius="1" RenderingBias="Performance" ShadowDepth="0"/>
-                                                                    </TextBlock.Effect>
-                                                                </TextBlock>
-                                                                <Rectangle Grid.Column="2" IsEnabled="True" Width="76">
-                                                                    <Rectangle.Fill>
-                                                                        <VisualBrush
+                                                                    <TextBlock Text="类别:  " FontWeight="Bold" FontSize="18" Grid.Column="0">
+                                                                        <TextBlock.Effect>
+                                                                            <DropShadowEffect BlurRadius="1" RenderingBias="Performance" ShadowDepth="0"/>
+                                                                        </TextBlock.Effect>
+                                                                    </TextBlock>
+                                                                    <TextBlock Grid.Column="1" FontWeight="Bold" FontSize="18" Text="{Binding Path=Name}">
+                                                                        <TextBlock.Effect>
+                                                                            <DropShadowEffect BlurRadius="1" RenderingBias="Performance" ShadowDepth="0"/>
+                                                                        </TextBlock.Effect>
+                                                                    </TextBlock>
+                                                                    <Rectangle Grid.Column="2" IsEnabled="True" Width="76">
+                                                                        <Rectangle.Fill>
+                                                                            <VisualBrush
                                                                     Visual="{StaticResource appbar_forklift}"
                                                                     Stretch="Uniform"
                                                                     />
-                                                                    </Rectangle.Fill>
-                                                                </Rectangle>
-                                                            
-                                                            </Grid>
-                                                        </DataTemplate>
-                                                    </GroupBox.HeaderTemplate>
-
-                                                    <ItemsPresenter/>
-
-                                                </GroupBox>
-
-                                            </ControlTemplate>
-                                        </Setter.Value>
-                                    </Setter>
-
-                                </Style>
-
-                            </GroupStyle.ContainerStyle>
-
-
-                        </GroupStyle>
-                        <GroupStyle>
-                            <GroupStyle.ContainerStyle>
-                                <Style TargetType="{x:Type GroupItem}">
-                                    <Setter Property="Template">
-                                        <Setter.Value>
-                                            <ControlTemplate TargetType="{x:Type GroupItem}">
-                                             
-                                                <Grid>
-
-                                                    <Expander Header="{Binding}" IsExpanded="True">
-                                                        <Expander.ToolTip>
-                                                            <ToolTip>
-                                                                <Grid>
-                                                                    <Grid.ColumnDefinitions>
-                                                                        <ColumnDefinition/>
-                                                                        <ColumnDefinition/>
-                                                                        <ColumnDefinition/>
-                                                                    </Grid.ColumnDefinitions>
-                                                                    <TextBlock Text="带" Grid.Column="0"/>
-                                                                    <Image Source="sampleImages/ICon2.jpg" Grid.Column="1" MaxWidth="20" MaxHeight="20"/>
-                                                                    <TextBlock Text="的为要填写并参入计算的量" Grid.Column="2"/>
+                                                                        </Rectangle.Fill>
+                                                                    </Rectangle>
 
                                                                 </Grid>
-                                                            </ToolTip>
-                                                        </Expander.ToolTip>
-                                                        <Expander.HeaderTemplate>
-                                                            <DataTemplate>
-                                                                <StackPanel Orientation="Horizontal">
-                                                                    <Image Source="sampleImages/Icon21.png" MaxHeight="25" MaxWidth="25"/>
-                                                                    <TextBlock Text="{Binding Path=Name}" Margin="0,8,0,0"></TextBlock>
-                                                                    <TextBlock Text="    内容数量： " Margin="0,8,0,0"/>
-                                                                    <TextBlock Text="{Binding Path=ItemCount}" Margin="0,8,0,0"/>
-                                                                </StackPanel>
                                                             </DataTemplate>
-                                                        </Expander.HeaderTemplate>
-                                                        
+                                                        </GroupBox.HeaderTemplate>
+
+                                                        <ItemsPresenter/>
+
+                                                    </GroupBox>
+
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+
+                                    </Style>
+
+                                </GroupStyle.ContainerStyle>
+
+
+                            </GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.ContainerStyle>
+                                    <Style TargetType="{x:Type GroupItem}">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type GroupItem}">
+
+                                                    <Grid>
+
+                                                        <Expander Header="{Binding}" IsExpanded="True">
+                                                            <Expander.ToolTip>
+                                                                <ToolTip>
+                                                                    <Grid>
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition/>
+                                                                            <ColumnDefinition/>
+                                                                            <ColumnDefinition/>
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <TextBlock Text="带" Grid.Column="0"/>
+                                                                        <Image Source="sampleImages/ICon2.jpg" Grid.Column="1" MaxWidth="20" MaxHeight="20"/>
+                                                                        <TextBlock Text="的为要填写并参入计算的量" Grid.Column="2"/>
+
+                                                                    </Grid>
+                                                                </ToolTip>
+                                                            </Expander.ToolTip>
+                                                            <Expander.HeaderTemplate>
+                                                                <DataTemplate>
+                                                                    <StackPanel Orientation="Horizontal">
+                                                                        <Image Source="sampleImages/Icon21.png" MaxHeight="25" MaxWidth="25"/>
+                                                                        <TextBlock Text="{Binding Path=Name}" Margin="0,8,0,0"></TextBlock>
+                                                                        <TextBlock Text="    内容数量： " Margin="0,8,0,0"/>
+                                                                        <TextBlock Text="{Binding Path=ItemCount}" Margin="0,8,0,0"/>
+                                                                    </StackPanel>
+                                                                </DataTemplate>
+                                                            </Expander.HeaderTemplate>
+
                                                             <ItemsPresenter/>
-                                                        
-                                                    </Expander>
-                                                </Grid>
-                                             
-                                            </ControlTemplate>
-                                        </Setter.Value>
-                                    </Setter>
-                                </Style>
-                            </GroupStyle.ContainerStyle>
+
+                                                        </Expander>
+                                                    </Grid>
+
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </GroupStyle.ContainerStyle>
 
 
-                        </GroupStyle>
+                            </GroupStyle>
 
 
-                    </ListBox.GroupStyle>
-                </ListBox>
+                        </ListBox.GroupStyle>
+                    </ListBox>
                 </ScrollViewer>
                 <Expander  Style="{x:Null}" ExpandDirection="Left" Grid.Column="1" MaxWidth="200" ToolTip="查看设备" Cursor="Hand">
                     <Expander.Header>
                         <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
                                 <RowDefinition/>
                                 <RowDefinition/>
@@ -512,11 +516,11 @@
                             <TextBlock Width="15"
                                        Grid.Row="0"
                                        TextWrapping="Wrap"
-                              Text="设备查看"  
+                              Text="设备查看" Grid.ColumnSpan="2" Margin="2,0"  
                               >
 
                             </TextBlock>
-                            <Image  Grid.Row="1" Source="sampleImages/Icon20.png" Stretch="Uniform"  MaxWidth="20" />
+                            <Image  Grid.Row="1" Source="sampleImages/Icon20.png" Stretch="Uniform"  MaxWidth="20" Grid.ColumnSpan="2" />
                         </Grid>
                     </Expander.Header>
                     <ListBox Name="DevicesDetailslistbox"                             
@@ -568,7 +572,7 @@
                                                             </Condition.Value>
                                                         </Condition>
                                                     </MultiTrigger.Conditions>
-                                              
+
                                                 </MultiTrigger>
                                                 <Trigger Property="UIElement.IsEnabled">
                                                     <Setter Property="TextElement.Foreground">
@@ -582,16 +586,16 @@
                                                 </Trigger>
                                             </ControlTemplate.Triggers>
                                         </ControlTemplate>
-                                    </Setter.Value>                                                                        
-                                </Setter>                                                                
-                            </Style>                            
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
                         </ListBox.ItemContainerStyle>
-                        
-                        
-                        
+
+
+
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <Grid>                              
+                                <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>

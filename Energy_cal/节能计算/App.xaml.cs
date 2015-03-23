@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using GalaSoft.MvvmLight.Threading;
 using System.Xml;
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
     /// <summary>
     /// Interaction logic for App.xaml

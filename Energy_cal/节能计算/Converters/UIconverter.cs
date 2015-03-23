@@ -7,7 +7,7 @@ using System.Windows.Data;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace 节能计算.Converters
+namespace 公路养护工程能耗计算软件ECMS.Converters
 {
     class UIconverter:IValueConverter
     {

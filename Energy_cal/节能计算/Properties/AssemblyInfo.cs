@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("节能计算")]
-[assembly: AssemblyDescription("内部评估版本。")]
+[assembly: AssemblyTitle("公路养护工程能耗计算软件ECMS")]
+[assembly: AssemblyDescription("V1.3")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("公路养护技术国家工程研究中心\r\n中公高科养护科技股份有限公司")]
-[assembly: AssemblyProduct("节能计算")]
+[assembly: AssemblyProduct("公路养护工程能耗计算软件ECMS")]
 [assembly: AssemblyCopyright("Copyright © 中公高科养护科技股份有限公司")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -51,5 +51,5 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.3.0.0")]
+[assembly: AssemblyFileVersion("1.3.0.0")]

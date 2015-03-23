@@ -12,11 +12,11 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using 节能计算.Model;
+using 公路养护工程能耗计算软件ECMS.Model;
 using System.Xml;
 using System.Diagnostics;
 using MahApps.Metro.Controls;
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
     /// <summary>
     /// NewProject.xaml 的交互逻辑

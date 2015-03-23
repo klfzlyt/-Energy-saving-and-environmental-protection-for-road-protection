@@ -14,7 +14,7 @@ using System.Diagnostics;
 using System.Windows.Input;
 using System.Xml.Linq;
 using GalaSoft.MvvmLight.Messaging;
-namespace 节能计算.ViewModel
+namespace 公路养护工程能耗计算软件ECMS.ViewModel
 {
     /// <summary>
     /// 负责DataGrid的交互
@@ -185,9 +185,9 @@ namespace 节能计算.ViewModel
            return false;       
        }
 
-       private XmlNodeList CheckDeviceExsit(XmlElement rootxmlelement,string name,string type)
+       private XmlNode CheckDeviceExsit(XmlElement rootxmlelement,string name,string type)
        {
-           return rootxmlelement.SelectNodes("Device[@Name=" + "\"" + name + "\"" + " and " + "@Type=" + "\"" + type + "\"" + "]");
+           return rootxmlelement.SelectSingleNode("Device[@Name=" + "\"" + name + "\"" + " and " + "@Type=" + "\"" + type + "\"" + "]");
        
        
        }
@@ -257,7 +257,7 @@ namespace 节能计算.ViewModel
                                                      if (string.IsNullOrWhiteSpace(str))
                                                      {
                                                          MessageBox.Show("添加设备："+xmlelement.Attributes["Name"].Value + "项   请输入内容");
-                                                         continue;
+                                                        // continue;
                                                      }
                                                      var str11 = xmlelement.Attributes["IsBinding"].Value;
                                                      if(!string.IsNullOrEmpty(str11))
@@ -266,16 +266,19 @@ namespace 节能计算.ViewModel
                                              }
                                              var devicedbname = newcloneddeviceelement.Attributes["Name"].Value;
                                              var devicedbtype = newcloneddeviceelement.Attributes["Type"].Value;
-                                             if(CheckDeviceExsit(_devicedbxmlelement,devicedbname,devicedbtype).Count!=0)
+                                             
+                                             if(CheckDeviceExsit(_devicedbxmlelement,devicedbname,devicedbtype)!=null)
                                              {
                                                  Xceed.Wpf.Toolkit.MessageBox.Show("已有此设备，添加无效！");
                                                  return;
                                              }
-                                             _devicedbxmlelement.AppendChild(newcloneddeviceelement);
-                                      //   forclonedeviceelement.ParentNode.InsertAfter(newcloneddeviceelement, forclonedeviceelement);
-                                             Messenger.Default.Send<NotificationMessage>(new NotificationMessage("UpdateCombox"));
-                                             Xceed.Wpf.Toolkit.MessageBox.Show("添加设备成功！");
-
+                                             if (!string.IsNullOrWhiteSpace(devicedbname) && !string.IsNullOrWhiteSpace(devicedbtype))
+                                             {
+                                                 _devicedbxmlelement.AppendChild(newcloneddeviceelement);
+                                                 //   forclonedeviceelement.ParentNode.InsertAfter(newcloneddeviceelement, forclonedeviceelement);
+                                                 Messenger.Default.Send<NotificationMessage>(new NotificationMessage("UpdateCombox"));
+                                                 Xceed.Wpf.Toolkit.MessageBox.Show("添加设备成功！");
+                                             }
 
 
                                          //    AddItemCommand.Execute("save");
@@ -362,51 +365,61 @@ namespace 节能计算.ViewModel
                    ?? (_additemcommand = new RelayCommand<object>(
                                          information =>
                                          {
-                                          //   Mouse.OverrideCursor = Cursors.Wait;
-                                             var infomation = information as string;//
-                                             if (infomation != "save")
-                                                 return;
-                                             string namestring = string.Empty;
-                                             string typestring = string.Empty;
-                                             foreach (ExtendXmlElementViewmodel externalxmlelement in ExtendXmlElementList)
-                                             {
-                                                 var xmlelement = externalxmlelement.Xmlelement;
-                                                 var str = externalxmlelement.XmlInnertext;
-                                                 var Namestring = xmlelement.Attributes["Name"].Value;
-                                                 if (Namestring == "设备名称")
-                                                 {
-                                                     namestring = str;//筛选去设备的名称
-                                                 }
-                                                 if (Namestring == "型号")
-                                                 {
-                                                     typestring = str;//筛选出设备的型号
-                                                 }
-                                             }
-                                             //1.以上步骤只是把名字跟型号拿出来
-                                             //2.然后把有Isbinding属性的元素赋给克隆值
-                                             if (CheckItemExsit(FinalXmlElement,namestring,typestring).Count!=0)
-                                             {
-                                                 Xceed.Wpf.Toolkit.MessageBox.Show("主窗口存在同样设备型号，不能添加该条目！");
-                                              //   Mouse.OverrideCursor = null;
-                                                 return;
-                                             }
-                                             //遇到主键重复，不做任何修改，直接返回
 
-                                             else//要添加了
+                                             if (MessageBoxResult.OK == Xceed.Wpf.Toolkit.MessageBox.Show("是否要添加到主窗口？（！注意！添加到主窗口不能恢复）", "注意！", MessageBoxButton.OKCancel, MessageBoxImage.Question))
                                              {
-                                                 foreach (ExtendXmlElementViewmodel elementt in ExtendXmlElementList)
+                                                 //   Mouse.OverrideCursor = Cursors.Wait;
+                                                 var infomation = information as string;//
+                                                 if (infomation != "save")
+                                                     return;
+                                                 string namestring = string.Empty;
+                                                 string typestring = string.Empty;
+                                                 foreach (ExtendXmlElementViewmodel externalxmlelement in ExtendXmlElementList)
                                                  {
-                                                     var xmlele = elementt.Xmlelement;
-                                                     var ele = BuildElementForGrid(_finalxmlelement, xmlele.Attributes["Name"].Value, _devicecategoryxmlelement.Attributes["Name"].Value, namestring, typestring, elementt.XmlInnertext, xmlele.Attributes["Tooltip"].Value, xmlele.Attributes["Unit"].Value, xmlele.Attributes["IsCalculator"].Value);
-                                                     if (ele.Attributes["Name"].Value == "设备名称" || ele.Attributes["Name"].Value == "型号")
-                                                         //跳过名称和型号两项
-                                                         continue;
-                                                     _finalxmlelement.AppendChild(ele);
+                                                     var xmlelement = externalxmlelement.Xmlelement;
+                                                     var str = externalxmlelement.XmlInnertext;
+                                                     var Namestring = xmlelement.Attributes["Name"].Value;
+                                                     if (Namestring == "设备名称")
+                                                     {
+                                                         namestring = str;//筛选去设备的名称
+                                                     }
+                                                     if (Namestring == "型号")
+                                                     {
+                                                         typestring = str;//筛选出设备的型号
+                                                     }
                                                  }
-                                                 Xceed.Wpf.Toolkit.MessageBox.Show("添加新条目到主窗口成功！");
+                                                 //namestring是设备实例的具体名字名称
+                                                 //typestring是设备实例的具体型号名称
+                                                 //1.以上步骤只是把名字跟型号拿出来
+                                                 //2.然后把有Isbinding属性的元素赋给克隆值
+                                                 if (CheckItemExsit(FinalXmlElement, namestring, typestring).Count != 0)
+                                                 {
+                                                     Xceed.Wpf.Toolkit.MessageBox.Show("主窗口存在同样设备型号，不能添加该条目！");
+                                                     //   Mouse.OverrideCursor = null;
+                                                     return;
+                                                 }
+                                                 //遇到主键重复，不做任何修改，直接返回
+                                                 //其实可以换一种思路。
+                                                 //他是通过现有comboxelementvm转换为4大类，
+                                                 //现在的转换会有一个问题:
+                                                 //对于相同名称，不同型号的设备，不能分开显示
+                                                 else
+                                                 {
+                                                     foreach (ExtendXmlElementViewmodel elementt in ExtendXmlElementList)
+                                                     {
+                                                         var xmlele = elementt.Xmlelement;
+                                                         var ele = BuildElementForGrid(_finalxmlelement, xmlele.Attributes["Name"].Value, _devicecategoryxmlelement.Attributes["Name"].Value, namestring, typestring, elementt.XmlInnertext, xmlele.Attributes["Tooltip"].Value, xmlele.Attributes["Unit"].Value, xmlele.Attributes["IsCalculator"].Value);
+                                                         if (ele.Attributes["Name"].Value == "设备名称" || ele.Attributes["Name"].Value == "型号")
+                                                             //跳过名称和型号两项
+                                                             continue;
+                                                         _finalxmlelement.AppendChild(ele);
+                                                     }
+                                                     Xceed.Wpf.Toolkit.MessageBox.Show("添加新条目到主窗口成功！");
+                                                 }
                                              }
                                         //     Mouse.OverrideCursor = null;
                                          }));
+                                         
            }
        }
 

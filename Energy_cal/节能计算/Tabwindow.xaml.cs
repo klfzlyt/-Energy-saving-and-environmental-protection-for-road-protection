@@ -14,13 +14,13 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using 节能计算.Model;
-using 节能计算.ViewModel;
-using 节能计算.Service;
+using 公路养护工程能耗计算软件ECMS.Model;
+using 公路养护工程能耗计算软件ECMS.ViewModel;
+using 公路养护工程能耗计算软件ECMS.Service;
 using System.Xml;
 //公路养护技术国家工程研究中心
 //中公高科养护科技股份有限公司
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
     /// <summary>
     /// Tabwindow.xaml 的交互逻辑
@@ -235,6 +235,9 @@ namespace 节能计算
             if (result == MessageBoxResult.OK)
             {
                 _vm.SaveAllProjectXmlFile.Execute("");
+
+
+                Application.Current.Shutdown();
                 return;
             }
             else

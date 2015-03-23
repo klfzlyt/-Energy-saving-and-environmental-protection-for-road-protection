@@ -617,7 +617,7 @@
     <Style TargetType="{x:Type toolkit:MessageBox}">
         <Setter Property="Background" >
             <Setter.Value>
-                <ImageBrush ImageSource="/节能计算;component/sampleImages/background7.jpg" Stretch="UniformToFill"></ImageBrush>
+                <ImageBrush ImageSource="/公路养护工程能耗计算软件ECMS;component/sampleImages/background7.jpg" Stretch="UniformToFill"></ImageBrush>
             </Setter.Value>            
         </Setter>
         <Setter Property="BorderBrush" Value="LightSkyBlue" />

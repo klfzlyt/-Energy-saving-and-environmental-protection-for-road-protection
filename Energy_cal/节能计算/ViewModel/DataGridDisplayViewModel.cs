@@ -6,7 +6,7 @@ using GalaSoft.MvvmLight;
 using System.Windows.Data;
 using System.Xml;
 
-namespace 节能计算.ViewModel
+namespace 公路养护工程能耗计算软件ECMS.ViewModel
 {
   public   class DataGridDisplayViewModel : ViewModelBase
     {       

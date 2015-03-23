@@ -7,9 +7,9 @@ using System.Xml.Linq;
 using System.Xml;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
-using 节能计算.Calculator;
+using 公路养护工程能耗计算软件ECMS.Calculator;
 
-namespace 节能计算.Service
+namespace 公路养护工程能耗计算软件ECMS.Service
 {
   public class XmlService
     {

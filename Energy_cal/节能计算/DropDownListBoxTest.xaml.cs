@@ -11,7 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
     /// <summary>
     /// DropDownListBoxTest.xaml 的交互逻辑

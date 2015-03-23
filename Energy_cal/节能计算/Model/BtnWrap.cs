@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Media.Imaging;
 
-namespace 节能计算.Model
+namespace 公路养护工程能耗计算软件ECMS.Model
 {
     public class AbtnWrap
     {

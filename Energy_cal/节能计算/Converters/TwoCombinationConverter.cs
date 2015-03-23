@@ -5,8 +5,8 @@ using System.Text;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Media;
-using 节能计算.Model;
-namespace 节能计算.Converters
+using 公路养护工程能耗计算软件ECMS.Model;
+namespace 公路养护工程能耗计算软件ECMS.Converters
 {
     public class TwoCombinationConverter : IMultiValueConverter
     {

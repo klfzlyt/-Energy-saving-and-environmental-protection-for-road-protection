@@ -14,11 +14,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Xml;
-using 节能计算.Model;
-using 节能计算.Converters;
-using 节能计算.Service;
+using 公路养护工程能耗计算软件ECMS.Model;
+using 公路养护工程能耗计算软件ECMS.Converters;
+using 公路养护工程能耗计算软件ECMS.Service;
 using GalaSoft.MvvmLight.Command;
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
     /// <summary>
     /// AddDeviceDatagrid.xaml 的交互逻辑

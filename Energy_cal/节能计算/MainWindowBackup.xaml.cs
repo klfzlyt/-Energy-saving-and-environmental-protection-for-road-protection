@@ -1,7 +1,7 @@
 ﻿using System.Windows;
-using 节能计算.ViewModel;
+using 公路养护工程能耗计算软件ECMS.ViewModel;
 using MahApps.Metro.Controls;
-using 节能计算.Service;
+using 公路养护工程能耗计算软件ECMS.Service;
 using Xceed.Wpf.AvalonDock.Themes;
 using System;
 using System.Xml;
@@ -12,13 +12,13 @@ using System.Collections.ObjectModel;
 using System.Windows.Media;
 using System.Windows.Controls;
 using System.Threading;
-using 节能计算.Calculator;
+using 公路养护工程能耗计算软件ECMS.Calculator;
 using System.Text.RegularExpressions;
 using System.Linq;
-using 节能计算.Model;
+using 公路养护工程能耗计算软件ECMS.Model;
 using Visifire.Charts;
 using Visifire.Commons;
-namespace 节能计算
+namespace 公路养护工程能耗计算软件ECMS
 {
    
     public partial class MainWindowBackup : Window

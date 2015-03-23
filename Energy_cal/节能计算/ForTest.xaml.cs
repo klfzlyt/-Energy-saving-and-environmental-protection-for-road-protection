@@ -10,13 +10,13 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using 节能计算.ViewModel;
+using 公路养护工程能耗计算软件ECMS.ViewModel;
 using System.Diagnostics;
-using 节能计算.Service;
+using 公路养护工程能耗计算软件ECMS.Service;
 using System.Xml;
 using System.Xml.Linq;
-using 节能计算.Model;
-namespace 节能计算
+using 公路养护工程能耗计算软件ECMS.Model;
+namespace 公路养护工程能耗计算软件ECMS
 {
     /// <summary>
     /// ForTest.xaml 的交互逻辑

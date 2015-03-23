@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace 节能计算.Calculator
+namespace 公路养护工程能耗计算软件ECMS.Calculator
 {
     /// <summary>
     /// 此类用于存放在算法中用到的一些公用函数

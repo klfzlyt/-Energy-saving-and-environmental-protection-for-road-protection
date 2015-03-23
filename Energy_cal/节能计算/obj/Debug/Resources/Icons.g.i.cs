@@ -64,7 +64,7 @@ public partial class resources_icons_xaml : System.Windows.ResourceDictionary, S
             return;
         }
         _contentLoaded = true;
-        System.Uri resourceLocater = new System.Uri("/节能计算;component/resources/icons.xaml", System.UriKind.Relative);
+        System.Uri resourceLocater = new System.Uri("/公路养护工程能耗计算软件ECMS;component/resources/icons.xaml", System.UriKind.Relative);
         
         #line 1 "..\..\..\Resources\Icons.xaml"
         System.Windows.Application.LoadComponent(this, resourceLocater);

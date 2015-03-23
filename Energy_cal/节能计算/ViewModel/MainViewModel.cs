@@ -3,13 +3,13 @@ using System.Windows.Data;
 using System.Windows.Media.Imaging;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
-using 节能计算.Model;
+using 公路养护工程能耗计算软件ECMS.Model;
 using GalaSoft.MvvmLight.Command;
 using System.Xml;
 using System.Diagnostics;
 using GalaSoft.MvvmLight.Messaging;
 using System.Linq;
-namespace 节能计算.ViewModel
+namespace 公路养护工程能耗计算软件ECMS.ViewModel
 {
  
     public class MainViewModel : ViewModelBase

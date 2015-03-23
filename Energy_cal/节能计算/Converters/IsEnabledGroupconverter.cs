@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Data;
 
-namespace 节能计算.Converters
+namespace 公路养护工程能耗计算软件ECMS.Converters
 {
   public   class IsEnabledGroupconverter:IValueConverter
     {

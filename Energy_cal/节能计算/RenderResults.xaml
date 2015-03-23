@@ -1,4 +1,4 @@
-﻿<Controls:MetroWindow x:Class="节能计算.RenderResults"
+﻿<Controls:MetroWindow x:Class="公路养护工程能耗计算软件ECMS.RenderResults"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
          xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"

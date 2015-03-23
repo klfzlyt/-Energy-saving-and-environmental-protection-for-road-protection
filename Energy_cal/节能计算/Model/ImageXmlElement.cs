@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace 节能计算.Model
+namespace 公路养护工程能耗计算软件ECMS.Model
 {
     /// <summary>
     /// 必须跟Devices耦合

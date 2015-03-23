@@ -1,4 +1,4 @@
-﻿using 节能计算;
+﻿using 公路养护工程能耗计算软件ECMS;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using 节能计算.Service;
+using 公路养护工程能耗计算软件ECMS.Service;
 using System.Windows.Input;
-namespace 节能计算.Model
+namespace 公路养护工程能耗计算软件ECMS.Model
 {
     public class Project : ViewModelBase
     {
