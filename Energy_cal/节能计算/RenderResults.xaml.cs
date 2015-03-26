@@ -33,9 +33,11 @@ namespace 公路养护工程能耗计算软件ECMS
         
         
         }
-        public RenderResults(XmlDocument resultdoc,Project project)
+        public RenderResults(XmlDocument resultdoc,Project project,double ProjectDUn,double Comsuption)
             : this(resultdoc)
         {
+            this.DirectConsumption.Content = Comsuption.ToString("0.00") + "\r\n公斤标准煤";
+            this.ProjectDun.Content = ProjectDUn.ToString("0.00") + "吨";
             _project = project;
             var datas = ParseAllResultDocToDataPoint(resultdoc);
             BuilderColumGraphChart(datas);

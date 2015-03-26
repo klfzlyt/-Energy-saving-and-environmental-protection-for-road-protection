@@ -248,7 +248,7 @@ namespace 公路养护工程能耗计算软件ECMS
                 {
                     Xceed.Wpf.Toolkit.MessageBox.Show("项目创建成功!");
                     this.Close();
-                    Messenger.Default.Send<Project>(new Project(pjtxmllocation, proname, this.设计单位textbox.Text, this.施工单位textbox.Text, this.养护技术textbox.Text+"（"+((this.LiQingChoose.SelectedItem) as ComboBoxItem).Content.ToString()+"）") { ProjectName = proname, LiqingIndex = LiQingChoose.SelectedIndex });
+                    Messenger.Default.Send<Project>(new Project(pjtxmllocation, proname, this.设计单位textbox.Text, this.施工单位textbox.Text, this.养护技术textbox.Text) { ProjectName = proname, LiqingIndex = LiQingChoose.SelectedIndex });
                 }
             }
         }

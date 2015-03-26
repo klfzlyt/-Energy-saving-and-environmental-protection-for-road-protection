@@ -26,14 +26,24 @@ namespace 公路养护工程能耗计算软件ECMS.Model
             set
             {
                 if (value > 2)//下标是0 ，1，2 如果超过了2，默认为2
-                    _liqingindex = 2;
-                else
+                {
+
+                    var itemtemp = (FinalDoc.SelectSingleNode("//Item[@Name='沥青含量']")) as XmlElement;
+                    itemtemp.Attributes["DefaultValue"].Value = "0";
+
+                }
+              //  else
                     _liqingindex = value;
-            
+                RaisePropertyChanging("LiqingIndex");
+                RaisePropertyChanged("LiqingIndex");
             }
 
             get
             {
+                   //var itemtemp= (FinalDoc.SelectSingleNode("//Item[@Name='沥青含量']")) as XmlElement;
+                   //if (itemtemp.Attributes["DefaultValue"].Value == "0")
+                   //    _liqingindex = 3;
+                 
                 return _liqingindex;
             
             }
@@ -71,7 +81,15 @@ namespace 公路养护工程能耗计算软件ECMS.Model
             this.ProjectXMLLocation = ProjectXMLLocation;
             var project = Projectpjt;//初始化Projectpjt
             IsLoaded = false;
-           
+
+
+            var F11Node = FinalDoc.SelectSingleNode("//Item[@ID='F11']") as XmlElement;
+            var itemtemp = (FinalDoc.SelectSingleNode("//Item[@Name='沥青含量']")) as XmlElement;
+            var itemtempvalue = itemtemp.Attributes["DefaultValue"].Value;
+            if (F11Node != null && itemtempvalue != "0")
+                LiqingIndex = int.Parse(F11Node.Attributes["LiQingIndex"].Value);
+            else
+                LiqingIndex = 3;
             //初始化工程项目   
         }
         public Project(string ProjectXMLLocation, string 工程名称, string 设计单位, string 施工单位, string 养护技术)           
@@ -83,6 +101,10 @@ namespace 公路养护工程能耗计算软件ECMS.Model
             this.设计单位 = 设计单位;
             this.施工单位 = 施工单位;
             this.养护技术 = 养护技术;
+
+              
+                   
+                   
         
         }
         #endregion
@@ -396,6 +418,38 @@ namespace 公路养护工程能耗计算软件ECMS.Model
 
         #endregion
 
+        /// <summary>
+        /// The <see cref="JIshuEnabled" /> property's name.
+        /// </summary>
+        public const string JIshuEnabledPropertyName = "JIshuEnabled";
+
+        private bool _jishuenabled = false;
+
+        /// <summary>
+        /// Sets and gets the JIshuEnabled property.
+        /// Changes to that property's value raise the PropertyChanged event. 
+        /// </summary>
+        public bool JIshuEnabled
+        {
+            get
+            {
+                return _jishuenabled;
+            }
+
+            set
+            {
+                if (_jishuenabled == value)
+                {
+                    return;
+                }
+
+                RaisePropertyChanging(JIshuEnabledPropertyName);
+                _jishuenabled = value;
+                RaisePropertyChanged(JIshuEnabledPropertyName);
+            }
+        }
+
+
         private XmlDocument _devicecategorydoc=null;
 
        
@@ -484,6 +538,8 @@ namespace 公路养护工程能耗计算软件ECMS.Model
             var F11Node = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@ID='F11']") as XmlElement;
             if (F11Node == null)
             {
+                if (LiqingIndex > 2)
+                    LiqingIndex = 2;
                 //说明F11Node不存在，设置F11Node
                 XmlElement LiqingStylexmlelement = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@LiQingIndex=" + "\"" + LiqingIndex.ToString() + "\"" + "]") as XmlElement;
                 LiqingStylexmlelement.SetAttribute("ID", "F11");
@@ -535,6 +591,7 @@ namespace 公路养护工程能耗计算软件ECMS.Model
                                               JiShuEnable = true;
                                               SheJidanweiEnable = true;
                                               ShigongEnable = true;
+                                              JIshuEnabled = true;
                                           }));
             }
         }
@@ -556,6 +613,7 @@ namespace 公路养护工程能耗计算软件ECMS.Model
                                               JiShuEnable = false;
                                               SheJidanweiEnable = false;
                                               ShigongEnable = false;
+                                              JIshuEnabled = false;
                                               this.SaveTheProjectXmlFile();
                                              //Xceed.Wpf.Toolkit.MessageBox.Show("信息修改成功！","提示");
                                           }));
@@ -588,13 +646,66 @@ namespace 公路养护工程能耗计算软件ECMS.Model
                                               //直接能耗=（所有总和）*工程量（吨）
                                               var F35value = FindNodeValue(FinalDoc, "ID", "F35");//混合料密度☆
                                               var F34value = FindNodeValue(FinalDoc, "ID", "F34");//摊铺厚度☆
+                                              var ProjectComsuption=double.Parse(((FinalDoc.SelectSingleNode("//Item[@Name='工程用量']")) as XmlElement).Attributes["DefaultValue"].Value);
                                               var TotalComsuption=CaculateThesum(resultdoc);
+
+                                              var DunProject=F35value * F34value * ProjectComsuption;//   //工程量（平方米）*F35*F34=工程量（吨）
+
                                               Mouse.OverrideCursor = Cursors.Wait;
-                                              new RenderResults(resultdoc, this).Show();
+                                              new RenderResults(resultdoc, this, DunProject, TotalComsuption*DunProject).Show();
                                               Mouse.OverrideCursor = null;
                                           }));
             }
         }
+
+        private RelayCommand<int> _jishuxuanzeCommand;
+
+        /// <summary>
+        /// Gets the JISHUXuanZheCommmand.
+        /// </summary>
+        public RelayCommand<int> JISHUXuanZheCommmand
+        {
+            get
+            {
+                return _jishuxuanzeCommand
+                    ?? (_jishuxuanzeCommand = new RelayCommand<int>(
+                                          itemindex =>
+                                          {
+
+                                              if (itemindex > 2)
+                                              {
+                                                  var itemtemp = (FinalDoc.SelectSingleNode("//Item[@Name='沥青含量']")) as XmlElement;
+                                                  itemtemp.Attributes["DefaultValue"].Value = "0";
+                                                  Xceed.Wpf.Toolkit.MessageBox.Show("沥青含量已设置为 0 油石比");
+                                                  return;
+                                              }
+                                              //Xceed.Wpf.Toolkit.MessageBox.Show("请注意沥青含量。");
+                                              var F11Nodes = FinalDoc.SelectNodes("//Item[@ID='F11']");
+                                              if (F11Nodes == null)
+                                              {
+                                                  //说明F11Node不存在，设置F11Node
+                                                  XmlElement LiqingStylexmlelement = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@LiQingIndex=" + "\"" + itemindex.ToString() + "\"" + "]") as XmlElement;
+                                                  LiqingStylexmlelement.SetAttribute("ID", "F11");
+                                              }
+                                              else
+                                              {
+
+                                                  XmlElement LiqingStylexmlelement = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@LiQingIndex=" + "\"" + itemindex.ToString() + "\"" + "]") as XmlElement;
+                                                  foreach (var item in F11Nodes)
+                                                  {
+                                                      (item as XmlElement).SetAttribute("ID", "");
+                                                  }
+                                                  LiqingStylexmlelement.SetAttribute("ID", "F11");
+                                              }
+
+
+                                             
+                                          }));
+            }
+        }
+        
+
+
 
         private RelayCommand _savetheprojectcommand;
 

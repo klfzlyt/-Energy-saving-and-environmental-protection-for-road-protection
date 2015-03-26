@@ -5,8 +5,9 @@
           xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
                           WindowStyle="ToolWindow"
                         EnableDWMDropShadow="True"
-                      WindowStartupLocation="CenterScreen"                       
-        Title="计算结果" Height="600" Width="600"                      
+                      WindowStartupLocation="CenterScreen"  
+                      ResizeMode="NoResize"
+        Title="计算结果" Height="600" Width="700"                      
                       >
     <DockPanel>
         <Menu DockPanel.Dock="Top">
@@ -34,10 +35,21 @@
             </ToolBar>
         </ToolBarTray>
         <ScrollViewer>
-            <StackPanel Orientation="Vertical"  Name="Chartstackpanel"/>
-            
-            
-            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Vertical"  Name="Chartstackpanel" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <StackPanel Grid.Column="2" HorizontalAlignment="Left" >
+                    <Label Content="工程量:" FontWeight="Bold"/>
+                    <Label Content="" Name="ProjectDun" FontWeight="Bold"/>
+                    <Label Content="直接能耗:" FontWeight="Bold"/>
+                    <Label Content="" Name="DirectConsumption" FontWeight="Bold"/>
+            </StackPanel>
+                </Grid>
+
         </ScrollViewer>
     </DockPanel>
 </Controls:MetroWindow>

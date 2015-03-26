@@ -84,7 +84,7 @@
         <Style TargetType="{x:Type Controls:MetroTabItem}">
             
             <Setter Property="CloseButtonEnabled" Value="True"/>
-            <Setter Property="Controls:ControlsHelper.HeaderFontSize" Value="13"/>
+            <Setter Property="Controls:ControlsHelper.HeaderFontSize" Value="15"/>
         </Style>
         
         
@@ -189,7 +189,33 @@
                             <TextBlock Text="工程名称：" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
                             <TextBox Name="ProjectNameEdit" Text="{Binding 工程名称}" Grid.Row="1" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" HorizontalAlignment="Left" Width="300" FontFamily="Microsoft YaHei" IsEnabled="{Binding ProjectEnable}"/>
                             <TextBlock  Text="养护技术：" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
-                            <TextBox Name="YanghuJishuEdit" Text="{Binding 养护技术}" Grid.Row="2" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5" HorizontalAlignment="Left" Width="300" FontFamily="Microsoft YaHei" IsEnabled="{Binding JiShuEnable}"/>
+                            <Grid Grid.Row="2" Grid.Column="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBox Grid.Column="0" Name="YanghuJishuEdit" Text="{Binding 养护技术}"  FontWeight="Bold" FontSize="13" Margin="0,5" HorizontalAlignment="Left" Width="300" FontFamily="Microsoft YaHei" IsEnabled="{Binding JiShuEnable}"/>
+                                <ComboBox SelectedIndex="{Binding LiqingIndex}" IsEnabled="{Binding JIshuEnabled}"  HorizontalAlignment="Left" Height="26" Grid.Column="1" Margin="10 0 0 0" Name="JIShuCombox" FontFamily="Microsoft YaHei">
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="SelectionChanged" SourceObject="{Binding ElementName=JIShuCombox}" SourceName="JIShuCombox">
+                                            <Custom:EventToCommand Command="{Binding JISHUXuanZheCommmand}" CommandParameter="{Binding ElementName=JIShuCombox, Path=SelectedIndex}" />
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                    <ComboBoxItem>
+                                        普通沥青
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        改性沥青
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        乳化沥青
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        不用沥青
+                                    </ComboBoxItem>
+
+                                </ComboBox>
+                            </Grid>
                             <TextBlock Text="设计单位：" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0" />
                             <TextBox Name="SheJidanweiEdit" Text="{Binding 设计单位}" Grid.Row="3" Grid.Column="1" FontWeight="Bold" FontSize="13" Margin="0,5"  HorizontalAlignment="Left" Width="300" FontFamily="Microsoft YaHei" IsEnabled="{Binding SheJidanweiEnable}"/>
                             <TextBlock Text="施工单位：" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" FontWeight="Bold" FontSize="13" Margin="0,5,25,0"/>
