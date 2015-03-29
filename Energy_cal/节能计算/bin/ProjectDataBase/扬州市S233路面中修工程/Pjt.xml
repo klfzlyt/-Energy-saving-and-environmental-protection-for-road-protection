@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <File Name="FinalitemsTemplate" Location=".\ProjectDataBase\扬州市S233路面中修工程\FinalitemsTemplate.xml" />
+  <File Name="DevicesDB" Location=".\ProjectDataBase\扬州市S233路面中修工程\DevicesDB.xml" />
+  <File Name="DevicesCategory" Location=".\ProjectDataBase\扬州市S233路面中修工程\DevicesCategory.xml" />
+  <ProjectItem Name="工程名称">扬州市S233路面中修工程</ProjectItem>
+  <ProjectItem Name="养护技术">中下面层SUP-20厂拌温再生7cm</ProjectItem>
+  <ProjectItem Name="设计单位">江苏省交通科学研究院</ProjectItem>
+  <ProjectItem Name="施工单位">江都路桥</ProjectItem>
+</Files>

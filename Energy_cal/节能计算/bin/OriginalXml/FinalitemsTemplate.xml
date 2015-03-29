@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="GB2312"?>
 <Sections>
   <Section Name="原材料能耗">
+    <Item Name="工程用量" DefaultValue="0" ID="" Tooltip="根据实际情况填写" Unit="平方米" Group="常量" DeviceName="必填项" Type="" />
     <Item Name="石料开采能耗" DefaultValue="3.13" ID="F8" Tooltip="课题组调查" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
     <Item Name="水泥生产能耗" DefaultValue="138" ID="F9" Tooltip="水泥行业报告" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
     <Item Name="旧料预处理" DefaultValue="0.123" ID="F10" Tooltip="课题组调研和统计，含铣刨、破碎和筛分" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
@@ -11,7 +12,6 @@
     <Item Name="电力折算标准煤系数" DefaultValue="0.123" ID="F15" Tooltip="能耗标准换算" Unit="1" Group="常量" DeviceName="必填项" Type="" />
     <Item Name="燃料油折算标准煤" DefaultValue="1.429" ID="F16" Tooltip="能耗标准换算" Unit="1" Group="常量" DeviceName="必填项" Type="" />
     <Item Name="柴油折算标准煤" DefaultValue="1.457" ID="F17" Tooltip="能耗标准换算" Unit="1" Group="常量" DeviceName="必填项" Type="" />
-	<Item Name="工程用量" DefaultValue="0" ID="" Tooltip="根据实际情况填写" Unit="平方米" Group="常量" DeviceName="必填项" Type="" /> 
   </Section>
   <Section Name="混合料生产">
     <Item Name="旧料掺加比例" DefaultValue="0" ID="F20" Tooltip="根据公路养护工程实际施工情况填写" Unit="%" Group="常量" DeviceName="必填项" Type="" />

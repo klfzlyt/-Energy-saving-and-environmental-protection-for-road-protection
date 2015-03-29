@@ -526,10 +526,15 @@ namespace 公路养护工程能耗计算软件ECMS.Model
         public void SaveTheProjectXmlFile()
         {
             F11NodeProcess();
-            Projectpjt.Save(Projectpjt.BaseURI.Substring(8));
-            DevicesCategoryDoc.Save(DevicesCategoryDoc.BaseURI.Substring(8));
-            FinalDoc.Save(FinalDoc.BaseURI.Substring(8));
-            DeviceDBDoc.Save(DeviceDBDoc.BaseURI.Substring(8));
+            try
+            {
+                Projectpjt.Save(Projectpjt.BaseURI.Substring(8));
+                DevicesCategoryDoc.Save(DevicesCategoryDoc.BaseURI.Substring(8));
+                FinalDoc.Save(FinalDoc.BaseURI.Substring(8));
+                DeviceDBDoc.Save(DeviceDBDoc.BaseURI.Substring(8));
+            }
+            catch
+            { }
 
         }
 
@@ -539,10 +544,16 @@ namespace 公路养护工程能耗计算软件ECMS.Model
             if (F11Node == null)
             {
                 if (LiqingIndex > 2)
-                    LiqingIndex = 2;
-                //说明F11Node不存在，设置F11Node
-                XmlElement LiqingStylexmlelement = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@LiQingIndex=" + "\"" + LiqingIndex.ToString() + "\"" + "]") as XmlElement;
-                LiqingStylexmlelement.SetAttribute("ID", "F11");
+                {
+                    //说明F11Node不存在，设置F11Node
+                    XmlElement LiqingStylexmlelement = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@LiQingIndex=" + "\"" + "2" + "\"" + "]") as XmlElement;
+                    LiqingStylexmlelement.SetAttribute("ID", "F11");
+                }
+                else
+                {
+                    XmlElement LiqingStylexmlelement = FinalDoc.SelectSingleNode("Sections/Section[1]/Item[@LiQingIndex=" + "\"" + LiqingIndex.ToString() + "\"" + "]") as XmlElement;
+                    LiqingStylexmlelement.SetAttribute("ID", "F11");
+                }
             }
         }
         private double FindNodeValue(XmlDocument Final, string attributeName, string attributeValue)

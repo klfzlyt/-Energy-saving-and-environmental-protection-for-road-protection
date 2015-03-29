@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Sections>
+  <Section Name="原材料能耗">
+    <Item Name="工程用量" DefaultValue="93310" ID="" Tooltip="根据实际情况填写" Unit="平方米" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="石料开采能耗" DefaultValue="3.13" ID="F8" Tooltip="课题组调查" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="水泥生产能耗" DefaultValue="138" ID="F9" Tooltip="水泥行业报告" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料预处理" DefaultValue="0.123" ID="F10" Tooltip="课题组调研和统计，含铣刨、破碎和筛分" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="普通沥青开采能耗" DefaultValue="177.17" ID="" LiQingIndex="0" Tooltip="课题组调研和测算" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="改性沥青开采能耗" DefaultValue="329.97" ID="" LiQingIndex="1" Tooltip="课题组调研和测算" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="乳化沥青开采能耗" DefaultValue="126.19" ID="F11" LiQingIndex="2" Tooltip="课题组调研和测算" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="其他添加剂" DefaultValue="0" ID="F14" Tooltip="课题组调研和测算" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="电力折算标准煤系数" DefaultValue="0.123" ID="F15" Tooltip="能耗标准换算" Unit="1" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="燃料油折算标准煤" DefaultValue="1.429" ID="F16" Tooltip="能耗标准换算" Unit="1" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="柴油折算标准煤" DefaultValue="1.457" ID="F17" Tooltip="能耗标准换算" Unit="1" Group="常量" DeviceName="必填项" Type="" />
+  </Section>
+  <Section Name="混合料生产">
+    <Item Name="旧料掺加比例" DefaultValue="25" ID="F20" Tooltip="根据公路养护工程实际施工情况填写" Unit="%" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="沥青含量" DefaultValue="5" ID="F21" Tooltip="根据实际公路养护工程施工情况填写" Unit="油石比" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="水泥掺量" DefaultValue="0" ID="F22" Tooltip="根据实际公路养护工程施工情况填写" Unit="%" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="沥青加热温度" DefaultValue="150" ID="F23" Tooltip="拌合监控中心获取" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="沥青加热能耗" DefaultValue="0.6" ID="F24" Tooltip="沥青一般使用燃料油加热，填写每吨沥青需耗费燃油的公斤数" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="石料加热温度" DefaultValue="180" ID="F25" Tooltip="拌合监控中心获取" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="石料加热设备油耗" DefaultValue="8" ID="F26" Tooltip="每吨石料加热需要的燃料油公斤数 （6~8，与石料种类和湿度有关）" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料加热温度" DefaultValue="100" ID="F27" Tooltip="根据公路养护工程实际施工情况填写" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料加热设备能耗" DefaultValue="6" ID="F28" Tooltip="每吨旧料加热需要的燃料油公斤数" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="混合料拌合温度" DefaultValue="160" ID="F29" Tooltip="拌合监控中心获取" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="拌合楼单位产量能耗" DefaultValue="4" ID="F30" Tooltip="现场资料收集和调研所得（拌合设备一般使用电力供能）" Unit="度/吨" Group="常量" DeviceName="必填项" Type="" />
+  </Section>
+  <Section Name="混合料摊铺碾压">
+    <Item Name="摊铺机油耗" DefaultValue="25" ID="F31" Tooltip="现场调研，如有多台同时进行，根据实际填写单位时间能耗总和" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="摊铺速度" DefaultValue="180" ID="F32" Tooltip="现场调研" Unit="米/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="摊铺宽度" DefaultValue="7" ID="F33" Tooltip="现场调研或设计文件查询" Unit="m" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="摊铺厚度" DefaultValue="0.04" ID="F34" Tooltip="现场调研或设计文件查询" Unit="m" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="混合料密度" DefaultValue="2.35" ID="F35" Tooltip="根据不同混合料种类，选取推荐值" Unit="吨/立方米" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="混合料摊铺温度" DefaultValue="160" ID="F36" Tooltip="温度计实测" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="单钢轮压路机油耗" DefaultValue="25" ID="F37" Tooltip="现场调研，根据实际情况填写，可取均值" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="单钢轮压路机台数" DefaultValue="0" ID="F38" Tooltip="现场调研，根据实际情况填写" Unit="台" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="双钢轮压路机油耗" DefaultValue="18" ID="F39" Tooltip="现场调研，根据实际情况填写，可取均值" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="双钢轮压路机台数" DefaultValue="2" ID="F40" Tooltip="现场调研，根据实际情况填写" Unit="台" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="三钢轮压路机油耗" DefaultValue="20" ID="F41" Tooltip="现场调研，根据实际情况填写，可取均值" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="三钢轮压路机台数" DefaultValue="0" ID="F42" Tooltip="现场调研，根据实际情况填写" Unit="台" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="胶轮压路机油耗" DefaultValue="12" ID="F43" Tooltip="现场调研，根据实际情况填写，可取均值" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="胶轮压路机台数" DefaultValue="2" ID="F44" Tooltip="现场调研，根据实际情况填写" Unit="台" Group="常量" DeviceName="必填项" Type="" />
+  </Section>
+  <Section Name="材料运输">
+    <Item Name="运输车辆的基本能耗" DefaultValue="0.013" ID="F46" Tooltip="按照车辆油耗50升/百公里，载重50吨，折算成标准煤的能耗" Unit="公斤/吨公里" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料至料场运距" DefaultValue="30" ID="F47" Tooltip="" Unit="公里" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料料场至拌合厂运距" DefaultValue="0" ID="F48" Tooltip="" Unit="公里" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="新料运至拌合厂运距" DefaultValue="25" ID="F49" Tooltip="仅考虑车辆运输部分，如有船运部分忽略不计" Unit="公里" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="混合料运至施工现场运距" DefaultValue="28" ID="F50" Tooltip="" Unit="公里" Group="常量" DeviceName="必填项" Type="" />
+  </Section>
+</Sections>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <Section Name="混合料生产">
+    <Item Name="旧料掺加比例" ID="F15" DefaultValue="222.22" Back="" NoneTooltip="无" Group="常量" DeviceName="必填项"  Type="" Unit="{0:N2} %"/>
+    <Item Name="沥青含量" ID="F16" DefaultValue="222.22" Back="" NoneTooltip="无" Group="常量" DeviceName="必填项"  Type="" Unit="{0:N2} %"/>
+    <Item Name="水泥掺量" ID="F17" DefaultValue="222.22" Back="" Background="appbar_bike" Group="常量" DeviceName="必填项"  Type="" Unit="{0:N2} %"/>
+    <Item Name="设备名称：" DefaultValue="" Tooltip="" NoneTooltip="无" Group="厂拌热再生设备" IsDisplay="false" DeviceName="设备名称：三型摊铺AS300-TS"  Type="AS300"/>
+    <Item Name="型号：" DefaultValue="" Tooltip="" Group="厂拌热再生设备" DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300" IsDisplay="false" />
+    <Item Name="最高旧料添加比例：" DefaultValue="" Tooltip="该值及其单位请参照仪器说明书" Group="厂拌热再生设备" DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300" />
+    <Item Name="生产能力：" DefaultValue="" Tooltip="该值及其单位请参照仪器说明书" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="出料温度（范围）" DefaultValue="" Tooltip="该值及其单位请参照仪器说明书" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="燃料名称" DefaultValue="" Tooltip="写明具体名称" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="整机功率" DefaultValue="" Tooltip="" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="燃料消耗速率" DefaultValue="" Tooltip="该值及其单位请参照仪器说明书" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="已使用年长" DefaultValue="" Tooltip="" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="设备再生路面层位" DefaultValue="" Tooltip="填写路面再生具体方式" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="出料温度" DefaultValue="" Tooltip="" NoneTooltip="无" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300" Unit="度"/>
+    <Item Name="实际工作能耗" Background="appbar_calculator" Isprimarykey="True" DeviceName="设备名称：三型摊铺AS300-TS"  Type="AS300" DefaultValue="" IsCaculator="True"  Tooltip="写明燃料类型和单位" Group="厂拌热再生设备" />
+    <Item Name="设备名称" DefaultValue="" Tooltip="" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="型号" DefaultValue="" Tooltip="" Group="厂拌热再生设备"  DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+    <Item Name="最高旧料添加比例" DefaultValue="" Tooltip="该值及其单位请参照仪器说明书" Group="厂拌热再生设备" DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300" Unit="%"/>
+    <Item Name="生产能力" DefaultValue="" Tooltip="该值及其单位请参照仪器说明书" Group="厂拌热再生设备" DeviceName="设备名称：三型摊铺AS300-TS" Type="AS300"/>
+  </Section>
+  <Section Name="混合料摊铺碾压">
+    <Item Name=""/>
+  </Section>
+</Sections>

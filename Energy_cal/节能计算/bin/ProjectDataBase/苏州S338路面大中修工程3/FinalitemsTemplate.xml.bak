@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <Section Name="原材料能耗">
+    <Item Name="石料开采能耗" DefaultValue="3.13" ID="F8" Tooltip="课题组调查" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="水泥生产能耗" DefaultValue="138" ID="F9" Tooltip="水泥行业报告" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料预处理" DefaultValue="0.123" ID="F10" Tooltip="现场调查后平均" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="沥青开采能耗" DefaultValue="111.97" ID="F11" Tooltip="" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="其他添加剂" DefaultValue="" ID="" Tooltip="" Unit="" Group="常量" DeviceName="必填项" Type="" />
+  </Section>
+  <Section Name="混合料生产">
+    <Item Name="旧料掺加比例" DefaultValue="222.22" ID="F15" Tooltip="" Unit="%" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="沥青含量" DefaultValue="222.22" ID="F16" Tooltip="" Unit="油石比" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="水泥掺量" DefaultValue="222.22" ID="F17" Tooltip="" Unit="%" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="沥青加热温度" DefaultValue="789" ID="F18" Tooltip="拌合监控中心获取" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="沥青加热能耗" DefaultValue="1.3" ID="F19" Tooltip="沥青一般使用燃料油加热，填写每吨沥青需耗费燃油的公斤数" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="石料加热温度" DefaultValue="222.22" ID="F20" Tooltip="拌合监控中心获取" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="石料加热设备油耗" DefaultValue="19" ID="F21" Tooltip="每千吨石料加热需要的燃料油吨数 （6~8，与石料种类和湿度有关，玄武岩高于石灰岩" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料加热温度" DefaultValue="222.22" ID="F22" Tooltip="" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料加热设备能耗" DefaultValue="2" ID="F23" Tooltip="每千吨旧料加热需要的燃料油吨数" Unit="公斤/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="混合料拌合温度" DefaultValue="222.22" ID="F24" Tooltip="拌合监控中心获取" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="拌合楼单位产量能耗" DefaultValue="2" ID="F25" Tooltip="资料收集和调研（拌合设备一般使用电力供能）" Unit="度/吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="再生设备油耗" DefaultValue="25" ID="F80" Tooltip="" Unit="" Group="常量" DeviceName="必填项" Type="" />
+  </Section>
+  <Section Name="混合料摊铺碾压">
+    <Item Name="摊铺机油耗" DefaultValue="20" ID="F26" Tooltip="现场调研" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="摊铺速度" DefaultValue="0.013" ID="F27" Tooltip="现场调研" Unit="米/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="摊铺宽度" DefaultValue="0.013" ID="F28" Tooltip="现场调研或设计文件查询" Unit="m" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="摊铺厚度" DefaultValue="0.013" ID="F29" Tooltip="现场调研或设计文件查询" Unit="m" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="混合料密度" DefaultValue="0.013" ID="F30" Tooltip="根据不同混合料种类，选取推荐值" Unit="吨/立方米" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="混合料摊铺温度" DefaultValue="0.013" ID="F31" Tooltip="温度计实测" Unit="℃" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="单钢轮压路机油耗" DefaultValue="18" ID="F32" Tooltip="" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="单钢轮压路机台数" DefaultValue="0.013" ID="F33" Tooltip="" Unit="台" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="双钢轮压路机油耗" DefaultValue="18" ID="F34" Tooltip="" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="双钢轮压路机台数" DefaultValue="0.013" ID="F35" Tooltip="" Unit="台" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="三光轮压路机油耗" DefaultValue="20" ID="F36" Tooltip="" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="三光轮压路机台数" DefaultValue="0.013" ID="F37" Tooltip="" Unit="台" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="胶轮压路机油耗" DefaultValue="12.5" ID="F38" Tooltip="" Unit="升/小时" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="胶轮压路机台数" DefaultValue="0.013" ID="F39" Tooltip="" Unit="台" Group="常量" DeviceName="必填项" Type="" />
+  </Section>
+  <Section Name="材料运输">
+    <Item Name="运输车辆的基本能耗" DefaultValue="0.013" ID="F41" Tooltip="按照车辆油耗50升/百公里，载重50吨，折算成标准煤的能耗" Unit="" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料至料场运距" DefaultValue="0.013" ID="F42" Tooltip="" Unit="" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料料场至拌合厂运距" DefaultValue="0.013" ID="F43" Tooltip="" Unit="" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="新料运至拌合厂运距" DefaultValue="0.013" ID="F44" Tooltip="仅考虑车辆运输部分，如有船运部分忽略不计" Unit="" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="混合料运至施工现场运距" DefaultValue="0.013" ID="F45" Tooltip="" Unit="" Group="常量" DeviceName="必填项" Type="" />
+  </Section>
+</Sections>

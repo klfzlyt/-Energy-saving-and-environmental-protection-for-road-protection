@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?>
+<结果>
+  <结果类别 Name="原材料">
+    <结果项 Name="沥青生产" calculator="8.43666666666666" />
+    <结果项 Name="新料开采" calculator="2.98095238095238" />
+    <结果项 Name="水泥生产" calculator="0" />
+  </结果类别>
+  <结果类别 Name="生产">
+    <结果项 Name="沥青加热" calculator="0.0541860670194002" />
+    <结果项 Name="新料加热" calculator="8.16571428571428" />
+    <结果项 Name="旧料处理" calculator="0" />
+    <结果项 Name="拌合" calculator="0.246" />
+  </结果类别>
+  <结果类别 Name="铺装">
+    <结果项 Name="摊铺" calculator="0.145025462962963" />
+    <结果项 Name="碾压" calculator="0.442327662037037" />
+  </结果类别>
+  <结果类别 Name="运输">
+    <结果项 Name="运输" calculator="2.59257142857142" />
+  </结果类别>
+</结果>

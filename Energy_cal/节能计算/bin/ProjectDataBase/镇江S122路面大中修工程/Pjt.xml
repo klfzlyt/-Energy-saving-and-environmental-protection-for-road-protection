@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <File Name="FinalitemsTemplate" Location=".\ProjectDataBase\镇江S122路面大中修工程\FinalitemsTemplate.xml" />
+  <File Name="DevicesDB" Location=".\ProjectDataBase\镇江S122路面大中修工程\DevicesDB.xml" />
+  <File Name="DevicesCategory" Location=".\ProjectDataBase\镇江S122路面大中修工程\DevicesCategory.xml" />
+  <ProjectItem Name="工程名称">镇江S122路面大中修工程</ProjectItem>
+  <ProjectItem Name="养护技术">中下面层现场冷再生10cm</ProjectItem>
+  <ProjectItem Name="设计单位">南京先行交通工程设计有限责任公司</ProjectItem>
+  <ProjectItem Name="施工单位">句容昌达养护 </ProjectItem>
+</Files>

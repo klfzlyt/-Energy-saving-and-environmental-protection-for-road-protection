@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <File Name="FinalitemsTemplate" Location=".\ProjectDataBase\徐州G205路面大中修工程1\FinalitemsTemplate.xml" />
+  <File Name="DevicesDB" Location=".\ProjectDataBase\徐州G205路面大中修工程1\DevicesDB.xml" />
+  <File Name="DevicesCategory" Location=".\ProjectDataBase\徐州G205路面大中修工程1\DevicesCategory.xml" />
+  <ProjectItem Name="工程名称">徐州G205路面大中修工程</ProjectItem>
+  <ProjectItem Name="养护技术">上面层AC-13普通沥青混凝土4cm</ProjectItem>
+  <ProjectItem Name="设计单位">淮安设计院</ProjectItem>
+  <ProjectItem Name="施工单位">江苏冠盛路桥 </ProjectItem>
+</Files>

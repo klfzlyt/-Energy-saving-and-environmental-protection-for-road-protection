@@ -18,6 +18,8 @@ using 公路养护工程能耗计算软件ECMS.Model;
 using 公路养护工程能耗计算软件ECMS.ViewModel;
 using 公路养护工程能耗计算软件ECMS.Service;
 using System.Xml;
+using System.IO;
+using GalaSoft.MvvmLight.Messaging;
 //公路养护技术国家工程研究中心
 //中公高科养护科技股份有限公司
 namespace 公路养护工程能耗计算软件ECMS
@@ -27,9 +29,12 @@ namespace 公路养护工程能耗计算软件ECMS
     /// </summary>
     public partial class Tabwindow :MetroWindow
     {
-
+        bool DataBaseIsOpen = false;
         Storyboard additem;
         List<string> xpathlist = new List<string>();
+       private List<Project> ProjectDataBase = new List<Project>();
+
+
         public Tabwindow()
         {
             InitializeComponent();
@@ -556,11 +561,273 @@ namespace 公路养护工程能耗计算软件ECMS
            
         }
 
-  
+        private void NeizhiDataBase_Click(object sender, RoutedEventArgs e)
+        {
+            if (!DataBaseIsOpen)
+            {
+                System.Windows.Input.Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
+                string location = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+                string DataBaseLocation = location + "ProjectDataBase";
+
+                SearchDirectoryAndFiles("fds", new DirectoryInfo(DataBaseLocation));
+                System.Windows.Input.Mouse.OverrideCursor = null;
+                DataBaseIsOpen = true;
+            }
+            else
+            {
+                Xceed.Wpf.Toolkit.MessageBox.Show("数据库已打开!");
+            }
+        }
+
+       private int iindex = 0;
+
+        private void SearchDirectoryAndFiles(string des, DirectoryInfo srcDir)
+        {
+            if (!des.EndsWith("\\"))
+            {
+                des += "\\";
+            }
+            //  string desPath = des + srcDir.Name + "\\";
+            //if (!Directory.Exists(desPath))
+            //{
+            //    Directory.CreateDirectory(desPath);
+            //}
+            foreach (FileInfo file in srcDir.GetFiles())
+            {
+                if (file.Name == "Pjt.xml")
+                {
+                    XmlDocument PjtDoc = new XmlDocument();
+                    PjtDoc.Load(file.FullName);
+                   var nodelist= PjtDoc.SelectNodes("//File[@Location]");
+                   foreach (var item in nodelist)
+                   {
+                       Console.WriteLine((item as XmlElement).Attributes["Location"].Value);
+                       if (string.IsNullOrEmpty((item as XmlElement).Attributes["Location"].Value))
+                       {
+                           Console.WriteLine("KONGGE  "+file.FullName);
+                       }
+                      //var xiuggaistring = ".\\" + "ProjectDataBase" + (item as XmlElement).Attributes["Location"].Value.Substring(12);
+                     //      (item as XmlElement).Attributes["Location"].Value = xiuggaistring;
+                       if ((item as XmlElement).Attributes["Name"].Value == "FinalitemsTemplate")
+                       {
+                           //XmlDocument FinalitemsTemplate = new XmlDocument();
+                           //FinalitemsTemplate.Load((item as XmlElement).Attributes["Location"].Value);
+                           //XmlElement yuancailiaonenghao = FinalitemsTemplate.SelectSingleNode("//Section[@Name='原材料能耗']") as XmlElement;
+
+                           //    XmlElement removenode1 = FinalitemsTemplate.SelectSingleNode("//Item[@Name='石料']") as XmlElement;
+                           // XmlElement removenode2 = FinalitemsTemplate.SelectSingleNode("//Item[@Name='水泥']") as XmlElement;
+                           //   XmlElement removenode3 = FinalitemsTemplate.SelectSingleNode("//Item[@Name='旧料']") as XmlElement;
+                           //   XmlElement removenode4 = FinalitemsTemplate.SelectSingleNode("//Item[@Name='沥青']") as XmlElement;
+                           //   XmlElement removenode5 = FinalitemsTemplate.SelectSingleNode("//Item[@Name='添加剂']") as XmlElement;
+                        /*
+                               <Item Name="石料" DefaultValue="0" ID="" Tooltip="根据实际情况填写" Unit="吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="水泥" DefaultValue="0" ID="" Tooltip="根据实际情况填写" Unit="吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="旧料" DefaultValue="0" ID="" Tooltip="根据实际情况填写" Unit="吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="沥青" DefaultValue="0" ID="" Tooltip="根据实际情况填写" Unit="吨" Group="常量" DeviceName="必填项" Type="" />
+    <Item Name="添加剂" DefaultValue="0" ID="" Tooltip="根据实际情况填写" Unit="吨" Group="常量" DeviceName="必填项" Type="" />
+
+                           */
+                           //yuancailiaonenghao.RemoveChild(removenode1);
+                           //yuancailiaonenghao.RemoveChild(removenode2);
+                           //yuancailiaonenghao.RemoveChild(removenode3);
+                           //yuancailiaonenghao.RemoveChild(removenode4);
+                           //yuancailiaonenghao.RemoveChild(removenode5);
+
+                           //FinalitemsTemplate.Save((item as XmlElement).Attributes["Location"].Value);
+
+                       }
+
+                   }
+                    var project=new Project(file.FullName) { ProjectName = PjtDoc.SelectSingleNode("//ProjectItem[@Name='工程名称']").InnerText };
+                   ProjectDataBase.Add(project);
+                 Messenger.Default.Send<Project>(project);
+                  // PjtDoc.Save(file.FullName);         
+                   Console.WriteLine(++iindex);
+                }
+            }
+            foreach (DirectoryInfo dirinfo in srcDir.GetDirectories())
+            {
+                SearchDirectoryAndFiles(des, dirinfo);
+            }
+        }
 
     
+        
+        /// <summary>
+        /// 全部用引用关闭有问题！！！
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CloseProjectDataBase_Click(object sender, RoutedEventArgs e)
+        {
 
-    
+            var _vm = this.DataContext as TabMainWindowViewModel;
+            foreach (var item in ProjectDataBase)
+	        {
+              
+                  if(_vm.ProjectList.Contains(item))
+                  //  Console.WriteLine(item.工程名称);
+                    _vm.ProjectList.Remove(item);
+                   // _vm.ProjectList.Remove(item);
+                           
+		     
+	        }
+            Console.WriteLine("");
+            Console.WriteLine("");
+            foreach (var item in _vm.ProjectList)
+            {
+                try
+                {
+                    Console.WriteLine(item.工程名称);
 
+                    // _vm.ProjectList.Remove(item);
+                }
+                catch (Exception)
+                {
+
+
+                }
+
+            }
+        }
+
+        
+
+
+        private void AddToProjectDataBase_Click(object sender, RoutedEventArgs e)
+        {
+            if (MessageBoxResult.OK == Xceed.Wpf.Toolkit.MessageBox.Show("是否将项目添加到数据库？", "添加", MessageBoxButton.OKCancel, MessageBoxImage.Question))
+            {
+              
+                if ((this.DataContext as TabMainWindowViewModel).ProjectList.Count == 0)
+                {
+                    Xceed.Wpf.Toolkit.MessageBox.Show("还没有工程!");
+                    return;
+                }
+                Xceed.Wpf.Toolkit.MessageBox.Show("添加成功!");
+                string location = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+                string DataBaseLocation = location + "ProjectDataBase";
+
+                //0 1 2 3 4 5
+                var selectedproject = MainTabControl.SelectedItem as Project;
+                var directorstring = selectedproject.ProjectXMLLocation.Substring(0, selectedproject.ProjectXMLLocation.LastIndexOf("\\") + 1);
+                var srcprojectinfo = new DirectoryInfo(directorstring);
+
+                if (!Directory.Exists(DataBaseLocation + "\\" + selectedproject.工程名称 + selectedproject.养护技术))
+                {
+                    // Create the directory it does not exist.
+                    Directory.CreateDirectory(DataBaseLocation + "\\" + selectedproject.工程名称 + selectedproject.养护技术);
+                    CopyDirectoryAndFiles(DataBaseLocation + "\\" + selectedproject.工程名称 + selectedproject.养护技术, srcprojectinfo);
+                }
+                else
+                {
+                    return;
+                }
+                XmlDocument projectdoc = new XmlDocument();
+                projectdoc.Load(DataBaseLocation + "\\" + selectedproject.工程名称 + selectedproject.养护技术 + "\\Pjt.xml");
+                var nodelist = projectdoc.SelectNodes("//File[@Location]");
+                foreach (var item in nodelist)
+                {
+                    Console.WriteLine((item as XmlElement).Attributes["Location"].Value);
+
+                    var filename = (item as XmlElement).Attributes["Name"].Value;
+                    var xiuggaistring = ".\\" + "ProjectDataBase\\" + selectedproject.工程名称 + selectedproject.养护技术 + "\\" + filename + ".xml";
+                    (item as XmlElement).Attributes["Location"].Value = xiuggaistring;
+                }
+                projectdoc.Save(DataBaseLocation + "\\" + selectedproject.工程名称 + selectedproject.养护技术 + "\\Pjt.xml");
+                var project = new Project(DataBaseLocation + "\\" + selectedproject.工程名称 + selectedproject.养护技术 + "\\Pjt.xml") { ProjectName = selectedproject.工程名称 };
+                ProjectDataBase.Add(project);
+                Messenger.Default.Send<Project>(project);
+            }
+        }
+         private void CopyDirectoryAndFiles(string des, DirectoryInfo srcDir)
+        {
+            if (!des.EndsWith("\\"))
+            {
+                des += "\\";
+            }
+            foreach (FileInfo file in srcDir.GetFiles())
+            {
+                file.CopyTo(des + file.Name, true);
+            }
+            foreach (DirectoryInfo dirinfo in srcDir.GetDirectories())
+            {
+                CopyDirectoryAndFiles(des, dirinfo);
+            }
+        }
+
+         private void DeleteProjectDataBase_Click(object sender, RoutedEventArgs e)
+         {
+
+             if (MessageBoxResult.OK == Xceed.Wpf.Toolkit.MessageBox.Show("是否将项目从数据库删除？", "删除", MessageBoxButton.OKCancel, MessageBoxImage.Question))
+             {
+                 
+                 if ((this.DataContext as TabMainWindowViewModel).ProjectList.Count == 0)
+                 {
+                     Xceed.Wpf.Toolkit.MessageBox.Show("还没有工程!");
+                     return;
+                 }
+                 string location = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+                 string DataBaseLocation = location + "ProjectDataBase";
+                 var selectedproject = MainTabControl.SelectedItem as Project;
+                var xmlelementtt= selectedproject.Projectpjt.SelectSingleNode("//File[1]") as XmlElement;
+                if (xmlelementtt.Attributes["Location"].Value.Substring(0, 1) == ".")
+                {
+                    //可以删除
+                    DirectoryInfo projectinfo = new DirectoryInfo(selectedproject.ProjectXMLLocation.Substring(0,selectedproject.ProjectXMLLocation.LastIndexOf('\\')+1));
+                    projectinfo.Delete(true);
+                    (this.DataContext as TabMainWindowViewModel).ProjectList.Remove(selectedproject);
+                    Xceed.Wpf.Toolkit.MessageBox.Show("删除成功!");
+
+                }
+                else
+                {
+                    Xceed.Wpf.Toolkit.MessageBox.Show("该项目不在数据库内，无法删除。");               
+                
+                }
+
+
+             }
+
+
+         }
+         private bool isDataBaseProject(Project project)
+         {
+             string location = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+             string targetstring=location+"ProjectDataBase";
+          return    project.ProjectXMLLocation.Contains(targetstring);
+         
+         
+         }
+         private void CloseprojectDataBase_Click_1(object sender, RoutedEventArgs e)
+         {
+             var _vm = this.DataContext as TabMainWindowViewModel;
+             var count=_vm.ProjectList.Count;
+           
+             for (int i = 0; i < _vm.ProjectList.Count; ++i)
+             {
+
+                 if (_vm.ProjectList.Contains(_vm.ProjectList[i]))
+                 {
+                     if (isDataBaseProject(_vm.ProjectList[i]))
+                     {
+                         _vm.ProjectList.Remove(_vm.ProjectList[i]);
+                     }
+                
+                 }
+             }
+
+
+             //foreach (var item in _vm.ProjectList)
+             //{ 
+             //    if (isDataBaseProject(item))
+             //    {
+             //        _vm.ProjectList.Remove(item);
+             //    }
+             //}
+
+         }
+
+          
     }
 }

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <File Name="FinalitemsTemplate" Location=".\ProjectDataBase\南京G4211宁芜高速路面大中修工程\FinalitemsTemplate.xml" />
+  <File Name="DevicesDB" Location=".\ProjectDataBase\南京G4211宁芜高速路面大中修工程\DevicesDB.xml" />
+  <File Name="DevicesCategory" Location=".\ProjectDataBase\南京G4211宁芜高速路面大中修工程\DevicesCategory.xml" />
+  <ProjectItem Name="工程名称">南京G4211宁芜高速路面大中修工程</ProjectItem>
+  <ProjectItem Name="养护技术">中下面层AC-20C厂拌热再生5cm</ProjectItem>
+  <ProjectItem Name="设计单位">南京公路管理处公路科学研究所</ProjectItem>
+  <ProjectItem Name="施工单位">南京路桥工程总公司 </ProjectItem>
+</Files>

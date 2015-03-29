@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <Section Name="混合料生产">
+    <Device Name="厂拌冷再生设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="厂拌冷再生设备">厂拌冷再生设备 示例设备名称（可删除）</DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="厂拌冷再生设备">厂拌冷再生设备 示例设备型号（可删除）</DeviceItem>
+      <DeviceItem Name="数量" IsPreLoaded="true" Display="true" ID="厂拌冷再生设备" Tooltip="" Unit="" IsCalculator="" Group="厂拌冷再生设备">
+      </DeviceItem>
+      <DeviceItem Name="最高旧料添加比例" IsPreLoaded="true" Unit="%" Tooltip="该值及其单位请参照仪器说明书" Display="true" ID="厂拌冷再生设备" IsCalculator="" Group="厂拌冷再生设备">
+      </DeviceItem>
+      <DeviceItem Name="生产能力" Unit="t/h" Tooltip="该值及其单位请参照仪器说明书" Display="true" ID="厂拌冷再生设备" IsCalculator="" Group="厂拌冷再生设备">
+      </DeviceItem>
+      <DeviceItem Name="整机功率" Unit="KW" Tooltip="该值及其单位请参照仪器说明书" Display="true" IsCalculator="true" ID="厂拌冷再生设备" Group="厂拌冷再生设备">
+      </DeviceItem>
+      <DeviceItem Name="已使用年长" Unit="年" Display="true" IsCalculator="true" ID="厂拌冷再生设备" Tooltip="" Group="厂拌冷再生设备">
+      </DeviceItem>
+      <DeviceItem Name="实际工作能耗" Unit="" Tooltip="写明燃料类型和单位" Display="true" IsCalculator="true" ID="厂拌冷再生设备" Group="厂拌冷再生设备">
+      </DeviceItem>
+    </Device>
+    <Device Name="厂拌热再生设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" Tooltip="" Display="true" ID="厂拌热再生设备" Unit="" IsBinding="Name" IsCalculator="" Group="厂拌热再生设备">厂拌热再生设备 示例设备名称（可删除）</DeviceItem>
+      <DeviceItem Name="型号" Tooltip="" IsPreLoaded="true" Display="true" ID="厂拌热再生设备" IsBinding="Type" Unit="" IsCalculator="" Group="厂拌热再生设备">厂拌热再生设备 示例设备型号（可删除）</DeviceItem>
+      <DeviceItem Name="最高旧料添加比例" IsPreLoaded="true" Unit="%" Tooltip="该值及其单位请参照仪器说明书" ID="厂拌热再生设备" IsCalculator="" Display="true" Group="厂拌热再生设备">
+      </DeviceItem>
+      <DeviceItem Name="生产能力" Unit="t/h" Tooltip="该值及其单位请参照仪器说明书" ID="厂拌热再生设备" IsCalculator="" Display="true" Group="厂拌热再生设备">
+      </DeviceItem>
+      <DeviceItem Name="出料温度（范围）" Unit="℃" Tooltip="该值及其单位请参照仪器说明书" ID="厂拌热再生设备" IsCalculator="" Display="true" Group="厂拌热再生设备">
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="燃料一" Tooltip="如仅采用一种燃料，则只需要填写“额定整机功率及对应的燃料一”" IsCalculator="" Unit="" Display="true" Group="厂拌热再生设备">
+        <DeviceItem Name="燃料名称" Tooltip="写明具体名称" ID="厂拌热再生设备" IsCalculator="true" Unit="" Display="true" Group="厂拌热再生设备" />
+        <DeviceItem Name="整机功率" Unit="KW" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="厂拌热再生设备" />
+        <DeviceItem Name="燃料消耗速率" Tooltip="该值及其单位请参照仪器说明书" ID="厂拌热再生设备" IsCalculator="" Unit="" Display="true" Group="厂拌热再生设备" />
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="燃料二" Tooltip="如仅采用一种燃料，则只需要填写“额定整机功率及对应的燃料一”" IsCalculator="" Unit="" Display="true" Group="厂拌热再生设备">
+        <DeviceItem Name="燃料名称" Tooltip="写明具体名称" ID="厂拌热再生设备" IsCalculator="" Unit="" Display="true" Group="厂拌热再生设备" />
+        <DeviceItem Name="整机功率" Unit="KW" Tooltip="" ID="厂拌热再生设备" IsCalculator="" Display="true" Group="厂拌热再生设备" />
+        <DeviceItem Name="燃料消耗速率" Tooltip="该值及其单位请参照仪器说明书" ID="厂拌热再生设备" IsCalculator="" Unit="" Display="true" Group="厂拌热再生设备" />
+      </DeviceItem>
+      <DeviceItem Name="已使用年长" Unit="年" Tooltip="" ID="厂拌热再生设备" IsCalculator="" Display="true" Group="厂拌热再生设备">
+      </DeviceItem>
+      <DeviceItem Name="实际工程项目" HasElement="True" Tooltip="结合最近某项实际道路养护工程填写" IsCalculator="" Unit="" Display="true" Group="厂拌热再生设备">
+        <DeviceItem Name="设备再生路面层位" Tooltip="填写路面再生具体方式" ID="厂拌热再生设备" IsCalculator="true" Unit="" Display="true" Group="厂拌热再生设备">
+        </DeviceItem>
+        <DeviceItem Name="出料温度" Unit="℃" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="厂拌热再生设备">
+        </DeviceItem>
+        <DeviceItem Name="实际工作能耗" Unit="" Tooltip="写明燃料类型和单位" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="厂拌热再生设备">
+        </DeviceItem>
+      </DeviceItem>
+    </Device>
+    <Device Name="基层材料拌合设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="基层材料拌合设备" IsCalculator="" Unit="" IsBinding="Name" Tooltip="" Display="true" Group="基层材料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="基层材料拌合设备" IsCalculator="true" Unit="" IsBinding="Type" Tooltip="" Display="true" Group="基层材料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="功率" IsPreLoaded="true" Unit="KW" Tooltip="该值及其单位请参照仪器说明书" ID="基层材料拌合设备" IsCalculator="" Display="true" Group="基层材料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="已使用年长" Unit="年" ID="基层材料拌合设备" IsCalculator="" Tooltip="" Display="true" Group="基层材料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="二灰碎石基层" HasElement="True" Tooltip="如该拌合设备可应用于该基层类型则填写拌合该基层类型的能耗数据如不可则不必填写" Unit="" IsCalculator="" Display="true" Group="基层材料拌合设备">
+        <DeviceItem Name="产量" Unit="吨/小时" ID="基层材料拌合设备" IsCalculator="" Tooltip="" Display="true" Group="基层材料拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="一般配料比例" Unit="%" Tooltip="填写材料添加比例" ID="基层材料拌合设备" IsCalculator="" Display="true" Group="基层材料拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="拌合生产综合油耗" Unit="升/吨" Type="" Tooltip="写明用油类型，如柴油" ID="基层材料拌合设备" IsCalculator="" Display="true" Group="基层材料拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="单位产量电耗" Unit="度/吨" Tooltip="填写综合电耗，如完全用燃料，电量可为零" ID="基层材料拌合设备" IsCalculator="" Display="true" Group="基层材料拌合设备">
+        </DeviceItem>
+      </DeviceItem>
+      <DeviceItem Name="水泥稳定碎石基层" HasElement="True" Unit="" Tooltip="如该拌合设备可应用于该基层类型则填写拌合该基层类型的能耗数据如不可则不必填写" IsCalculator="" Display="true" Group="基层材料拌合设备">
+        <DeviceItem Name="产量" Unit="吨/小时" ID="基层材料拌合设备" IsCalculator="" Tooltip="" Display="true" Group="基层材料拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="一般配料比例" Unit="%" Tooltip="填写材料添加比例" ID="基层材料拌合设备" IsCalculator="" Display="true" Group="基层材料拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="拌合生产综合油耗" Unit="升/吨" Type="" Tooltip="写明用油类型，如柴油" ID="基层材料拌合设备" IsCalculator="" Display="true" Group="基层材料拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="单位产量电耗" Unit="度/吨" Tooltip="填写综合电耗，如完全用燃料，电量可为零" ID="基层材料拌合设备" IsCalculator="" Display="true" Group="基层材料拌合设备">
+        </DeviceItem>
+      </DeviceItem>
+    </Device>
+    <Device Name="再生设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" Tooltip="" Display="true" ID="再生设备" Unit="" IsBinding="Name" IsCalculator="" Group="再生设备">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" Tooltip="" Display="true" ID="再生设备" IsBinding="Type" Unit="" IsCalculator="" Group="再生设备">
+      </DeviceItem>
+      <DeviceItem Name="最高旧料添加比例" IsPreLoaded="true" Unit="%" Tooltip="该值及其单位请参照仪器说明书" ID="再生设备" IsCalculator="" Display="true" Group="再生设备">
+      </DeviceItem>
+      <DeviceItem Name="生产能力" Unit="t/h" Tooltip="该值及其单位请参照仪器说明书" ID="再生设备" IsCalculator="" Display="true" Group="再生设备">
+      </DeviceItem>
+      <DeviceItem Name="搅拌缸容量" Unit="" Tooltip="该值及其单位请参照仪器说明书" ID="再生设备" IsCalculator="" Display="true" Group="再生设备">
+      </DeviceItem>
+      <DeviceItem Name="出料温度范围" Unit="℃" Tooltip="该值及其单位请参照仪器说明书" ID="再生设备" IsCalculator="" Display="true" Group="再生设备">
+      </DeviceItem>
+      <DeviceItem Name="燃料一" HasElement="True" Tooltip="如仅采用一种燃料，则只需要填写“额定整机功率及对应的燃料一”" IsCalculator="" Unit="" Display="true" Group="再生设备">
+        <DeviceItem Name="燃料名称" Tooltip="写明具体名称" ID="再生设备" IsCalculator="true" Unit="" Display="true" Group="再生设备">
+        </DeviceItem>
+        <DeviceItem Name="整机功率" Unit="KW" Tooltip="" ID="再生设备" IsCalculator="true" Display="true" Group="再生设备">
+        </DeviceItem>
+        <DeviceItem Name="燃料消耗速率" Unit="" Tooltip="该值及其单位请参照仪器说明书" ID="再生设备" IsCalculator="true" Display="true" Group="再生设备">
+        </DeviceItem>
+      </DeviceItem>
+      <DeviceItem Name="燃料二" HasElement="True" Tooltip="如仅采用一种燃料，则只需要填写“额定整机功率及对应的燃料一”" IsCalculator="" Unit="" Display="true" Group="再生设备">
+        <DeviceItem Name="燃料名称" Tooltip="写明具体名称" ID="再生设备" IsCalculator="true" Unit="" Display="true" Group="再生设备">
+        </DeviceItem>
+        <DeviceItem Name="整机功率" Unit="KW" Tooltip="" ID="再生设备" IsCalculator="true" Display="true" Group="再生设备">
+        </DeviceItem>
+        <DeviceItem Name="燃料消耗速率" Unit="" Tooltip="该值及其单位请参照仪器说明书" ID="再生设备" IsCalculator="true" Display="true" Group="再生设备">
+        </DeviceItem>
+      </DeviceItem>
+      <DeviceItem Name="已使用年长" Unit="年" Tooltip="" ID="再生设备" IsCalculator="" Display="true" Group="再生设备">
+      </DeviceItem>
+      <DeviceItem Name="工程项目一" HasElement="True" Tooltip="结合最近某项实际道路养护工程填写" IsCalculator="" Unit="" Display="true" Group="再生设备">
+        <DeviceItem Name="设备再生路面层位" Tooltip="填写路面再生具体方式" ID="再生设备" IsCalculator="true" Unit="" Display="true" Group="再生设备">
+        </DeviceItem>
+        <DeviceItem Name="沥青含量" Unit="%" Tooltip="油石比" ID="再生设备" IsCalculator="" Display="true" Group="再生设备">
+        </DeviceItem>
+        <DeviceItem Name="旧料加热温度" Unit="℃" Tooltip="" ID="再生设备" IsCalculator="" Display="true" Group="再生设备">
+        </DeviceItem>
+        <DeviceItem Name="混合料拌合温度" Unit="℃" Tooltip="" ID="再生设备" IsCalculator="" Display="true" Group="再生设备" />
+        <DeviceItem Name="工作能耗" Unit="公斤/吨" Tooltip="写明能源类型" ID="再生设备" IsCalculator="" Display="true" Group="再生设备" />
+      </DeviceItem>
+    </Device>
+    <Device Name="沥青混合料拌合设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="沥青混合料拌合设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="沥青混合料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="沥青混合料拌合设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="沥青混合料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="功率" IsPreLoaded="true" ID="沥青混合料拌合设备" Display="true" Tooltip="" Unit="KW" IsCalculator="" Group="沥青混合料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="产量" ID="沥青混合料拌合设备" Display="true" Tooltip="" Unit="吨/小时" IsCalculator="" Group="沥青混合料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="型式" ID="沥青混合料拌合设备" Display="true" Tooltip="" Unit="" IsCalculator="" Group="沥青混合料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="已使用年长" ID="沥青混合料拌合设备" Display="true" Tooltip="" Unit="年" IsCalculator="" Group="沥青混合料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="沥青加热" HasElement="True" Tooltip="可填写多个加热温度并填写对应温度的加热油耗" IsCalculator="" Unit="" Display="true" Group="沥青混合料拌合设备">
+        <DeviceItem Name="沥青加热温度" Tooltip="加热温度指沥青最终加热到的温度" ID="沥青混合料拌合设备" IsCalculator="true" Unit="" Display="true" Group="沥青混合料拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="沥青加热油耗" Unit="升/吨沥青" Tooltip="写明用油类型，如柴油" ID="沥青混合料拌合设备" IsCalculator="true" Display="true" Group="沥青混合料拌合设备">
+        </DeviceItem>
+      </DeviceItem>
+      <DeviceItem Name="石料加热" HasElement="True" Tooltip="可填写多个加热温度并填写对应温度的加热油耗" IsCalculator="" Unit="" Display="true" Group="沥青混合料拌合设备">
+        <DeviceItem Name="石料加热温度" Tooltip="加热温度指沥青最终加热到的温度" ID="沥青混合料拌合设备" IsCalculator="true" Unit="" Display="true" Group="沥青混合料拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="石料加热油耗" Unit="升/吨沥青" Tooltip="写明用油类型，如柴油" ID="沥青混合料拌合设备" IsCalculator="true" Display="true" Group="沥青混合料拌合设备">
+        </DeviceItem>
+      </DeviceItem>
+      <DeviceItem Name="混合料拌合温度" ID="沥青混合料拌合设备" Display="true" Tooltip="" Unit="℃" IsCalculator="" Group="沥青混合料拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="单位产量电耗" ID="沥青混合料拌合设备" Display="true" Tooltip="填写综合电耗" Unit="度/吨混合料" IsCalculator="true" Group="沥青混合料拌合设备">
+      </DeviceItem>
+    </Device>
+    <Device Name="水泥混凝土拌合设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="水泥混凝土拌合设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="水泥混凝土拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="水泥混凝土拌合设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="水泥混凝土拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="数量" IsPreLoaded="true" Display="true" ID="水泥混凝土拌合设备" Tooltip="" Unit="" IsCalculator="" Group="水泥混凝土拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="功率" Unit="KW" Tooltip="" Display="true" ID="水泥混凝土拌合设备" IsCalculator="" Group="水泥混凝土拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="产量" Unit="吨/小时" Tooltip="" Display="true" ID="水泥混凝土拌合设备" IsCalculator="" Group="水泥混凝土拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="已使用年长" Unit="年" Tooltip="" Display="true" IsCalculator="true" ID="水泥混凝土拌合设备" Group="水泥混凝土拌合设备">
+      </DeviceItem>
+      <DeviceItem Name="能耗情况" HasElement="True" Tooltip="可填写多个加热温度并填写对应温度的加热油耗" IsCalculator="" Unit="" Display="true" Group="水泥混凝土拌合设备">
+        <DeviceItem Name="单位产量综合油耗" Tooltip="写明用油类型，如柴油，如不用燃料，值可为零" ID="水泥混凝土拌合设备" IsCalculator="true" Unit="升/吨" Display="true" Group="水泥混凝土拌合设备">
+        </DeviceItem>
+        <DeviceItem Name="单位产量电耗" Unit="度/吨" Tooltip="填写综合电耗，如完全用燃料，值可为零" ID="水泥混凝土拌合设备" IsCalculator="true" Display="true" Group="水泥混凝土拌合设备">
+        </DeviceItem>
+      </DeviceItem>
+    </Device>
+  </Section>
+  <Section Name="混合料摊铺碾压">
+    <Device Name="单钢轮压路机" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="单钢轮压路机">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="单钢轮压路机">
+      </DeviceItem>
+      <DeviceItem Name="吨位" IsPreLoaded="true" Unit="吨" IsCalculator="" Tooltip="" Display="true" Group="单钢轮压路机" />
+      <DeviceItem HasElement="True" Name="应用于面层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="单钢轮压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="单钢轮压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="单钢轮压路机" />
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="应用于基层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="单钢轮压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="单钢轮压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="单钢轮压路机" />
+      </DeviceItem>
+    </Device>
+    <Device Name="胶轮压路机" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="胶轮压路机">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="胶轮压路机">
+      </DeviceItem>
+      <DeviceItem Name="吨位" IsPreLoaded="true" Unit="吨" IsCalculator="" Tooltip="" Display="true" Group="胶轮压路机" />
+      <DeviceItem HasElement="True" Name="应用于面层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="胶轮压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="胶轮压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="胶轮压路机" />
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="应用于基层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="胶轮压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="胶轮压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="胶轮压路机" />
+      </DeviceItem>
+    </Device>
+    <Device Name="双钢轮压路机" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="双钢轮压路机">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="双钢轮压路机">
+      </DeviceItem>
+      <DeviceItem Name="吨位" IsPreLoaded="true" Unit="吨" IsCalculator="" Tooltip="" Display="true" Group="双钢轮压路机" />
+      <DeviceItem HasElement="True" Name="应用于面层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="双钢轮压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="双钢轮压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="双钢轮压路机" />
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="应用于基层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="双钢轮压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="双钢轮压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="双钢轮压路机" />
+      </DeviceItem>
+    </Device>
+    <Device Name="三钢轮压路机" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="三钢轮压路机">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="三钢轮压路机">
+      </DeviceItem>
+      <DeviceItem Name="吨位" IsPreLoaded="true" Unit="吨" IsCalculator="" Tooltip="" Display="true" Group="三钢轮压路机" />
+      <DeviceItem HasElement="True" Name="应用于面层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="三钢轮压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="三钢轮压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="三钢轮压路机" />
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="应用于基层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="三钢轮压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="三钢轮压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="三钢轮压路机" />
+      </DeviceItem>
+    </Device>
+    <Device Name="其他压路机" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="其他压路机">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="其他压路机">
+      </DeviceItem>
+      <DeviceItem Name="吨位" IsPreLoaded="true" Unit="吨" IsCalculator="" Tooltip="" Display="true" Group="其他压路机" />
+      <DeviceItem HasElement="True" Name="应用于面层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="其他压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="其他压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="其他压路机" />
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="应用于基层碾压" Tooltip="如不可应用于本层可不填写”" IsCalculator="" Unit="" Display="true" Group="其他压路机">
+        <DeviceItem Name="一般碾压速度" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Unit="km/h" Display="true" Group="其他压路机" />
+        <DeviceItem Name="单位综合油耗" Unit="升/小时" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="其他压路机" />
+      </DeviceItem>
+    </Device>
+    <Device Name="就地冷再生设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="就地冷再生设备">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="就地冷再生设备">
+      </DeviceItem>
+      <DeviceItem Name="额定功率" IsPreLoaded="true" Unit="KW" Tooltip="如为联合设备请说明各单个设备的功率" IsCalculator="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem Name="最高旧料添加比例" Unit="%" Tooltip="" IsCalculator="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem Name="再生宽度范围" Unit="mm" IsCalculator="" Tooltip="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem Name="再生刨铣厚度范围" Unit="mm" IsCalculator="" Tooltip="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem Name=" 再生加铺（拌合）厚度范围" Unit="mm" IsCalculator="" Tooltip="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem Name="工作速度范围" Unit="m/min" IsCalculator="" Tooltip="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem Name="燃料类型" IsCalculator="" Unit="" Tooltip="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem Name="满负荷能耗" Tooltip="根据说明书填写满负荷能耗数值和单位" IsCalculator="" Unit="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem Name="已使用年长" Unit="年" IsCalculator="" Tooltip="" Display="true" Group="就地冷再生设备" />
+      <DeviceItem HasElement="True" Name="工程项目一" Tooltip="结合最近某项实际道路养护工程填写”" IsCalculator="" Unit="" Display="true" Group="就地冷再生设备">
+        <DeviceItem Name="再生路面层位和厚度" Unit="" Tooltip="填写路面再生具体施工方式" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+        <DeviceItem Name="旧料添加比例" Unit="" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+        <DeviceItem Name="沥青含量" Unit="%" Tooltip="油石比" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+        <DeviceItem Name="再生宽度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+        <DeviceItem Name="再生刨铣厚度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+        <DeviceItem Name="再生加铺（拌合）厚度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+        <DeviceItem Name="工作速度" Unit="m/min" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+        <DeviceItem Name="燃料类型" Unit="" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+        <DeviceItem Name="实际工作能耗" Unit="" Tooltip="实际能耗数值和单位" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地冷再生设备" />
+      </DeviceItem>
+    </Device>
+    <Device Name="就地热再生设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="就地热再生设备">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="就地热再生设备">
+      </DeviceItem>
+      <DeviceItem Name="额定功率" IsPreLoaded="true" Unit="KW" Tooltip="如为联合设备请说明各单个设备的功率" IsCalculator="" Display="true" Group="就地热再生设备" />
+      <DeviceItem Name="最高旧料添加比例" Unit="%" Tooltip="" IsCalculator="" Display="true" Group="就地热再生设备" />
+      <DeviceItem Name="加热宽度范围" Unit="mm" IsCalculator="" Tooltip="" Display="true" Group="就地热再生设备" />
+      <DeviceItem Name="再生深度范围" Unit="mm" IsCalculator="" Tooltip="" Display="true" Group="就地热再生设备" />
+      <DeviceItem Name=" 再生加铺厚度范围" Unit="mm" IsCalculator="" Tooltip="" Display="true" Group="就地热再生设备" />
+      <DeviceItem Name="工作速度" Unit="m/min" IsCalculator="" Tooltip="" Display="true" Group="就地热再生设备" />
+      <DeviceItem Name="加热形式/燃料" IsCalculator="" Unit="" Tooltip="" Display="true" Group="就地热再生设备" />
+      <DeviceItem Name="满负荷能耗" Tooltip="根据说明书填写满负荷能耗数值和单位" IsCalculator="" Unit="" Display="true" Group="就地热再生设备" />
+      <DeviceItem Name="已使用年长" Unit="年" IsCalculator="" Tooltip="" Display="true" Group="就地热再生设备" />
+      <DeviceItem HasElement="True" Name="工程项目一" Tooltip="结合最近某项实际道路养护工程填写”" IsCalculator="" Unit="" Display="true" Group="就地热再生设备">
+        <DeviceItem Name="设备再生路面层位" Unit="" Tooltip="填写路面再生具体方式" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="旧料添加比例" Unit="" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="沥青含量" Unit="%" Tooltip="油石比" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="沥青加热温度" Unit="℃" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="石料加热温度" Unit="℃" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="旧料加热温度" Unit="℃" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="混合料拌合温度" Unit="℃" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="加热宽度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="再生深度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="再生加铺厚度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="工作速度" Unit="m/min" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="燃料类型" Unit="" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+        <DeviceItem Name="实际工作能耗" Unit="" Tooltip="实际能耗数值和单位" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="就地热再生设备" />
+      </DeviceItem>
+    </Device>
+    <Device Name="摊铺设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="摊铺设备">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="摊铺设备">
+      </DeviceItem>
+      <DeviceItem Name="功率" IsPreLoaded="true" Unit="KW" IsCalculator="" Tooltip="" Display="true" Group="摊铺设备" />
+      <DeviceItem Name="最大理论生产率" Unit="t/h" IsCalculator="" Tooltip="" Display="true" Group="摊铺设备" />
+      <DeviceItem Name="基本和最大摊铺宽度" Unit="mm/mm" IsCalculator="" Tooltip="" Display="true" Group="摊铺设备" />
+      <DeviceItem Name="最小和最大摊铺厚度" Unit="mm/mm" IsCalculator="" Tooltip="" Display="true" Group="摊铺设备" />
+      <DeviceItem Name="摊铺速度" Unit="m/min" IsCalculator="" Tooltip="" Display="true" Group="摊铺设备" />
+      <DeviceItem Name="已使用年长" Unit="年" IsCalculator="" Tooltip="" Display="true" Group="摊铺设备" />
+      <DeviceItem HasElement="True" Name="用于基层摊铺" Tooltip="结合最近某项工程项目填写实际情况如不适用于该层可不填写”" IsCalculator="" Unit="" Display="true" Group="摊铺设备">
+        <DeviceItem Name="摊铺宽度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="摊铺设备" />
+        <DeviceItem Name="摊铺厚度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="摊铺设备" />
+        <DeviceItem Name="摊铺速度" Unit="m/min" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="摊铺设备" />
+        <DeviceItem Name="单位综合油耗" Unit="L/h" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="摊铺设备" />
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="用于面层摊铺" Tooltip="结合最近某项工程项目填写实际情况如不适用于该层可不填写”" IsCalculator="" Unit="" Display="true" Group="摊铺设备">
+        <DeviceItem Name="摊铺宽度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="摊铺设备" />
+        <DeviceItem Name="摊铺厚度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="摊铺设备" />
+        <DeviceItem Name="摊铺速度" Unit="m/min" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="摊铺设备" />
+        <DeviceItem Name="单位综合油耗" Unit="L/h" Tooltip="写明用油类型，如柴油" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="摊铺设备" />
+      </DeviceItem>
+    </Device>
+    <Device Name="铣刨设备" Constant="常量">
+      <DeviceItem Name="设备名称" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Name" Tooltip="" Unit="" IsCalculator="" Group="铣刨设备">
+      </DeviceItem>
+      <DeviceItem Name="型号" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" IsBinding="Type" Tooltip="" Unit="" IsCalculator="" Group="铣刨设备">
+      </DeviceItem>
+      <DeviceItem Name="可刨铣层位" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" Tooltip="具体填写可铣刨的层位，可填写多个层位" Unit="" IsCalculator="" Group="铣刨设备">
+      </DeviceItem>
+      <DeviceItem Name="额定功率" IsPreLoaded="true" ID="厂拌冷再生设备" Display="true" Tooltip="具体填写可铣刨的层位，可填写多个层位" Unit="KW" IsCalculator="" Group="铣刨设备">
+      </DeviceItem>
+      <DeviceItem Name="（最大）铣刨宽度" Unit="mm" IsCalculator="" Tooltip="" Display="true" Group="铣刨设备" />
+      <DeviceItem Name="铣刨深度范围" Unit="mm" IsCalculator="" Tooltip="" Display="true" Group="铣刨设备" />
+      <DeviceItem Name=" 铣刨速度范围" Unit="m/min" IsCalculator="" Tooltip="" Display="true" Group="铣刨设备" />
+      <DeviceItem Name="额定（满负荷）耗油量" Unit="L/h" Tooltip="也可以其他单位表示，如g/kW‧h" IsCalculator="" Display="true" Group="铣刨设备" />
+      <DeviceItem Name="已使用年长" Unit="年" IsCalculator="" Tooltip="" Display="true" Group="铣刨设备" />
+      <DeviceItem HasElement="True" Name="刨铣层位一" Tooltip="填写最近某项工程项目的实际情况" IsCalculator="" Unit="" Display="true" Group="铣刨设备">
+        <DeviceItem Name="刨铣层位组合" Unit="" Tooltip="如同时刨铣多个层位，以+间隔" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="铣刨设备" />
+        <DeviceItem Name="刨铣宽度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="铣刨设备" />
+        <DeviceItem Name="刨铣深度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="铣刨设备" />
+        <DeviceItem Name="铣刨速度" Unit="m/min" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="铣刨设备" />
+        <DeviceItem Name="单位综合油耗" Unit="L/h" Tooltip="写明用油类型，如柴油" IsCalculator="" Display="true" Group="铣刨设备" />
+      </DeviceItem>
+      <DeviceItem HasElement="True" Name="刨铣层位二" Tooltip="填写最近某项工程项目的实际情况" IsCalculator="" Unit="" Display="true" Group="铣刨设备">
+        <DeviceItem Name="刨铣层位组合" Unit="" Tooltip="如同时刨铣多个层位，以+间隔" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="铣刨设备" />
+        <DeviceItem Name="刨铣宽度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="铣刨设备" />
+        <DeviceItem Name="刨铣深度" Unit="mm" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="铣刨设备" />
+        <DeviceItem Name="铣刨速度" Unit="m/min" Tooltip="" ID="厂拌热再生设备" IsCalculator="true" Display="true" Group="铣刨设备" />
+        <DeviceItem Name="单位综合油耗" Unit="L/h" Tooltip="写明用油类型，如柴油" IsCalculator="" Display="true" Group="铣刨设备" />
+      </DeviceItem>
+    </Device>
+  </Section>
+</Sections>

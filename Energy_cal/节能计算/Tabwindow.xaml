@@ -181,7 +181,7 @@
                                 <Button Grid.Column="1" Name="xiugaiEdit"  Command="{Binding EditProjectInfomation}"  Height="25"  Width="50" FontFamily="Microsoft YaHei" HorizontalAlignment="Right">
                                     修改
                                 </Button>
-                                <Button Grid.Column="2" Name="baocunEdit" Command="{Binding SaveProjectInformation}"  Margin="0 0 20 0" Height="25"  Width="50" FontFamily="Microsoft YaHei" HorizontalAlignment="Right">
+                                <Button Grid.Column="2" Panel.ZIndex="30" Name="baocunEdit" Command="{Binding SaveProjectInformation}"  Margin="0 0 20 0" Height="25"  Width="50" FontFamily="Microsoft YaHei" HorizontalAlignment="Right">
                                     保存
                                 </Button>
 
@@ -705,6 +705,21 @@
                     </MenuItem.Icon>
                 </MenuItem>
 
+            </MenuItem>
+            <MenuItem Header="_数据库(D)">
+                <MenuItem Header="_打开内置数据库 " InputGestureText="Alt+B" Name="NeizhiDataBase" Click="NeizhiDataBase_Click">
+                    <MenuItem.Icon>
+                        <Image MaxHeight="20" MaxWidth="20" Source="sampleImages/Icon15.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_将当前工程加入数据库" InputGestureText="Alt+A" Name="AddToProjectDataBase" Click="AddToProjectDataBase_Click">
+                    
+                </MenuItem>
+                <MenuItem Header="_将当前工程从数据库删除" InputGestureText="Alt+F" Name="DeleteProjectDataBase" Click="DeleteProjectDataBase_Click">
+
+                </MenuItem>
+           
+               
             </MenuItem>
             <MenuItem Header="_帮助(H)" Name="HelpermenuItem" ToolTip="帮助（Alt+H）">
                 <MenuItem Header="关于" Name="AboutWindow" Click="AboutWindow_Click">

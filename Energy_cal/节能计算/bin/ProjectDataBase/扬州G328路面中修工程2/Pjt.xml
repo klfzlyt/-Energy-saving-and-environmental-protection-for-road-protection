@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <File Name="FinalitemsTemplate" Location=".\ProjectDataBase\扬州G328路面中修工程2\FinalitemsTemplate.xml" />
+  <File Name="DevicesDB" Location=".\ProjectDataBase\扬州G328路面中修工程2\DevicesDB.xml" />
+  <File Name="DevicesCategory" Location=".\ProjectDataBase\扬州G328路面中修工程2\DevicesCategory.xml" />
+  <ProjectItem Name="工程名称">扬州G328路面中修工程</ProjectItem>
+  <ProjectItem Name="养护技术">上面层SUP-13改性沥青混凝土4cm</ProjectItem>
+  <ProjectItem Name="设计单位">江苏省交通科学研究院</ProjectItem>
+  <ProjectItem Name="施工单位">润扬路面</ProjectItem>
+</Files>

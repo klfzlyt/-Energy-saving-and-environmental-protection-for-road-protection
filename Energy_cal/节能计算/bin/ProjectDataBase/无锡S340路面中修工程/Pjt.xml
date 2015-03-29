@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <File Name="FinalitemsTemplate" Location=".\ProjectDataBase\无锡S340路面中修工程\FinalitemsTemplate.xml" />
+  <File Name="DevicesDB" Location=".\ProjectDataBase\无锡S340路面中修工程\DevicesDB.xml" />
+  <File Name="DevicesCategory" Location=".\ProjectDataBase\无锡S340路面中修工程\DevicesCategory.xml" />
+  <ProjectItem Name="工程名称">无锡S340路面中修工程</ProjectItem>
+  <ProjectItem Name="养护技术">上面层SMA-13改性沥青混凝土4cm</ProjectItem>
+  <ProjectItem Name="设计单位">江苏佳科工程设计有限公司</ProjectItem>
+  <ProjectItem Name="施工单位">江阴市暨阳道路养护工程处 </ProjectItem>
+</Files>
